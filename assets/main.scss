@@ -1,0 +1,99 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+$best-color: #93a;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: white;
+    border: 15px solid var(--main-color, $best-color);
+    color: var(--main-color, $best-color);
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16pt;
+    min-height: 100vh;
+}
+
+header {
+    background: var(--main-color, $best-color);
+    color: white;
+    font-size: 150%;
+    padding: 20px;
+    text-align: center;
+
+    a {
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+            opacity: 0.5;
+        }
+    }
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    color: var(--main-color, $best-color);
+    font-size: 130%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+h2 {
+    font-size: 120%;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 10px;
+}
+
+a {
+    color: var(--main-color, $best-color);
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.apps {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.app {
+    $size: 250px;
+    
+    background-color: var(--main-color, $best-color);
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: $size;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    width: $size;
+
+    &:hover {
+        background-color: white;
+        border: 10px solid var(--main-color, $best-color);
+        color: var(--main-color, $best-color);
+    }
+}
