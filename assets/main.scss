@@ -3,6 +3,7 @@
 ---
 
 $best-color: #93a;
+$radius: 50px;
 
 * {
     box-sizing: border-box;
@@ -10,24 +11,29 @@ $best-color: #93a;
     padding: 0;
 }
 
+html {
+    padding: 20px;
+}
+
 body {
-    background: white;
-    border: 15px solid var(--main-color, $best-color);
-    color: var(--main-color, $best-color);
+    background: var(--main-color, $best-color);
+    border: 15px solid white;
+    border-radius: $radius;
+    color: white;
     font-family: 'Quicksand', sans-serif;
     font-size: 16pt;
-    min-height: 100vh;
+    min-height: 96vh;
 }
 
 header {
-    background: var(--main-color, $best-color);
-    color: white;
     font-size: 150%;
-    padding: 20px;
-    text-align: center;
 
-    a {
-        color: white;
+    a:not(.unset) {
+        background: white;
+        border-radius: $radius 0 $radius 0;
+        color: var(--main-color, $best-color);
+        display: inline;
+        padding: 15px 50px;
         text-decoration: none;
 
         &:hover {
@@ -40,29 +46,44 @@ main {
     padding: 20px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    opacity: 0.8;
+}
+
 h1 {
-    color: var(--main-color, $best-color);
     font-size: 130%;
-    margin-bottom: 10px;
-    margin-top: 10px;
 }
 
 h2 {
     font-size: 120%;
-    margin-bottom: 10px;
+
 }
 
 h3 {
     font-size: 110%;
-    margin-bottom: 10px;
 }
 
-a {
+a:not(.unset)  {
+    background: white;
+    border-radius: $radius;
     color: var(--main-color, $best-color);
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+
+    &:hover {
+        opacity: 0.75;
+    }
 }
 
 p {
     margin-bottom: 10px;
+}
+
+ul {
+    margin-left: 20px;
 }
 
 .apps {
@@ -75,25 +96,16 @@ p {
 }
 
 .app {
-    $size: 250px;
-    
-    background-color: var(--main-color, $best-color);
-    border-radius: 20px;
-    color: white;
-    display: flex;
+    display: flex !important;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: $size;
+    height: 200px;
     margin-bottom: 20px;
-    padding: 10px;
     text-align: center;
-    text-decoration: none;
-    width: $size;
+    width: 300px;
 
-    &:hover {
-        background-color: white;
-        border: 10px solid var(--main-color, $best-color);
-        color: var(--main-color, $best-color);
+    & > h3 {
+        margin-top: 0;
     }
 }
