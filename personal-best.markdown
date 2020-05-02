@@ -10,8 +10,8 @@ See your top workouts of all time, separated by pace, distance, duration and cal
 
 ![Works with Apple Health](/assets/apple-health-badge.svg)
 
-<a href=“https://apps.apple.com/gb/app/personal-best-workouts/id1510256676” target=“_blank” class=“unset”>
-    <img src=“/assets/app-store-badge.svg” alt=“Download Personal Best on the App Store” />
+<a href="https://apps.apple.com/gb/app/personal-best-workouts/id1510256676" target="_blank" class="unset">
+    <img src="/assets/app-store-badge.svg" alt="Download Spectral on the App Store" />
 </a>
 
 
