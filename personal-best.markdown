@@ -23,7 +23,6 @@ The 1.0 release of Personal Best was quite basic. The vague roadmap is:
 
 * Add wheelchair workouts to 'popular' section if the user uses a wheelchair.
 * Custom data types for workouts, for example pace per 100m when swimming.
-* Allow changing from kilometres to miles.
 * Custom home screen icons.
 * Show more than just the top three workouts.
 * Heart rate information.
@@ -34,6 +33,7 @@ The 1.0 release of Personal Best was quite basic. The vague roadmap is:
 * Add a 'dashboard' view where users can pin workouts and metrics to see all the time.
 * Set the time period to view from.
 * Only show types of workout that users have actually done.
+* Notifications for new workouts.
 
 ## Privacy policy
 

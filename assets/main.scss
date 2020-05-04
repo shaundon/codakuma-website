@@ -31,6 +31,7 @@ header {
     a:not(.unset) {
         background: white;
         border-radius: $radius 0 $radius 0;
+        box-shadow: none;
         color: var(--main-color, $best-color);
         display: inline;
         padding: 15px 50px;
@@ -68,8 +69,10 @@ h3 {
 a:not(.unset)  {
     background: white;
     border-radius: $radius;
+    box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.1);
     color: var(--main-color, $best-color);
     display: inline-block;
+    margin-top: 10px;
     padding: 20px;
     text-decoration: none;
 
