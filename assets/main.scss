@@ -5,7 +5,10 @@
 $spacing-base: 15px;
 $spacing-sm: $spacing-base / 2;
 $spacing-lg: $spacing-base * 2;
-$accent-color: #08c;
+
+$accent-color: #0060a5;
+$link-color: #00a799;
+$background-color: rgba(#00a545, 0.05);
 
 html {
     border: $spacing-base solid $accent-color;
@@ -22,7 +25,7 @@ html {
 }
 
 body {
-    background: rgba($accent-color, 0.05);
+    background: $background-color;
     color: #333;
     font-family: 'Quicksand', sans-serif;
 }
@@ -46,7 +49,7 @@ li {
 }
 
 a {
-    color: $accent-color;
+    color: $link-color;
     text-decoration: none;
     transition: opacity 0.2s ease-in-out;
 
