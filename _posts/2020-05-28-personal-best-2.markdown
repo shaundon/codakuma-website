@@ -30,7 +30,7 @@ Personal Best 2 contains a powerful filtering engine so you can build your own f
 
 I want to make Personal Best into a best-in-class workout tracking app. Our workouts have so much useful data and there's so much potential to put it to good use.
 
-To do that, it needs to be a viable business, and for that I need cash money. In Personal Best 2, you can create one filter for free, and then it's £2.99/$2.99/€3.49 to make as many as you want. That's it. No ongoing subscription, no annoying popups, just an inexpensive one-time purchase.
+To do that, it needs to be a viable business, and for that I need cash money. In Personal Best 2, you can create one filter for free, and then it's £2.99/$2.99/3.49€ to make as many as you want. That's it. No ongoing subscription, no annoying popups, just an inexpensive one-time purchase.
 
 Going forward, I want to provide a good balance of free and paid features. If I make enough paid features, the price for Personal Best Pro will probably go up slightly to reflect the extras you get.
 
