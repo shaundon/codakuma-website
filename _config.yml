@@ -27,7 +27,7 @@ url: "https://codakuma.com" # the base hostname & protocol for your site, e.g. h
 twitter:
   username: codakuma
   card: summary
-
+highlighter: rouge
 # Build settings
 #theme: minima
 #plugins:
