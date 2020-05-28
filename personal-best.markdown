@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ''
+title: 'Personal Best for iPhone'
 permalink: /personal-best/
 description: "Your workouts, supercharged."
 image: "/assets/post-images/personal-best-2-screenshots.png"
@@ -9,7 +9,6 @@ image: "/assets/post-images/personal-best-2-screenshots.png"
 <div class="app">
     <img src="/assets/personal-best-icon.png" class="app-icon" />
     <div>
-        <h3>Personal Best</h3>
         <span>Your workouts, supercharged.</span>
     </div>
 </div>
