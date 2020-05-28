@@ -25,7 +25,7 @@ title: ''
         {{ post.title }}
       </a>
       - <strong>{{ post.date | date_to_string }}</strong>
-      <p>{{ post.blurb }}</p>
+      <p>{{ post.description }}</p>
     </li>
   {% endfor %}
 </ul>
