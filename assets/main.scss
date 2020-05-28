@@ -2,8 +2,18 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-$best-color: #93a;
-$radius: 50px;
+$spacing-base: 15px;
+$spacing-sm: $spacing-base / 2;
+$spacing-lg: $spacing-base * 2;
+$accent-color: #08c;
+
+html {
+    border: $spacing-base solid $accent-color;
+    font-size: 16px;
+    padding: $spacing-base;
+    min-height: 100vh;
+    line-height: 22px;
+}
 
 * {
     box-sizing: border-box;
@@ -11,104 +21,72 @@ $radius: 50px;
     padding: 0;
 }
 
-html {
-    padding: 20px;
-}
-
 body {
-    background: var(--main-color, $best-color);
-    border: 15px solid white;
-    border-radius: $radius;
-    color: white;
+    background: rgba($accent-color, 0.05);
+    color: #333;
     font-family: 'Quicksand', sans-serif;
-    font-size: 16pt;
-    min-height: 96vh;
-}
-
-header {
-    font-size: 150%;
-
-    a:not(.unset) {
-        background: white;
-        border-radius: $radius 0 $radius 0;
-        box-shadow: none;
-        color: var(--main-color, $best-color);
-        display: inline;
-        padding: 15px 50px;
-        text-decoration: none;
-
-        &:hover {
-            opacity: 0.5;
-        }
-    }
-}
-
-main {
-    padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    opacity: 0.8;
-}
-
-h1 {
-    font-size: 130%;
-}
-
-h2 {
-    font-size: 120%;
-
-}
-
-h3 {
-    font-size: 110%;
-}
-
-a:not(.unset)  {
-    background: white;
-    border-radius: $radius;
-    box-shadow: 0 2px 5px 2px rgba(0, 0, 0, 0.1);
-    color: var(--main-color, $best-color);
-    display: inline-block;
-    margin-top: 10px;
-    padding: 20px;
-    text-decoration: none;
-
-    &:hover {
-        opacity: 0.75;
-    }
-}
-
-p {
-    margin-bottom: 10px;
+    margin-bottom: $spacing-base;
+    margin-top: $spacing-base;
 }
 
 ul {
-    margin-left: 20px;
+    margin-left: $spacing-base;
 }
 
-.apps {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 10px;
+li {
+    margin: $spacing-sm 0;
+}
+
+a {
+    color: $accent-color;
+    text-decoration: none;
+    transition: opacity 0.2s ease-in-out;
+
+    &:hover {
+        opacity: 0.5;
+    }
+}
+
+header {
+    margin: $spacing-lg 0;
+    text-align: center;
+
+    a {
+        font-size: 250%;
+    }
+}
+
+section {
+    margin-bottom: $spacing-lg;
+}
+
+p {
+    margin-bottom: $spacing-base;
 }
 
 .app {
-    display: flex !important;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 200px;
-    margin-bottom: 20px;
-    text-align: center;
-    width: 300px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: $spacing-base;
+
+    .app-icon {
+        $size: 100px;
+        border-radius: 17.54%;
+        height: $size;
+        margin-right: $spacing-base;
+        width: $size;
+    }
 
     & > h3 {
         margin-top: 0;
     }
+}
+
+.post-image {
+    max-width: 750px;
+    width: 100%;
 }

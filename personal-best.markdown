@@ -1,39 +1,30 @@
 ---
 layout: page
-title: Personal Best
+title: ''
 permalink: /personal-best/
 ---
 
-Personal Best takes your workout data from Apple Health and does cool stuff with it.
+<div class="app">
+    <img src="/assets/personal-best-icon.png" class="app-icon" />
+    <div>
+        <h3>Personal Best</h3>
+        <span>Your workouts, supercharged.</span>
+    </div>
+</div>
 
-See your top workouts of all time, separated by pace, distance, duration and calories. Level up your fitness with the power of data.
+What's your longest workout ever? Your third-fastest swim? Your fastest run this month? 
+
+Know all this and more with Personal Best.
+
+See your workouts ranked by distance, duration and calories, or use crazy-powerful filtering to make your own custom workout views.
+
+Take your fitness to the next level with Personal Best.
 
 ![Works with Apple Health](/assets/apple-health-badge.svg)
 
 <a href="https://apps.apple.com/gb/app/personal-best-workouts/id1510256676" target="_blank" class="unset">
     <img src="/assets/app-store-badge.svg" alt="Download Spectral on the App Store" />
 </a>
-
-
-## Roadmap
-
-The 1.0 release of Personal Best was quite basic. The vague roadmap is:
-
-### Smaller, quick features to add
-
-* Add wheelchair workouts to 'popular' section if the user uses a wheelchair.
-* Custom data types for workouts, for example pace per 100m when swimming.
-* Custom home screen icons.
-* Show more than just the top three workouts.
-* Heart rate information.
-
-### Larger features that may take more time
-
-* Setting goals and coaching users to work towards them.
-* Add a 'dashboard' view where users can pin workouts and metrics to see all the time.
-* Set the time period to view from.
-* Only show types of workout that users have actually done.
-* Notifications for new workouts.
 
 ## Privacy policy
 
