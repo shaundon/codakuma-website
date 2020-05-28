@@ -26,6 +26,8 @@ Take your fitness to the next level with Personal Best.
     <img src="/assets/app-store-badge.svg" alt="Download Spectral on the App Store" />
 </a>
 
+![Screenshots of Personal Best 2](/assets/post-images/personal-best-2-screenshots.png){:class="post-image"}
+
 ## Privacy policy
 
 Personal Best does not collect any information from your device.
