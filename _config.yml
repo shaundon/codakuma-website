@@ -28,6 +28,8 @@ twitter:
   username: codakuma
   card: summary
 highlighter: rouge
+plugins:
+  - jekyll-sitemap
 # Build settings
 #theme: minima
 #plugins:
