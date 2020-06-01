@@ -12,4 +12,4 @@ I spent more time than I'd like to admit on StackOverflow and Apple's developer 
 
 Eventually I found the answer, and it's a very simple one. I didn't have background app refresh enabled on my phone 🤦‍♂️. Enable that and it'll work fine.
 
-**PS:** There is some confusion as to whether your app needs to explicitly use the background fetch entitlement to use HealthKit in the background. I tried both and you *don't* need the entitlement.
+**PS:** There is some confusion as to whether your app needs to explicitly use the background fetch entitlement to use HealthKit in the background. I tried both and you **don't** need the entitlement.
