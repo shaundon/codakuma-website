@@ -30,6 +30,11 @@ twitter:
 highlighter: rouge
 plugins:
   - jekyll-sitemap
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/codakuma-logo.png
 # Build settings
 #theme: minima
 #plugins:
