@@ -3,6 +3,7 @@ layout: page
 title: "Making SwiftUI navigation bar buttons bigger"
 permalink: /swiftui-navigation-bar-button-size/
 description: "SwiftUI navigation bar buttons are too small. Here's a workaround."
+tags: ios swiftui howto
 ---
 
 Apple's human interface guidelines [specify that tap targets should be at least 44x44pt](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout/) to ensure they're easily tappable. 

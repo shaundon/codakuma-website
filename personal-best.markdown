@@ -4,6 +4,7 @@ title: 'Personal Best for iPhone'
 permalink: /personal-best/
 description: "Your workouts, supercharged."
 image: "/assets/post-images/personal-best-2-screenshots.png"
+tags: personal-best apps
 ---
 
 <div class="app">
@@ -24,7 +25,7 @@ Take your fitness to the next level with Personal Best.
 ![Works with Apple Health](/assets/apple-health-badge.svg)
 
 <a href="https://apps.apple.com/gb/app/personal-best-workouts/id1510256676" target="_blank" class="unset">
-    <img src="/assets/app-store-badge.svg" alt="Download Spectral on the App Store" />
+    <img src="/assets/app-store-badge.svg" alt="Download Personal Best on the App Store" />
 </a>
 
 ![Screenshots of Personal Best 2](/assets/post-images/personal-best-2-screenshots.png){:class="post-image"}
@@ -32,3 +33,21 @@ Take your fitness to the next level with Personal Best.
 ## Privacy policy
 
 Personal Best does not collect any information from your device.
+
+## Related posts
+
+<ul>
+  {% for tag in site.tags %}
+    {% if tag[0] == "personal-best" %}
+      {% for post in tag[1] %}
+        <li>
+          <a href="{{ post.url }}">
+            {{ post.title }}
+          </a>
+          - <strong>{{ post.date | date_to_string }}</strong>
+          <p>{{ post.description }}</p>
+        </li>
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+</ul>

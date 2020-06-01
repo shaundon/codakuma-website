@@ -3,6 +3,7 @@ layout: page
 title: "SwiftUI sheets and environment objects"
 permalink: /swiftui-sheet-environment-objects/
 description: "Sheets in SwiftUI don't have access to @EnvironmentObject without a workaround."
+tags: ios swiftui howto
 ---
 
 `@EnvironmentObject` is handy for passing data between views in SwiftUI. [Hacking With Swift has an excellent guide](https://www.hackingwithswift.com/quick-start/swiftui/how-to-use-environmentobject-to-share-data-between-views) on how to use it, but when I followed it, one some of my views it just wasn't working correctly.

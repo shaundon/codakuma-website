@@ -16,10 +16,10 @@ title: ''
 
 [Send an email](mailto:help@codakuma.com)
 
-## Blog
+## Latest posts
 
 <ul>
-  {% for post in site.posts %}
+  {% for post in site.posts limit:10 %}
     <li>
       <a href="{{ post.url }}">
         {{ post.title }}
@@ -29,3 +29,7 @@ title: ''
     </li>
   {% endfor %}
 </ul>
+
+{% if site.posts.length > 10 %}
+[All posts &raquo;]({% link posts.markdown %})
+{% endif %}

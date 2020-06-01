@@ -3,6 +3,7 @@ layout: page
 title: "Running HealthKit queries in the background"
 permalink: /healthkit-in-the-background/
 description: "TL;DR Turn on background app refresh"
+tags: ios healthkit howto
 ---
 
 Recently I've been trying to use `HKObserver` to monitor queries from HealthKit in the background. I wrote a simple integration where my app would print to the console every time a new workout was recorded. However, it was never triggered, except when I opened my app in the foreground.

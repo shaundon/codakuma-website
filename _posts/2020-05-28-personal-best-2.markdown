@@ -4,9 +4,10 @@ title: "Personal Best 2"
 permalink: /personal-best-2-is-here/
 description: "Custom filters are here!"
 image: "/assets/post-images/personal-best-2-screenshots.png"
+tags: apps personal-best
 ---
 
-[Personal Best](/personal-best) started as a small project to learn [SwiftUI](https://developer.apple.com/xcode/swiftui/) and ship an app. I never really intended to ship a 2.0, I figured it would just be a fun proof of concept I could share with my friends. 
+[Personal Best]({% link personal-best.markdown %}) started as a small project to learn [SwiftUI](https://developer.apple.com/xcode/swiftui/) and ship an app. I never really intended to ship a 2.0, I figured it would just be a fun proof of concept I could share with my friends. 
 
 After 1.0 shipped, the feedback was amazing! People sent me all sorts of requests, like miles over kilometres, indoor workouts and sharing with friends. I was having fun working on it, so I got to work on some cool new features.
 
