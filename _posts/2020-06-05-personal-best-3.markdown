@@ -17,7 +17,7 @@ I added an Apple Watch app! Thanks to SwiftUI, it was super easy. It's more limi
 
 ![Screenshots of Personal Best on watchOS](/assets/post-images/personal-best-3-screenshots.png){:class="post-image"}
 
-One limitation of watchOS is that Apple Health only stores up to seven days of data. Because of this, you can only see workouts on the watchOS version from the last seven days. I wrote about this from a technical perspective [earlier this week]({% link _posts/2020-06-03-healthkit-earliest-damples copy.markdown %}).
+One limitation of watchOS is that Apple Health only stores up to seven days of data. Because of this, you can only see workouts on the watchOS version from the last seven days. I wrote about this from a technical perspective [earlier this week]({% link _posts/2020-06-03-healthkit-earliest-damples.markdown %}).
 
 One nice thing about watchOS is that people don't expect sexy, custom UI elements, so you can for the most part just use what the OS provides and it's totally fine. You can do this too on iOS of course, but not to the same degree, otherwise everything you make will look like the Settings app. I guess what I'm really saying is that I'm lazy.
 
