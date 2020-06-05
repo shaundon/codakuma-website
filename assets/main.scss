@@ -20,6 +20,11 @@ html {
         --text-color: #ccc;
     }
 
+    ::selection {
+        background: var(--link-color);
+        color: white;
+    }
+
     border: $spacing-base solid var(--accent-color);
     font-size: 16px;
     padding: $spacing-base;
@@ -103,9 +108,48 @@ p {
     }
 }
 
+.post {
+    margin-bottom: $spacing-lg;
+
+    &__title {
+        display: inline-block;
+        font-size: 130%;
+        margin-bottom: $spacing-sm;
+    }
+
+    &__date {
+        font-weight: bold;
+    }
+
+    &__image-wrapper {
+        background: rgba(0,0,0,.25);
+        padding: $spacing-sm;
+        text-align: center;
+    }
+
+    &__image {
+        width: 150px;
+
+    }
+}
+
 .post-image {
     max-width: 750px;
     width: 100%;
+}
+
+.footer-links {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: $spacing-base auto;
+    max-width: 700px;
+
+    li {
+        margin: 0 $spacing-sm;
+        text-align: center;
+    }
 }
 
 // Syntax highlighting

@@ -1,11 +1,12 @@
 ---
 layout: page
-title: 'Posts'
-permalink: /blog/
-description: "Codakuma Blog."
+title: 'iOS Posts'
+permalink: /ios-blog/
+description: "Codakuma iOS Blog."
 ---
 
 {% for post in site.posts %}
+{% if post.tags contains "ios" %}
   <div class="post">
     <a href="{{ post.url }}" class="post__title">
       {{ post.title }}
@@ -18,4 +19,5 @@ description: "Codakuma Blog."
       Read more &raquo;
     </a>
   </div>
+{% endif %}
 {% endfor %}
