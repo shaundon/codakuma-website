@@ -6,15 +6,13 @@ layout: home
 title: ''
 ---
 
-## On the web
+## Links
 
 * [App Store](https://apps.apple.com/us/developer/shaun-donnelly/id592250637)
 * [Twitter](https://twitter.com/codakuma)
 * [GitHub](https://github.com/shaundon)
-
-## Need help?
-
-[Send an email](mailto:help@codakuma.com)
+* [Send an email](mailto:help@codakuma.com)
+* [RSS feed](/feed.xml)
 
 ## Latest posts
 
