@@ -34,6 +34,10 @@ Take your fitness to the next level with Personal Best.
 
 Personal Best does not collect any information from your device.
 
+## Localisation
+
+Personal Best is currently localised to English and French. If you're feeling generous and would like to submit a localisation, you can do it [on GitHub](https://github.com/shaundon/personal-best-localization).
+
 ## Related posts
 
 <ul>
