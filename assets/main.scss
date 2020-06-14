@@ -160,6 +160,7 @@ p {
     border-radius: 10px; 
     color: #f8f8f2; 
     margin-bottom: $spacing-base;
+    overflow-x: auto;
     padding: $spacing-sm; 
 }
 .highlight .c { color: #75715e } /* Comment */
