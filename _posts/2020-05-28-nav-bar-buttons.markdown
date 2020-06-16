@@ -36,5 +36,24 @@ Button("Hello World") {
 }.modifier(BarButtonFrame())
 ```
 
+## Update - 16th June 2020
+
+Icon buttons in navigation bars are also way too small. Here's some typical code for that:
+
+```swift
+Button(action: { print("Codakuma") }) {
+  Image(systemName: "star")
+}
+```
+
+To make it bigger, add an `imageScale`:
+
+```swift
+Button(action: { print("Codakuma") }) {
+  Image(systemName: "star").imageScale(.large)
+}
+```
+
+Again, hopefully SwiftUI will do this automatically in future.
 
 
