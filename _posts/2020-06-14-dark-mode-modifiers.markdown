@@ -10,7 +10,7 @@ In SwiftUI, you can achieve most UI needs without ever explicitly checking for d
 
 However, sometimes you might need to something explicit that the system can't handle automatically. Maybe you want to remove a shadow from a view in dark mode, or use a different font.
 
-Getting the current colour scheme inside a SwiftUI is simple:
+Getting the current colour scheme inside a SwiftUI view is simple:
 
 ```swift
 struct MyView: View {
