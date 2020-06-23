@@ -5,6 +5,7 @@ permalink: /personal-best/
 description: "Your workouts, supercharged."
 image: "/assets/post-images/personal-best-2-screenshots.png"
 tags: personal-best apps
+app_banner: id1510256676
 ---
 
 <div class="app">
