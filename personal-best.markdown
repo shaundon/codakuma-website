@@ -3,7 +3,7 @@ layout: page
 title: 'Personal Best for iPhone'
 permalink: /personal-best/
 description: "Your workouts, supercharged."
-image: "/assets/post-images/personal-best-2-screenshots.png"
+image: "/assets/personal-best-screenshots.png"
 tags: personal-best apps
 app_banner: id1510256676
 ---
@@ -15,29 +15,18 @@ app_banner: id1510256676
     </div>
 </div>
 
-What's your longest workout ever? Your third-fastest swim? Your fastest run this month? 
 
-Know all this and more with Personal Best.
+Personal Best works in unison with Apple Health to turn your workouts into useful insights.
 
-See your workouts ranked by distance, duration and calories, or use crazy-powerful filtering to make your own custom workout views.
+See your workouts ranked by distance, duration, calories, or use powerful custom filters to make your own leaderboards. Dive into interesting stats, like your earliest workout, hottest workout, total calories burned, and so much more.
 
-Take your fitness to the next level with Personal Best.
+[Get Personal Best for free on the App Store](https://apps.apple.com/gb/app/personal-best-workouts/id1510256676)
 
-![Works with Apple Health](/assets/apple-health-badge.svg)
-
-<a href="https://apps.apple.com/gb/app/personal-best-workouts/id1510256676" target="_blank" class="unset">
-    <img src="/assets/app-store-badge.svg" alt="Download Personal Best on the App Store" />
-</a>
-
-![Screenshots of Personal Best 2](/assets/post-images/personal-best-2-screenshots.png){:class="post-image"}
+![Screenshots of Personal Best 2](/assets/personal-best-screenshots.png){:class="post-image"}
 
 ## Privacy policy
 
 Personal Best does not collect any information from your device.
-
-## Localisation
-
-Personal Best is currently localised to English and French. If you're feeling generous and would like to submit a localisation, you can do it [on GitHub](https://github.com/shaundon/personal-best-localization).
 
 ## Related posts
 
