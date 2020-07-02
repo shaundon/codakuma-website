@@ -134,8 +134,15 @@ p {
 }
 
 .post-image {
+    margin: 0 auto;
     max-width: 750px;
     width: 100%;
+}
+
+.post-image-small {    
+    margin: 0 auto;
+    width: 100%;
+    max-width: 375px;
 }
 
 .footer-links {
