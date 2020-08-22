@@ -40,7 +40,7 @@ The only customisation supported by `MapPin` and `MapMarker` is the tint colour,
 
 I think idea is that you'll use these annotations to denote points of interest on a map — for example, dropping pins to display search results. In my case, I wanted to draw a continuous line, which doesn't really fit into any of the available annotation types.
 
-One way to do this within the constaints of the API might be to draw a single `MapAnnotation` which is a single complex polygon to represent the route. This might be possible, but it sounded very complex and a bit hacky, as I'd need to translate GPS coordinates into points accurately.
+One way to do this within the constaints of the API might be to draw a single `MapAnnotation` which is a complex polygon to represent the route. This might be possible, but it sounded very complex and a bit hacky, as I'd need to translate GPS coordinates into points accurately.
 
 I figured an easier solution would be just to drop a `MapAnnotation` for each GPS coordinate in the workout. If the GPS pings are close together enough, the annotations will overlap to produce a continuous line. Here's how that looked:
 
@@ -99,7 +99,7 @@ Next, I tested it by loading workouts while keeping different percentages of the
 
 ### 44 min bike ride, with ~2,600 GPS pings
 
-| GPS pings retained | Memory usage (MB)	| Map state |
+| GPS pings retained | Memory usage (MB)	| Map looks ok? |
 | - | - | - |
 | 0% | 110 | - |
 | 5% | 116 | Noticeable loss in detail when zooming |
