@@ -12,12 +12,14 @@ html {
     --link-color: #00a799;
     --background-color: white;
     --text-color: #333;
+    --table-border-color: #666;
 
     @media (prefers-color-scheme: dark) {
         --accent-color: #002b49;
         --link-color: #62d1c8;
         --background-color: #222;
         --text-color: #ccc;
+        --table-border-color: #ccc;
     }
 
     ::selection {
@@ -157,6 +159,15 @@ p {
         margin: 0 $spacing-sm;
         text-align: center;
     }
+}
+
+table {
+    border: 1px solid var(--table-border-color);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px auto;
+    max-width: 750px;
+    width: 100%;
 }
 
 // Syntax highlighting
