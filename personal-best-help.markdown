@@ -32,4 +32,10 @@ If you aren't seeing the workouts you'd expect to see, check that the workouts e
 
 If you're still having problems with workouts you expect to see in Apple Health not appearing, please send a screenshot of how the workout appears in Apple Health to [personalbest@codakuma.com](mailto:personalbest@codakuma.com) and I'll investigate.
 
+## A workout looks wrong or is missing in Personal Best
+
+Personal Best displays whatever is stored in [Apple Health](https://support.apple.com/en-us/HT203037), so any data that's missing is **probably** not a problem with Personal Best. For example, if your runs from Strava don't write any route data to Apple Health, Personal Best can't display a map of the route.
+
+If you're having problems and you think the problem is with Personal Best and not Apple Health, please send a screenshot of how the workout appears in Apple Health to [personalbest@codakuma.com](mailto:personalbest@codakuma.com) and I'll investigate. 
+
 
