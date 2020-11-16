@@ -5,7 +5,7 @@ permalink: /healthdrop/
 description: "Save workouts easily."
 image: "/assets/healthdrop-screenshots.png"
 tags: healthdrop apps
-#app_banner: id11540514557
+app_banner: id1540514557
 ---
 
 <div class="app">
@@ -19,7 +19,7 @@ HealthDrop is a simple utility for adding data to your iPhone's Apple Health sto
 
 I built it as something to use when testing my workout tracking app [Personal Best](/personal-best).
 
-<!-- [Get HealthDrop on the App Store](https://apps.apple.com/gb/app/personal-best-workouts/id1510256676) -->
+[Get HealthDrop on the App Store](https://apps.apple.com/gb/app/healthdrop/id1540514557)
 
 ![Screenshots of HealthDrop](/assets/healthdrop-screenshots.png){:class="post-image"}
 
