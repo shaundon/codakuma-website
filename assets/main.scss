@@ -91,11 +91,17 @@ p {
     margin-bottom: $spacing-base;
 }
 
+.apps {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .app {
     align-items: center;
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     margin-bottom: $spacing-base;
+    margin-right: $spacing-lg;
 
     .app-icon {
         $size: 100px;
