@@ -19,7 +19,10 @@ app_banner: id1510256676
 
 Personal Best is the ultimate fitness companion for iPhone. It works in unison with Apple Health to bring your workouts to life, with leaderboards, interesting statistics and more.
 
-[Download for free on the App Store](https://apps.apple.com/gb/app/personal-best-workouts/id1510256676)
+<div class="flex-wrapper">
+  <a class="button" href="https://apps.apple.com/gb/app/personal-best-workouts/id1510256676">Download on the App Store</a>
+  <a class="button" href="/assets/pb-presskit.zip">Download press kit (zip)</a>
+</div>
 
 ## Features
 

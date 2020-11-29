@@ -5,6 +5,7 @@
 $spacing-base: 15px;
 $spacing-sm: $spacing-base / 2;
 $spacing-lg: $spacing-base * 2;
+$border-radius: $spacing-sm;
 
 html {
 
@@ -17,8 +18,8 @@ html {
 
     @media (prefers-color-scheme: dark) {
         --accent-color: #0060a5;
-        --link-color: #989de1;
-        --background-color: #000; //radial-gradient(#111, #200114);
+        --link-color: rgb(5, 177, 153);
+        --background-color: #000;
         --text-color: rgba(255, 255, 255, 0.75);
         --table-border-color: #666;
         --logo-color: linear-gradient(45deg, #08c, #ec3030);
@@ -150,7 +151,7 @@ p {
 }
 
 .post-image {
-    border-radius: 5px;
+    border-radius: $border-radius;
     box-shadow: 0 0 15px rgba(#000, .25);
     margin: 0 auto;
     max-width: 750px;
@@ -158,7 +159,7 @@ p {
 }
 
 .post-image-small {   
-    border-radius: 5px;
+    border-radius: $border-radius;
     box-shadow: 0 0 15px rgba(#000, .25); 
     margin: 0 auto;
     width: 100%;
@@ -181,11 +182,29 @@ p {
 
 table {
     border: 1px solid var(--table-border-color);
-    border-radius: 5px;
+    border-radius: $border-radius;
     padding: 5px;
     margin: 10px auto;
     max-width: 750px;
     width: 100%;
+}
+
+.flex-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.button {
+    border-radius: $border-radius;
+    background: linear-gradient(45deg, #08c 12%,#ec3030 100%);
+    color: #fff;
+    font-size: 120%;
+    font-weight: bold;
+    margin-bottom: $spacing-base;
+    padding: ($spacing-sm * 2) ($spacing-lg * 2);
+    text-align: center;
+    text-decoration: none;;
 }
 
 // Syntax highlighting
