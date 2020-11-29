@@ -85,6 +85,7 @@ header {
         text-decoration: none;
         background: var(--logo-color);
         background-clip: text;
+        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
 }
