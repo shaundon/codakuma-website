@@ -28,7 +28,7 @@ Personal Best is the ultimate fitness companion for iPhone. It works in unison w
 
 ### Leaderboards and insights
 
-Your workouts are a treasure trove of useful, meaningful data, but this valuable data often goes unused. Personal Best creates leaderboards from your workouts, plus all kinds of interesting insights like how long you’ve spent exercising this year, as well as facts like your coldest workout or what time of day you work out most. You can even create your own leaderboards to rank your workouts in ridiculously-specific ways.
+Your workouts are a treasure trove of useful, meaningful data, but this valuable data often goes unused. Personal Best creates leaderboards from your workouts, plus all kinds of interesting insights like how long you’ve spent exercising this year, as well as facts like your coldest workout or what time of day you work out most. You can even create your own leaderboards to rank your workouts in ridiculously specific ways.
 
 ### Notifications and widgets
 
@@ -40,7 +40,7 @@ Personal Best takes your privacy very seriously. Your workout data never leaves 
 
 ### Inexpensive one-time purchase
 
-Personal Best is free to use, with an in-app purchase to unlock Personal Best Pro. No recurring subscription or annoying upsells, like other fitness apps.
+Personal Best is free to use, with an in-app purchase to unlock Personal Best Pro. No recurring subscription or annoying upsells like other fitness apps.
 
 ## Related posts
 
