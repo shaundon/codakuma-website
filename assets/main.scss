@@ -15,6 +15,7 @@ html {
     --text-color: #333;
     --table-border-color: #666;
     --logo-color: linear-gradient(45deg, #040471, #ec3030);
+    --button-background: linear-gradient(45deg, #35a7df 12%, #e15d63 100%);
 
     @media (prefers-color-scheme: dark) {
         --accent-color: #0060a5;
@@ -23,6 +24,7 @@ html {
         --text-color: rgba(255, 255, 255, 0.75);
         --table-border-color: #666;
         --logo-color: linear-gradient(45deg, #08c, #ec3030);
+        --button-background: linear-gradient(45deg, #08c 12%,#ec3030 100%);
     }
 
     ::selection {
@@ -197,7 +199,7 @@ table {
 
 .button {
     border-radius: $border-radius;
-    background: linear-gradient(45deg, #08c 12%,#ec3030 100%);
+    background: var(--button-background);
     color: #fff;
     font-size: 120%;
     font-weight: bold;
