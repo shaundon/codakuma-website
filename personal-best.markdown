@@ -11,22 +11,33 @@ app_banner: id1510256676
 <div class="app">
     <img src="/assets/personal-best-icon.png" class="app-icon" />
     <div>
-        <span>Your workouts, supercharged.</span>
+        <span>Level up your workouts</span>
     </div>
 </div>
 
+![Various screenshots of Personal Best](/assets/personal-best-banner.png){:class="post-image"}
 
-Personal Best works in unison with Apple Health to turn your workouts into useful insights.
+Personal Best is the ultimate fitness companion for iPhone. It works in unison with Apple Health to bring your workouts to life, with leaderboards, interesting statistics and more.
 
-See your workouts ranked by distance, duration, calories, or use powerful custom filters to make your own leaderboards. Dive into interesting stats, like your earliest workout, hottest workout, total calories burned, and so much more.
+[Download for free on the App Store](https://apps.apple.com/gb/app/personal-best-workouts/id1510256676)
 
-[Get Personal Best for free on the App Store](https://apps.apple.com/gb/app/personal-best-workouts/id1510256676)
+## Features
 
-![Screenshots of Personal Best 2](/assets/personal-best-screenshots.png){:class="post-image"}
+### Leaderboards and insights
 
-## Privacy policy
+Your workouts are a treasure trove of useful, meaningful data, but this valuable data often goes unused. Personal Best creates leaderboards from your workouts, plus all kinds of interesting insights like how long you’ve spent exercising this year, as well as facts like your coldest workout or what time of day you work out most. You can even create your own leaderboards to rank your workouts in ridiculously-specific ways.
 
-Personal Best does not collect any information from your device.
+### Notifications and widgets
+
+Learn about your workouts without even opening Personal Best. Turn on notifications to see your key insights and leaderboards the moment you finish a workout. Then, freshen up your home screen with Personal Best’s widgets. See key insights, your latest workouts, or a combination.
+
+### Privacy first
+
+Personal Best takes your privacy very seriously. Your workout data never leaves your phone and there are no creepy third-party analytics libraries included. In fact, it doesn’t even use the internet at all.
+
+### Inexpensive one-time purchase
+
+Personal Best is free to use, with an in-app purchase to unlock Personal Best Pro. No recurring subscription or annoying upsells, like other fitness apps.
 
 ## Related posts
 

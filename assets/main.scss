@@ -9,17 +9,19 @@ $spacing-lg: $spacing-base * 2;
 html {
 
     --accent-color: #0060a5;
-    --link-color: #00a799;
-    --background-color: white;
+    --link-color: #600456;
+    --background-color: radial-gradient(#F9C9E7, #E7B26B);
     --text-color: #333;
     --table-border-color: #666;
+    --logo-color: linear-gradient(45deg, #040471, #ec3030);
 
     @media (prefers-color-scheme: dark) {
-        --accent-color: #002b49;
-        --link-color: #62d1c8;
-        --background-color: #222;
-        --text-color: #ccc;
-        --table-border-color: #ccc;
+        --accent-color: #0060a5;
+        --link-color: #989de1;
+        --background-color: #000; //radial-gradient(#111, #200114);
+        --text-color: rgba(255, 255, 255, 0.75);
+        --table-border-color: #666;
+        --logo-color: linear-gradient(45deg, #08c, #ec3030);
     }
 
     ::selection {
@@ -27,7 +29,6 @@ html {
         color: white;
     }
 
-    border: $spacing-base solid var(--accent-color);
     font-size: 16px;
     padding: $spacing-base;
     min-height: 100vh;
@@ -43,7 +44,7 @@ html {
 body {
     background: var(--background-color);
     color: var(--text-color);
-    font-family: 'Quicksand', sans-serif;
+    font-family: -apple-system,BlinkMacSystemFont,"Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue","Arial",sans-serif;
 }
 
 main {
@@ -61,13 +62,13 @@ ul {
 }
 
 li {
-    margin: $spacing-sm 0;
+    margin: $spacing-base 0;
 }
 
 a {
     color: var(--link-color);
-    text-decoration: none;
-    transition: opacity 0.2s ease-in-out;
+    text-decoration: underline;
+    transition: opacity 0.1s ease-in-out;
 
     &:hover {
         opacity: 0.5;
@@ -80,6 +81,11 @@ header {
 
     a {
         font-size: 250%;
+        font-weight: bold;
+        text-decoration: none;
+        background: var(--logo-color);
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
     }
 }
 
@@ -88,7 +94,7 @@ section {
 }
 
 p {
-    margin-bottom: $spacing-base;
+    margin-bottom: $spacing-lg;
 }
 
 .apps {
@@ -102,6 +108,7 @@ p {
     flex-direction: row;
     margin-bottom: $spacing-base;
     margin-right: $spacing-lg;
+    text-decoration: none;
 
     .app-icon {
         $size: 100px;
@@ -142,12 +149,16 @@ p {
 }
 
 .post-image {
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(#000, .25);
     margin: 0 auto;
     max-width: 750px;
     width: 100%;
 }
 
-.post-image-small {    
+.post-image-small {   
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(#000, .25); 
     margin: 0 auto;
     width: 100%;
     max-width: 375px;
