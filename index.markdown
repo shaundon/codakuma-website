@@ -6,7 +6,7 @@ layout: home
 title: ''
 ---
 
-## Latest posts
+## Latest blog posts
 
 <ul>
   {% for post in site.posts limit:10 %}
