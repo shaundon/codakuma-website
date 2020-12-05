@@ -2,7 +2,7 @@
 layout: page
 title: 'Personal Best for iPhone'
 permalink: /personal-best/
-description: "Your workouts, supercharged."
+description: "Level up your workouts"
 image: "/assets/personal-best-screenshots.png"
 tags: personal-best apps
 app_banner: id1510256676
