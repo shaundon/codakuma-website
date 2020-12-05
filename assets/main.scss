@@ -9,15 +9,15 @@ $border-radius: $spacing-sm;
 
 html {
 
-    --accent-color: #0060a5;
-    --link-color: #600456;
-    --background-color: radial-gradient(#F9C9E7, #E7B26B);
-    --text-color: #333;
-    --table-border-color: #666;
-    --logo-color: linear-gradient(45deg, #040471, #ec3030);
-    --button-background: linear-gradient(45deg, #35a7df 12%, #e15d63 100%);
+    // --accent-color: #0060a5;
+    // --link-color: #600456;
+    // --background-color: radial-gradient(#F9C9E7, #E7B26B);
+    // --text-color: #333;
+    // --table-border-color: #666;
+    // --logo-color: linear-gradient(45deg, #040471, #ec3030);
+    // --button-background: linear-gradient(45deg, #35a7df 12%, #e15d63 100%);
 
-    @media (prefers-color-scheme: dark) {
+    // @media (prefers-color-scheme: dark) {
         --accent-color: #0060a5;
         --link-color: rgb(5, 177, 153);
         --background-color: #000;
@@ -25,7 +25,7 @@ html {
         --table-border-color: #666;
         --logo-color: linear-gradient(45deg, #08c, #ec3030);
         --button-background: linear-gradient(45deg, #08c 12%,#ec3030 100%);
-    }
+    // }
 
     ::selection {
         background: var(--link-color);
