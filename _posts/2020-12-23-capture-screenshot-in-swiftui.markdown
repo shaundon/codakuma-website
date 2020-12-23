@@ -97,7 +97,7 @@ I have no idea why, but this just produced a white square.
 
 Setting aside the white square issue, I thought about the problem a bit more. I was creating a copy of my SwiftUI view and then capturing it before it had time to finish updating, which is why the map tiles were blank. I looked around for a way to delay the image capture until the view had time to update but didn't find anything. I also experimented with using `sleep` and `wait` as hacks, but they didn't work for me either.
 
-I decided to take a different approach. If a user manually screenshotted the screen and cropped it, the image would be perfect. Is there a way I could do that programmatically?
+I decided to take a different approach. If a user manually screenshotted the screen and cropped it, the image would be perfect. Is there a way I could do that programmatically? After quite a lot of trial and error I figured it out.
 
 Here's how the code for that looks. I've added comments to each line to explain what's happening.
 
@@ -148,7 +148,7 @@ extension UIImage {
 
   For example, if we want to crop a 100x50pt square starting at (75, 90) from a UIImage
   on a device with a 2x scaling factor, we would multiple everything by 2 and crop a
-  200x100pt square starting at (150, 180).
+  200x100px square starting at (150, 180).
   */
 
     let x = boundingBox.origin.x * scale
