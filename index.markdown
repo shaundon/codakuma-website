@@ -8,7 +8,7 @@ title: ''
 
 ## Latest blog posts
 
-<ul>
+<ul class="no-bullets">
   {% for post in site.posts limit:10 %}
     <li>
       <a href="{{ post.url }}">

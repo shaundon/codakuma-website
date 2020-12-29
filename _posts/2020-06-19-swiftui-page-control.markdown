@@ -6,6 +6,8 @@ description: "How to make a page control component in SwiftUI that works with an
 tags: ios swiftui howto
 ---
 
+**Note: This article was written for iOS 13. iOS 14 has support for page controls built in. There is also now [iPages](https://github.com/benjaminsage/iPages), a great third-party library you can use for this.**
+
 One of the components missing from SwiftUI (as of iOS 13.5) is [Page Control](https://developer.apple.com/design/human-interface-guidelines/ios/controls/page-controls/).
 
 Apple has [a tutorial](https://developer.apple.com/tutorials/swiftui/interfacing-with-uikit) on their website which explains how to bridge this component from UIKit to SwiftUI - great! However the tutorial doesn't mention that the end result only works with arrays of basic matching content, like so:
