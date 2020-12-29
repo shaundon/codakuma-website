@@ -10,7 +10,7 @@ Since iOS 14, SwiftUI has included [components for adding maps to your apps](htt
 
 However, one thing that isn't yet bridged to SwiftUI from UIKit is `MKMapSnaphotter`, a class for creating static, pre-rendered maps. It's useful for rendering non-interactive maps, like as a background image.
 
-This article will show you how to create your own simple view for rendering `MKMapShotter` instances in a SwiftUI app. It's based on Arvindh Sukumar's [excellent tutorial on dispatchswift.com](https://dispatchswift.com/render-a-map-as-an-image-using-mapkit-3102a5a3fa5), which I've adapted to work as a SwiftUI view.
+This article will show you how to create your own simple view for rendering `MKMapSnapshotter` instances in a SwiftUI app. It's based on Arvindh Sukumar's [excellent tutorial on dispatchswift.com](https://dispatchswift.com/render-a-map-as-an-image-using-mapkit-3102a5a3fa5), which I've adapted to work as a SwiftUI view.
 
 ## Basic view
 
