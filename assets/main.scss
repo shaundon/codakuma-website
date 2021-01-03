@@ -55,9 +55,14 @@ main {
     max-width: 800px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
     margin-bottom: $spacing-base;
     margin-top: $spacing-base;
+}
+
+h2, h3, h4, h5, h6 {
+    margin-bottom: $spacing-base;
+    margin-top: $spacing-lg;
 }
 
 ul.no-bullets {
@@ -65,7 +70,7 @@ ul.no-bullets {
 }
 
 li {
-    margin: $spacing-base 0;
+    margin: $spacing-base;
 }
 
 a {
@@ -207,6 +212,11 @@ table {
     padding: ($spacing-sm * 2) ($spacing-lg * 2);
     text-align: center;
     text-decoration: none;;
+}
+
+code {
+    font-family: Menlo, monospace;
+    font-size: 90%;
 }
 
 // Syntax highlighting
