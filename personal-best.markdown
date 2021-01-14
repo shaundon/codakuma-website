@@ -21,7 +21,7 @@ Personal Best is the ultimate fitness companion for iPhone. It works in unison w
 
 <div class="flex-wrapper">
   <a class="button" href="https://apps.apple.com/gb/app/personal-best-workouts/id1510256676">Download on the App Store</a>
-  <a class="button" href="/assets/pb-presskit.zip">Download press kit (zip)</a>
+  <a class="button" href="/personal-best/press-kit">Press kit</a>
 </div>
 
 ## Features
