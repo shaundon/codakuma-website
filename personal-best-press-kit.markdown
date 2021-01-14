@@ -51,6 +51,14 @@ You can also find me on Twitter [@shauneba](https://twitter.com/shauneba) or [@P
 
 iOS 14.0 or higher on iPhone. Personal Best doesn’t work on iPad, Mac or Apple TV because they don’t have HealthKit.
 
+## My story
+
+I'm Shaun, an indie iOS developer in London, UK. In April 2020 during the first UK lockdown I decided to learn SwiftUI so I'd have something to in the evenings other than rewatch _Friends_ for the sixteenth time. A week later, Personal Best was live on the App Store!
+
+Since then, I've been hard at work improving it, adding widgets, notifications, custom leaderboards, sharing and loads more features. My goal is for Personal Best to be considered a best-in-class iOS app.
+
+[You can read more about my foray into indie app development on my blog]({% link _posts/2020-12-29-year-in-review.markdown %}).
+
 ## Media
 
 Feel free to use these images however you like. Use the button below to download a zip with all images plus a few more in full resolution. 
