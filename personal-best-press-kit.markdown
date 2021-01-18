@@ -71,6 +71,9 @@ Feel free to use these images however you like. Use the button below to download
 
 <div class="promo-screenshots__wrapper">
 
+  <img src="/assets/press-kit/screenshots/light/main screen.PNG" class="promo-screenshots__screenshot">
+  <img src="/assets/press-kit/screenshots/dark/main screen.PNG" class="promo-screenshots__screenshot">
+
   <img src="/assets/press-kit/screenshots/light/insights - top.PNG" class="promo-screenshots__screenshot">
   <img src="/assets/press-kit/screenshots/dark/insights - top.PNG" class="promo-screenshots__screenshot">
 
@@ -88,9 +91,6 @@ Feel free to use these images however you like. Use the button below to download
 
   <img src="/assets/press-kit/screenshots/light/energy burned statistics.PNG" class="promo-screenshots__screenshot">
   <img src="/assets/press-kit/screenshots/dark/energy burned statistics.PNG" class="promo-screenshots__screenshot">
-
-  <img src="/assets/press-kit/screenshots/light/main screen.PNG" class="promo-screenshots__screenshot">
-  <img src="/assets/press-kit/screenshots/dark/main screen.PNG" class="promo-screenshots__screenshot">
 
   <img src="/assets/press-kit/screenshots/light/leaderboard.PNG" class="promo-screenshots__screenshot">
   <img src="/assets/press-kit/screenshots/dark/leaderboard.PNG" class="promo-screenshots__screenshot">
