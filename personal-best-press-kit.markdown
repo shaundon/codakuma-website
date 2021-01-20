@@ -40,8 +40,7 @@ Personal Best is free to use, with an in-app purchase to unlock Personal Best Pr
 
 ## Questions and enquiries
 
-Feel free to send any questions to [shaun@codakuma.com]
-(mailto:shaun@codakuma.com). Phone/Zoom/FaceTime calls are welcome too, email me for contact details.
+Feel free to send any questions to [shaun@codakuma.com](mailto:shaun@codakuma.com). Phone/Zoom/FaceTime calls are welcome too, email me for contact details.
 
 You can also find me on Twitter [@shauneba](https://twitter.com/shauneba) or [@PersonalBestiOS](https://twitter.com/personalbestios).
 
