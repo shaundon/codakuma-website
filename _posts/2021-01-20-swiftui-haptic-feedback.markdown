@@ -10,7 +10,7 @@ Haptic feedback is a huge part of iOS and many apps use it well to add subtle fe
 
 Many SwiftUI elements have haptic feedback built in already. For example, when you drag your finger over the options in a [`Menu`](https://developer.apple.com/documentation/swiftui/menu), you'll feel a subtle tap. When you switch a [`Toggle`](https://developer.apple.com/documentation/swiftui/toggle) on and off you'll feel a firmer tap.
 
-Other elements like buttons don't have any built-in haptics, so we need to add them ourselves. [Hacking With Swift has a great tutorial](https://www.hackingwithswift.com/books/ios-swiftui/making-vibrations-with-uinotificationfeedbackgenerator-and-core-haptics) about how to do this, which I've based this post on. We'll create an extension for `View` so that we can trigger haptic feedback with one line of code. It's very short because iOS has an excellent, succint API for triggering basic haptics.
+Other elements like buttons don't have any built-in haptics, so we need to add them ourselves. [Hacking With Swift has a great tutorial](https://www.hackingwithswift.com/books/ios-swiftui/making-vibrations-with-uinotificationfeedbackgenerator-and-core-haptics) about how to do this, which I've based this post on. We'll create an extension for `View` so that we can trigger haptic feedback with one line of code. It's very short because iOS has an excellent, succinct API for triggering basic haptics.
 
 
 ```swift
