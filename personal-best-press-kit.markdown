@@ -60,7 +60,7 @@ Since then, I've been hard at work improving it, adding widgets, notifications, 
 
 ## Media
 
-Feel free to use these images however you like. Use the button below to download a zip with all images plus a few more in full resolution. 
+Feel free to use these images however you like. You can also download everything in ultra-high resolution as a zip.
 
 <div class="flex-wrapper">
   <a class="button" href="/assets/pb-presskit.zip">Download media (.zip)</a>
