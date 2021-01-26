@@ -12,6 +12,8 @@ Many SwiftUI elements have haptic feedback built in already. For example, when y
 
 Other elements like buttons don't have any built-in haptics, so we need to add them ourselves. [Hacking With Swift has a great tutorial](https://www.hackingwithswift.com/books/ios-swiftui/making-vibrations-with-uinotificationfeedbackgenerator-and-core-haptics) about how to do this, which I've based this post on. We'll create an extension for `View` so that we can trigger haptic feedback with one line of code. It's very short because iOS has an excellent, succinct API for triggering basic haptics.
 
+One caveat is that this won't work on `Button`s, because it relies on `onTapGesture`, which doesn't seem to work on `Button`. I'll show how to add haptic feedback to a button later in this post.
+
 
 ```swift
 import SwiftUI
@@ -31,11 +33,10 @@ extension View {
 To use it, just add it to any view:
 
 ```swift
-// Light feedback when a button is tapped.
-Button(action: { print("Tap tap tap") }) {
-  Text("Tap me and I'll tap you back")
-}
-.hapticFeedbackOnTap()
+// Light feedback when some text is tapped.
+Text("Tap me and I'll tap you back")
+  .hapticFeedbackOnTap()
+
 
 // Rigid feedback when a menu is opened.
 Menu {
@@ -49,6 +50,17 @@ Menu {
     Text("Open menu")
 }
 .hapticFeedbackOnTap(style: .rigid)
+```
+
+As I mentioned earlier, `onTapGesture` doesn't work on `Button`, so this won't work. For `Button`s, you'll need to call the haptic function from the `Button`'s `action`:
+
+```swift
+Button(action: {
+  let impact = UIImpactFeedbackGenerator(style: style)
+  impact.impactOccurred()
+}) {
+  Text("Press me")
+}
 ```
 
 ## Feedback styles
