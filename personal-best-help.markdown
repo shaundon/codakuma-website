@@ -10,6 +10,8 @@ app_banner: id1510256676
 
 Some common questions and troubleshooting guides for Personal Best.
 
+{% include toc.md %}
+
 ## Seeing 'No Workouts' when opening Personal Best
 
 Personal Best gets all its data from the [Apple Health (also known as HealthKit) database](https://support.apple.com/en-us/HT203037), which is stored locally on your iPhone.

@@ -235,6 +235,18 @@ code {
     font-size: 90%;
 }
 
+.screen-reader-only {
+    position: absolute;
+    left: -5000px;
+    
+    &:focus {
+        background: #fff;
+        color: #000;
+        left: 0;
+        padding: $spacing-lg;
+    }
+}
+
 // Syntax highlighting
 
 .highlight .hll { background-color: #49483e }

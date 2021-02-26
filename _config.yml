@@ -38,6 +38,8 @@ defaults:
       path: ""
     values:
       image: /assets/codakuma-logo.png
+kramdown:
+  toc_levels: [2]
 # Build settings
 #theme: minima
 #plugins:
