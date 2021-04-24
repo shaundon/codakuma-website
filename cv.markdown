@@ -10,7 +10,8 @@ description: "Shaun's C.V."
 <section class="cv-links">
   <a class="cv-button" href="mailto:shaun@codakuma.com">✉️&nbsp;shaun@codakuma.com</a>
   <a class="cv-button" href="https://codakuma.com">🌍&nbsp;codakuma.com</a>
-  <a class="cv-button" href="https://twitter.com/shauneba">🐦&nbsp;@shauneba</a>
+  <a class="cv-button screen-only" href="https://twitter.com/shauneba">🐦&nbsp;@shauneba</a>
+<a class="cv-button print-only" href="https://twitter.com/shauneba">🐦&nbsp;twitter.com/shauneba</a>
 </section>
 
 ## About
