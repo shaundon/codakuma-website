@@ -104,7 +104,7 @@ body {
             }
 
             h3, h3 > a {
-                color: #5abe57;
+                color: #690;
             }
         }
    
@@ -126,6 +126,11 @@ h2, h3, h4, h5, h6 {
     display: flex;
     margin-bottom: $spacing-base;
     margin-top: $spacing-xl;
+
+    @media print {
+        margin-bottom: $spacing-sm;
+        margin-top: $spacing-lg;
+    }
 }
 
 h2 + h3 {
