@@ -1,1 +1,2 @@
 SITEMAP: https://codakuma.com/sitemap.xml
+Disallow: /cv/

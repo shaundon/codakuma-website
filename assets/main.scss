@@ -3,9 +3,28 @@
 ---
 
 $spacing-base: 15px;
+$spacing-xs: $spacing-base / 4;
 $spacing-sm: $spacing-base / 2;
 $spacing-lg: $spacing-base * 2;
 $border-radius: $spacing-sm;
+
+@mixin with-leading-icon($iconName) {
+    &::before {
+        font-family: Material Icons;
+        content: $iconName;
+        width: 25px;
+    }
+}
+
+@mixin text-gradient($start, $end) {
+    background: $start;
+    background: linear-gradient(90deg, $start 20%, $end 100%);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
 
 html {
 
@@ -48,6 +67,17 @@ body {
     background: var(--background-color);
     color: var(--text-color);
     font-family: -apple-system,BlinkMacSystemFont,"Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue","Arial",sans-serif;
+
+    &.blank {
+        --background-color: #edfaf9;
+        --text-color: #222;
+        --link-color: #08c;
+
+        p {
+            margin-bottom: $spacing-base;
+        }
+   
+    }
 }
 
 main {
@@ -56,11 +86,13 @@ main {
 }
 
 h1 {
+    display: flex;
     margin-bottom: $spacing-base;
     margin-top: $spacing-base;
 }
 
 h2, h3, h4, h5, h6 {
+    display: flex;
     margin-bottom: $spacing-base;
     margin-top: $spacing-lg;
 }
@@ -246,6 +278,63 @@ code {
         padding: $spacing-lg;
     }
 }
+
+.cv {
+
+    &-title {
+        @include text-gradient(#f15a25, rgb(3, 198, 178));
+        display: block;
+        height: $spacing-lg * 2;
+        font-size: 250%;
+        text-align: center;
+        padding-top: $spacing-base;
+    }
+
+    &-date {
+        @include with-leading-icon('schedule');
+        display: flex;
+        margin-bottom: $spacing-lg;
+        font-size: 90%;
+        opacity: 0.9;
+    }
+
+    &-role {
+        @include with-leading-icon('work_outline');
+        display: flex;
+        margin-bottom: $spacing-sm;
+    }
+
+    &-previous-role {
+        margin-left: $spacing-xs;
+        font-style: italic;
+    }
+
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
 
 // Syntax highlighting
 
