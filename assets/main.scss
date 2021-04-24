@@ -93,6 +93,20 @@ body {
         p {
             margin-bottom: $spacing-base;
         }
+
+        @media print {
+            h1 {
+                color: #93a;
+            }
+
+            h2 {
+                color: #08c;
+            }
+
+            h3, h3 > a {
+                color: #5abe57;
+            }
+        }
    
     }
 }

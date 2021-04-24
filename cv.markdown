@@ -70,7 +70,7 @@ Read more about Personal Best's development: https://codakuma.com{% link _posts/
 
 Alongside developing Personal Best, I also blog about app development at [codakuma.com](https://codakuma.com).
 
-### 📈&nbsp;[Ensighten](https://www.ensighten.com)
+### 📈&nbsp;&nbsp;[Ensighten](https://www.ensighten.com)
 
 <div class="cv-role">
     Front-end Developer
@@ -82,7 +82,7 @@ Alongside developing Personal Best, I also blog about app development at [codaku
 
 I worked on a range of projects across Ensighten’s product line. My most notable work was developing and championing Ensighten’s design system, which honed their disparate, confusing UIs into a single coherent experience that felt like one family of products.
 
-### 🖥️&nbsp;[ICUK](https://www.icuk.net)
+### 🖥️&nbsp;&nbsp;[ICUK](https://www.icuk.net)
 
 <div class="cv-role">
     Software Engineer
@@ -96,7 +96,7 @@ This was my first job after university, where I was able to try my hand at many 
 
 ## Education
 
-### 🎓&nbsp;[University of Manchester](https://www.cs.manchester.ac.uk)
+### 🎓&nbsp;&nbsp;[University of Manchester](https://www.cs.manchester.ac.uk)
 
 2007 - 2011 
 BSc (Hons) Computer Science with Business and Management (2:1)
