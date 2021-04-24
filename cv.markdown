@@ -1,8 +1,8 @@
 ---
 layout: blank
-title: 'C.V.'
+title: "Shaun's C.V."
 permalink: /cv/
-description: "My C.V."
+description: "Shaun's C.V."
 ---
 
 <h1 class="cv-title">Shaun Donnelly</h1>
