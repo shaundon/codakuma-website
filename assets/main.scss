@@ -6,6 +6,7 @@ $spacing-base: 15px;
 $spacing-xs: $spacing-base / 4;
 $spacing-sm: $spacing-base / 2;
 $spacing-lg: $spacing-base * 2;
+$spacing-xl: $spacing-base * 3;
 $border-radius: $spacing-sm;
 
 @mixin with-leading-icon($iconName) {
@@ -100,6 +101,10 @@ h1 {
 h2, h3, h4, h5, h6 {
     display: flex;
     margin-bottom: $spacing-base;
+    margin-top: $spacing-xl;
+}
+
+h2 + h3 {
     margin-top: $spacing-lg;
 }
 
@@ -313,7 +318,7 @@ code {
     &-date {
         @include with-leading-icon('schedule');
         display: flex;
-        margin-bottom: $spacing-lg;
+        margin-bottom: $spacing-base;
         font-size: 90%;
         opacity: 0.9;
     }
@@ -325,8 +330,9 @@ code {
     }
 
     &-previous-role {
-        margin-left: $spacing-xs;
-        font-style: italic;
+        font-size: 80%;
+        opacity: 0.9;
+        margin-bottom: $spacing-base;
     }
 
 }

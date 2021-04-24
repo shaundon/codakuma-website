@@ -23,9 +23,10 @@ I'm looking for partially-remote roles in London (between 1-3 days in the office
 
 <div class="cv-role">
     Engineering Manager
-    <span class="cv-previous-role">
-    (previously Senior Software Engineer and Software Engineer 2)
-    </span>
+</div>
+
+<div class="cv-previous-role">
+    Previously Senior Software Engineer and Software Engineer 2
 </div>
 
 <div class="cv-date">
