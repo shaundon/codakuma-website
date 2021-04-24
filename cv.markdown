@@ -8,7 +8,8 @@ description: "My C.V."
 <h1 class="cv-title">Shaun Donnelly</h1>
 
 <section class="cv-links">
-  <a class="cv-button" href="mailto:shaun@codakuma.com">shaun@codakuma.com</a>
+  <a class="cv-button" href="mailto:shaun@codakuma.com">✉️&nbsp;shaun@codakuma.com</a>
+  <a class="cv-button" href="https://codakuma.com">🌍&nbsp;codakuma.com</a>
 </section>
 
 ## About
@@ -37,7 +38,12 @@ I'm the team lead for [Backpack](https://backpack.github.io), Skyscanner's desig
 
 In 2019 Skyscanner had a substantial rebrand. It was a year-long project that affected dozens of teams across the company. My team and I were heavily involved in all aspects – from updating the design language, devising a means to roll out the new brand seamlessly across all Skyscanner's products with a single button press, through to the infrastructure work across Skyscanner's apps and web stack to put it into practice. The rebrand was a success, completing without a single problem, which is practically unheard of for a time-sensitive project of this scope.
 
-[Read my post on Skyscanner's engineering blog for more &raquo;](https://medium.com/@SkyscannerEng/how-we-scaled-our-design-system-to-unleash-skyscanners-new-brand-845a1f501b0b)
+[Read my post on Skyscanner's engineering blog for more &raquo;](https://medium.com/@SkyscannerEng/how-we-scaled-our-design-system-to-unleash-skyscanners-new-brand-845a1f501b0b){:class="screen-only"}
+
+
+<p class="print-only">
+Read my post on Skyscanner's engineering blog for more: https://medium.com/@SkyscannerEng/how-we-scaled-our-design-system-to-unleash-skyscanners-new-brand-845a1f501b0b
+</p>
 
 On the people management side, I care deeply about the wellbeing and careers of my team. I've mentored most of them through Skyscanner's promotion process, even helping one of them grow from an intern into a senior engineer.
 
@@ -49,13 +55,18 @@ Under my own initiative, I've been involved in a number of initiatives outside o
     April 2020 - Present
 </div>
 
-In my spare time I’m an indie iOS developer building [Personal Best](/personal-best), a workout tracking app for iPhone. 
+In my spare time I’m an indie iOS developer building [Personal Best](/personal-best), a workout tracking app for iPhone built with SwiftUI.
 
-As of early 2021 it’s had over 20,000 downloads and holds a 4.8/5 rating on the App Store. It’s been featured in [iMore](https://www.imore.com/fitness-companion-personal-best-now-lets-you-share-your-workouts-glorious-technicolor), [TechCrunch](https://techcrunch.com/2020/09/16/ios-14-widgets-you-can-try-today/) and [9to5Mac](https://9to5mac.com/2020/12/27/ios-14-widget-apps/), amongst other places.
+It’s had over 20,000 downloads and holds a 4.8/5 rating on the App Store. It’s been featured in [iMore](https://www.imore.com/fitness-companion-personal-best-now-lets-you-share-your-workouts-glorious-technicolor), [TechCrunch](https://techcrunch.com/2020/09/16/ios-14-widgets-you-can-try-today/) and [9to5Mac](https://9to5mac.com/2020/12/27/ios-14-widget-apps/), amongst other places.
 
-[Read more about Personal Best's development &raquo;]({% link _posts/2020-12-29-year-in-review.markdown %})
+[Read more about Personal Best's development &raquo;]({% link _posts/2020-12-29-year-in-review.markdown %}){:class="screen-only"}
 
-Alongside developing Personal Best, I also blog about app development at [codakuma.com](/).
+
+<p class="print-only">
+Read more about Personal Best's development: https://codakuma.com{% link _posts/2020-12-29-year-in-review.markdown %}
+</p>
+
+Alongside developing Personal Best, I also blog about app development at [codakuma.com](https://codakuma.com).
 
 ### 📈&nbsp;[Ensighten](https://www.ensighten.com)
 
