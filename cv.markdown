@@ -7,6 +7,10 @@ description: "My C.V."
 
 <h1 class="cv-title">Shaun Donnelly</h1>
 
+<section class="cv-links">
+  <a class="cv-button" href="mailto:shaun@codakuma.com">shaun@codakuma.com</a>
+</section>
+
 ## About
 
 I'm a front-end developer turned engineering manager ready for new challenges. I advocate for simple, boring solutions that provide value to end users quickly and often, with best-in-class accessibility and usage of platform standards.

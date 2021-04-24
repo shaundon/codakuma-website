@@ -288,12 +288,26 @@ code {
 .cv {
 
     &-title {
-        @include text-gradient(#f15a25, rgb(3, 198, 178));
+        @include text-gradient(#d925f1, rgb(47, 173, 247));
         display: block;
         height: $spacing-lg * 2;
         font-size: 250%;
         text-align: center;
         padding-top: $spacing-base;
+        margin-bottom: 0;
+    }
+
+    &-links {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly
+    }
+
+    &-button {
+        appearance: none;
+        border: none;
+        color: var(--link-color);
+
     }
 
     &-date {
