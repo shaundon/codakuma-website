@@ -337,6 +337,7 @@ code {
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-wrap: wrap;
 
         @media screen and (max-width: 400px) {
             flex-direction: column;
