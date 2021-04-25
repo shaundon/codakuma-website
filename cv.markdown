@@ -98,5 +98,8 @@ This was my first job after university, where I was able to try my hand at many 
 
 ### 🎓&nbsp;&nbsp;[University of Manchester](https://www.cs.manchester.ac.uk)
 
-2007 - 2011 
+<div class="cv-date">
+    2007 – 2011
+</div>
+
 BSc (Hons) Computer Science with Business and Management (2:1)
