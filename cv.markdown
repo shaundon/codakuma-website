@@ -49,7 +49,7 @@ Read my post on Skyscanner's engineering blog for more: https://medium.com/@Skys
 
 On the people management side, I care deeply about the wellbeing and careers of my team. I've mentored most of them through Skyscanner's promotion process, even helping one of them grow from an intern into a senior engineer.
 
-Under my own initiative, I've been involved in a number of initiatives outside of my usual scope, like rewriting and maintaining Skyscanner's JavaScript recruitment test, simplifying the engineering promotion process, as well as championing and running most aspects of Skyscanner's [talent directory](https://www.linkedin.com/posts/skyscanner_skyscanner-talent-directory-activity-6698944542705496064-5gRn). 
+I've driven a number of initiatives outside of my usual scope, like rewriting and maintaining Skyscanner's JavaScript recruitment test, simplifying the engineering promotion process, as well as championing and running most aspects of Skyscanner's [talent directory](https://www.linkedin.com/posts/skyscanner_skyscanner-talent-directory-activity-6698944542705496064-5gRn). 
 
 ### 📱&nbsp;Indie iOS Developer
 
@@ -57,7 +57,7 @@ Under my own initiative, I've been involved in a number of initiatives outside o
     April 2020 - Present
 </div>
 
-In my spare time I’m an indie iOS developer building [Personal Best](/personal-best), a workout tracking app for iPhone built with SwiftUI.
+In my spare time I'm a fan of running, cycling and bouldering, which is why I built [Personal Best](/personal-best), a workout tracking app for iPhone built with SwiftUI.
 
 It’s had over 20,000 downloads and holds a 4.8/5 rating on the App Store. It’s been featured in [iMore](https://www.imore.com/fitness-companion-personal-best-now-lets-you-share-your-workouts-glorious-technicolor), [TechCrunch](https://techcrunch.com/2020/09/16/ios-14-widgets-you-can-try-today/) and [9to5Mac](https://9to5mac.com/2020/12/27/ios-14-widget-apps/), amongst other places.
 
@@ -80,7 +80,7 @@ Alongside developing Personal Best, I also blog about app development at [codaku
     August 2013 – March 2017
 </div>
 
-I worked on a range of projects across Ensighten’s product line. My most notable work was developing and championing Ensighten’s design system, which honed their disparate, confusing UIs into a single coherent experience that felt like one family of products.
+I worked on a range of projects across Ensighten’s product line. My most notable work was developing Ensighten’s design system, which honed their disparate, confusing UIs into a single coherent experience that felt like one family of products.
 
 ### 🖥️&nbsp;&nbsp;[ICUK](https://www.icuk.net)
 
