@@ -36,7 +36,7 @@ Learn about your workouts without even opening Personal Best. Turn on notificati
 
 ### Privacy first
 
-Personal Best takes your privacy very seriously. Your workout data never leaves your phone and there are no creepy third-party analytics libraries included. In fact, it doesn’t even use the internet at all.
+Personal Best takes your privacy very seriously. The only data is transmits are basic anonymised analytics such as "app launched" or "workout shared". The sole purpose of this is to help me know where to focus my development efforts.
 
 ### Inexpensive one-time purchase
 
