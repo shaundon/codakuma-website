@@ -59,3 +59,8 @@ Personal Best is free to use, with an in-app purchase to unlock Personal Best Pr
     {% endif %}
   {% endfor %}
 </ul>
+
+<details>
+  <summary>App Clip (Experimental, may not work yet)</summary>
+  <img src="/assets/personal-best-app-clip-code.svg" class="post-image-small" alt="Personal Best App Clip Code" />
+</details>
