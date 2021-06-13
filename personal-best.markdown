@@ -6,6 +6,7 @@ description: "Level up your workouts"
 image: "/assets/personal-best-screenshots.png"
 tags: personal-best apps
 app_banner: id1510256676
+app_clip: uk.sdonnelly.personal-best-0.Clip
 ---
 
 <div class="app">
