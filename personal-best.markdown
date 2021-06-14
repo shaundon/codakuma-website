@@ -25,6 +25,14 @@ Personal Best is the ultimate fitness companion for iPhone. It works in unison w
   <a class="button" href="/personal-best/press-kit">Press kit</a>
 </div>
 
+## Try it
+
+Scan this [App Clip code](https://support.apple.com/guide/iphone/use-app-clips-iphb3a73ec53/ios) with your iPhone's camera to try Personal Best.
+
+<p style="display: flex; justify-content: center;">
+  <img src="/assets/personal-best-app-clip-code.svg" alt="Personal Best App Clip Code" class="app-clip-code" />
+</p>
+
 ## Features
 
 ### Leaderboards and insights
@@ -60,8 +68,3 @@ Personal Best is free to use, with an in-app purchase to unlock Personal Best Pr
     {% endif %}
   {% endfor %}
 </ul>
-
-<details>
-  <summary>App Clip (Experimental, may not work yet)</summary>
-  <img src="/assets/personal-best-app-clip-code.svg" class="post-image-small" alt="Personal Best App Clip Code" />
-</details>
