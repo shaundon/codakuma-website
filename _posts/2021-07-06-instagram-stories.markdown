@@ -123,3 +123,7 @@ struct InstagramShareView: View {
 Instagram's URL scheme allows for sharing much more, including stickers, colours, videos, and more. Check out [Facebook's developer site](https://developers.facebook.com/docs/instagram/sharing-to-stories/) for more.
 
 [View the code for this tutorial on GitHub](https://gist.github.com/shaundon/28d121931eab29d4feb1f61b21b60e28)
+
+## A more fully-featured off-the-shelf version
+
+[Swapnanil Dhol](https://github.com/SwapnanilDhol) has an excellent Swift package named [IGStoryKit](https://github.com/SwapnanilDhol/IGStoryKit) that can do all of this and more, if you're looking for something simple where you don't need to write all the code to integrate with Instagram yourself.
