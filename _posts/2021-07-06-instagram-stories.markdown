@@ -47,7 +47,6 @@ struct InstagramSharingUtils {
       if UIApplication.shared.canOpenURL(url) {
         return url
       }
-      return nil
     }
     return nil
   }
@@ -69,7 +68,7 @@ struct InstagramSharingUtils {
     // Convert the image to data that can be written to the pasteboard.
     let imageDataOrNil = UIImage.pngData(image)
     guard let imageData = imageDataOrNil() else {
-      Logging.error("🙈 Image data not available.")
+      print("🙈 Image data not available.")
       return
     }
     let pasteboardItem = ["com.instagram.sharedSticker.backgroundImage": imageData]
