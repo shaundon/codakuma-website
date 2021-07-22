@@ -27,10 +27,6 @@ $border-radius: $spacing-sm;
         -webkit-text-fill-color: transparent; 
         -moz-text-fill-color: transparent;
     }
-
-    @media print {
-      background: $start;    
-    }
 }
 
 html {
@@ -62,10 +58,6 @@ html {
     padding: $spacing-base;
     min-height: 100vh;
     line-height: 22px;
-
-    @media print {
-        font-size: 14px;
-    }
 }
 
 * {
@@ -92,20 +84,6 @@ body {
 
         p {
             margin-bottom: $spacing-base;
-        }
-
-        @media print {
-            h1 {
-                color: #93a;
-            }
-
-            h2 {
-                color: #08c;
-            }
-
-            h3, h3 > a {
-                color: #690;
-            }
         }
    
     }
