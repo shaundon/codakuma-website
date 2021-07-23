@@ -29,6 +29,17 @@ $border-radius: $spacing-sm;
     }
 }
 
+@media (prefers-color-scheme: dark) {
+    .light-mode-only {
+        display: none;
+    }
+}
+@media (prefers-color-scheme: light) {
+    .dark-mode-only {
+        display: none;
+    }
+}
+
 html {
 
     --accent-color: #0060a5;
