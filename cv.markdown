@@ -18,9 +18,23 @@ description: "Shaun's C.V."
 
 I'm a front-end developer turned engineering manager ready for new challenges. I advocate for simple, boring solutions that provide value to end users quickly and often, with best-in-class accessibility and usage of platform standards.
 
-I'm looking for partially-remote roles in London (between 1-3 days in the office, the rest working from home) as either a front-end developer or engineering manager.
+I'm looking for partially-remote roles in London (~2 days in the office, the rest working from home) as either a front-end developer, engineering manager or SwiftUI developer.
 
 ## Experience
+
+### 🛩 &nbsp;[Duffel](https://duffel.com)
+
+<div class="cv-role">
+    Engineering Manager
+</div>
+
+<div class="cv-date">
+    July 2021 – Present
+</div>
+
+I'm the engineering manager for the UX Products team. We build and maintain most visual aspects of Duffel, like the [duffel.com](https://duffel.com) website, the [dashboard](https://app.duffel.com) for merchants, as well as a [component library](https://www.npmjs.com/package/@duffel/components) that allows merchants to build best-in-class experiences with minimal effort.
+
+As part of the engineering leadership team I also drive lots of other initiatives, like our levelling framework and career progression. I'm also heavily involved in the recruitment process.
 
 ### ✈️ &nbsp;[Skyscanner](https://skyscanner.net)
 
@@ -33,23 +47,21 @@ I'm looking for partially-remote roles in London (between 1-3 days in the office
 </div>
 
 <div class="cv-date">
-    April 2017 – Present
+    April 2017 – July 2021
 </div>
 
-I'm the team lead for [Backpack](https://backpack.github.io), Skyscanner's design system. Around half of my time is spent hands-on coding in React and the other half on people management, planning OKRs and generally enabling the team.
+Team lead for [Backpack](https://backpack.github.io), Skyscanner's design system. My time was roughly 50% hands-on coding and the other half on people management, planning OKRs and enabling the team.
 
-In 2019 Skyscanner had a substantial rebrand. It was a year-long project that affected dozens of teams across the company. My team and I were heavily involved in all aspects – from updating the design language, devising a means to roll out the new brand seamlessly across all Skyscanner's products with a single button press, through to the infrastructure work across Skyscanner's apps and web stack to put it into practice. The rebrand was a success, completing without a single problem, which is practically unheard of for a time-sensitive project of this scope.
-
-[Read my post on Skyscanner's engineering blog for more &raquo;](https://medium.com/@SkyscannerEng/how-we-scaled-our-design-system-to-unleash-skyscanners-new-brand-845a1f501b0b){:class="screen-only"}
+I was heavily involved in [Skyscanner's 2019 rebrand](https://koto.studio/project/skyscanner/), a challenging year-long project affecting dozens of teams across the company. [Read my post on Skyscanner's engineering blog for more details](https://medium.com/@SkyscannerEng/how-we-scaled-our-design-system-to-unleash-skyscanners-new-brand-845a1f501b0b){:class="screen-only"}.
 
 
 <p class="print-only">
 Read my post on Skyscanner's engineering blog for more: https://medium.com/@SkyscannerEng/how-we-scaled-our-design-system-to-unleash-skyscanners-new-brand-845a1f501b0b
 </p>
 
-On the people management side, I care deeply about the wellbeing and careers of my team. I've mentored most of them through Skyscanner's promotion process, even helping one of them grow from an intern into a senior engineer.
+As a manager, I mentored many of my direct report's through Skyscanner's promotion process, even helping one of them grow from an intern into a senior engineer.
 
-I've driven a number of initiatives outside of my usual scope, like rewriting and maintaining Skyscanner's JavaScript recruitment test, simplifying the engineering promotion process, as well as championing and running most aspects of Skyscanner's [talent directory](https://www.linkedin.com/posts/skyscanner_skyscanner-talent-directory-activity-6698944542705496064-5gRn). 
+I drove several initiatives outside of my usual scope, like rewriting and maintaining Skyscanner's front-end recruitment test, simplifying the engineering promotion process, as well as championing and running most aspects of Skyscanner's [talent directory](https://www.linkedin.com/posts/skyscanner_skyscanner-talent-directory-activity-6698944542705496064-5gRn).
 
 ### 📱&nbsp;Indie iOS Developer
 
@@ -57,9 +69,9 @@ I've driven a number of initiatives outside of my usual scope, like rewriting an
     April 2020 - Present
 </div>
 
-In my spare time I'm a fan of running, cycling and bouldering, which is why I built [Personal Best](/personal-best), a workout tracking app for iPhone built with SwiftUI.
+In my spare time I'm a fan of running, cycling and swimming, which is why I built [Personal Best](https://getpersonalbest.com), a workout tracking app for iPhone built with SwiftUI.
 
-It’s had over 20,000 downloads and holds a 4.8/5 rating on the App Store. It’s been featured in [iMore](https://www.imore.com/fitness-companion-personal-best-now-lets-you-share-your-workouts-glorious-technicolor), [TechCrunch](https://techcrunch.com/2020/09/16/ios-14-widgets-you-can-try-today/) and [9to5Mac](https://9to5mac.com/2020/12/27/ios-14-widget-apps/), amongst other places.
+It’s had over 20,000 downloads and holds a 4.8/5 rating on the App Store. It’s been featured by Apple on the App Store, as well as in [iMore](https://www.imore.com/fitness-companion-personal-best-now-lets-you-share-your-workouts-glorious-technicolor), [TechCrunch](https://techcrunch.com/2020/09/16/ios-14-widgets-you-can-try-today/) and [9to5Mac](https://9to5mac.com/2020/12/27/ios-14-widget-apps/), amongst other places.
 
 [Read more about Personal Best's development &raquo;]({% link _posts/2020-12-29-year-in-review.markdown %}){:class="screen-only"}
 
