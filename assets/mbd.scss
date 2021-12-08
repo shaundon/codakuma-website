@@ -17,6 +17,17 @@ body {
   b {
     color: rgb(252, 212, 33);
   }
+
+  p {
+    opacity: 0;
+    transition: all 2s ease-in-out;
+  }
+
+  &.visible {
+    p {
+      opacity: 1;
+    }
+  }
 }
 
 #welcome-message {
