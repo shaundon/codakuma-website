@@ -1,0 +1,51 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+body {
+  font-size: 32px;
+  margin: 0;
+}
+
+.course {
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+
+  b {
+    color: rgb(252, 212, 33);
+  }
+}
+
+#welcome-message {
+  background: url("/assets/mbd-images/london.png");
+  background-size: cover;
+  font-family: "Staatliches", cursive;
+}
+
+#first-course {
+  background: url("/assets/mbd-images/thailand.png");
+  background-size: cover;
+  font-family: "Karla", sans-serif;
+}
+
+#second-course {
+  background: url("/assets/mbd-images/japan.png");
+  background-size: cover;
+  font-family: "Overpass", sans-serif;
+  font-weight: 200;
+}
+
+#third-course {
+  background: url("/assets/mbd-images/vietnam.png");
+  background-size: cover;
+  font-family: "DM Sans", sans-serif;
+}
+
+#fourth-course {
+  background: url("/assets/mbd-images/south-korea.png");
+  background-size: cover;
+  font-family: "DM Serif Display", serif;
+}
