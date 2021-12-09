@@ -6,7 +6,7 @@ permalink: city
 
 <section class="course" id="third-course">
     <p>
-        A bustling metropolis. The city seems to stretch out forever, each building taller than the last. You're in <b>Ho Chi Minh City 🇻🇳</b>.
+        A bustling metropolis. The city seems to stretch out forever, each building taller than the last. Welcome to <b>Ho Chi Minh City 🇻🇳</b>.
     </p>
     <p>
         You've been sightseeing and shopping all day. You're <em>starving</em>, not to mention thirsty. Luckily, you've found just the place. A big-scale, high-end Vietnamese restaurant.
