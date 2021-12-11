@@ -12,5 +12,6 @@ permalink: spa
         Everything on the menu looks great, but you just can't resist that <b>white chocolate and ginger tart with pistachio crumb, served with yuzu ice cream 🍋</b>.
     </p>
     <p>A drink to go with it? Go on then, let's have a cheeky <b>dessert wine 🍷</b>.
+    </p>
 
 </section>
