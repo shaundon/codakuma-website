@@ -14,7 +14,7 @@ Let's start with sharing some numbers on Personal Best's growth.
 
 ### Downloads
 
-In 2021, Personal Best was downloaded around **20,000** times, compared to around **7,400** downloads in 2020.
+In 2021, Personal Best was downloaded around **21,000** times, compared to around **7,400** downloads in 2020.
 
 This is a really big increase, but 17,000 of these downloads came from [listing Personal Best in Apps Gone Free](https://appadvice.com/apps-gone-free/2021-01-08), when I made Personal Best Pro (an in-app purchase to unlock more features) free for a day. The downloads from places like Apps Gone Free tend to be less valuable than organic downloads as many people will download an app just because it's free and then often delete it shortly after.
 
