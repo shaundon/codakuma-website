@@ -1,0 +1,95 @@
+---
+layout: page
+title: "2021 in review"
+permalink: /2021-in-review/
+description: "How 2021 went for Personal Best, and me too I guess"
+tags: ios
+---
+
+This time last year I [wrote a post]({% link _posts/2020-12-29-year-in-review.markdown %}) about how I made my workout-tracking app [Personal Best](https://getpersonalbest.com) and my goals for the coming year. Now we're approaching the end of 2021, here's a reflection on how things have gone.
+
+## Numbers
+
+Let's start with sharing some numbers on Personal Best's growth.
+
+### Downloads
+
+In 2021, Personal Best was downloaded around **20,000** times, compared to around **7,400** downloads in 2020.
+
+This is a really big increase, but 17,000 of these downloads came from [listing Personal Best in Apps Gone Free](https://appadvice.com/apps-gone-free/2021-01-08), when I made Personal Best Pro (an in-app purchase to unlock more features) free for a day. The downloads from places like Apps Gone Free tend to be less valuable than organic downloads as many people will download an app just because it's free and then often delete it shortly after.
+
+However, I don't regret doing this. I didn't really lose anything by making it free for a day, and as a complete novice when it comes to marketing it was a valuable learning opportunity.
+
+Removing the 17,000 downloads from Apps Gone Free leaves around **4,000** downloads, a significant reduction from 2020.
+
+### Sales
+
+In 2021, Personal Best made around **$1,500** in sales, compared to approximately **$1,700** in 2020. A sale is defined as either somebody paying for Personal Best Pro or dropping some money in the tip jar.
+
+This might seem strange at first glance – it had almost half as many organic downloads as last year, but sales were only down slightly. I'm not entirely sure why this, but I think it's a combination of me putting the price up partway through the year and doing a better job of upselling people.
+
+### Users
+
+In 2020 I didn't have any way of tracking active users, but in June 2021 I added [TelemetryDeck](https://telemetrydeck.com). Amongst other things, this lets me see how many daily active users Personal Best has.
+
+Personal Best's daily active users has grown slowly but steadily since June, from around 500 at the beginning of June to around 1,300 in December. This is a really great increase which I'm very pleasantly surprised with. It honestly blows my mind that over 1,000 people use my little app every single day.
+
+![Visualisation of the numbers mentioned prior to this](/assets/post-images/pb-2021-figures.png){:class="post-image post-image--no-shadow"}
+
+## Delivery
+
+### New features
+
+Personal Best gained quite a few new features in 2021. The highlights are:
+
+- **Sharing:** Turn workouts into customisable images to share on social media or elsewhere. I made this because I thought it would be cool, with half an eye on it leading to some social media interest as people see the 'Shared with Personal Best' stamp on the image.
+- **A redesign:** To make data more useful, easier to access, and better looking.
+- **Support for splits:** See which parts of your workout were the fastest.
+- **SiriKit and Shortcuts support:** For the automation crowd. About 70% of the reason I added this was to try and get on [@viticci](https://twitter.com/viticci)'s radar 🙈
+- **App Clip:** To make it easier to try Personal Best without having to download it.
+- **Achievements:** To gamify things more and give people some goals to aim for.
+
+I'm fairly pleased with how much new stuff I added in 2021. There were also tonnes of bug fixes and other tweaks to make things better and smoother, too.
+
+![Screenshot of getpersonalbest.com](/assets/post-images/pb-2021-features.png){:class="post-image post-image--no-shadow"}
+
+Alongside this I also split Personal Best from [codakuma.com](/) and gave it its own website – [getpersonalbest.com](https://getpersonalbest.com), which launched in July. It's a simple, static website featuring dark mode support, a press kit and a support page.
+
+![Screenshot of getpersonalbest.com](/assets/post-images/getpersonalbest-screenshot.png){:class="post-image post-image--no-shadow"}
+
+## Marketing
+
+In [2020 in review]({% link _posts/2020-12-29-year-in-review.markdown %}) I called out marketing as something I struggle with and must improve. I still suck at it, but I did at least attempt to do some things this year to varying degrees of success:
+
+- I hired a [professional writer](https://twitter.com/OliverJHaslam) to write the App Store description for Personal Best. He did a far better job than I ever could.
+- I managed to get Personal Best featured [in an article for iMore](https://www.imore.com/fitness-companion-personal-best-now-lets-you-share-your-workouts-glorious-technicolor), and an issue of [Club MacStories](https://club.macstories.net) weekly newsletter.
+- I got featured on the App Store in several European countries for a week. Thanks App Store editors ❤️
+
+## Challenges
+
+There's one big challenge I haven't mentioned at all. In July, I left [Skyscanner](https://skyscanner.net) and joined [Duffel](https://duffel.com), a travel startup. My new job is great, but it's also a huge ramp up from my previous job. It takes much more out of me, and at the end of the day I usually need a break from my computer and don't feel like doing more work.
+
+As a result, in the second half of this year I really, really struggled to find time to work on Personal Best, and development slowed down a lot. In 2022 I want to address this and find a healthy balance where I can still be good at my job but also have time to work on Personal Best.
+
+## Scorecard
+
+Last year I listed four goals for 2021, and I achieved all of them this year.
+
+- Get featured in the App Store in at least one region (Featured in five regions ✅)
+- Get a review of Personal Best into a big tech blog (I got into iMore and Club MacStories weekly newsletter ✅)
+- Do more marketing (I definitely did do some more, although not as much as I could have ✅)
+- Be ready for iOS 15 on day one (Yup ✅)
+
+I'm super happy that I was able to meet all of these. For 2022, I'm going to set some similar goals. It's tempting to set very ambitious goals, but in light of my struggling to balance my day job with Personal Best, I think it's best to be realistic.
+
+## 2022 goals
+
+- Be featured in the App Store again.
+- Get Personal Best into another tech blog (The iMore article was in January 2021, so it's been a long time).
+- Find a healthy balance between my day job and Personal Best.
+- Make Personal Best really, really solid. Right now it's decent but there are still a few quirks and frame drops. If I want to be a best-in-class app, I need to nail this and achieve a good level of polish.
+- Deliver at least five major new features or improvements.
+
+Here's to next year. [I don't know about you, but I'm feeling '22..](https://www.youtube.com/watch?v=AgFeZr5ptV8)
+
+[Download Personal Best](https://getpersonalbest.com)

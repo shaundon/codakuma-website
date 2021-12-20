@@ -27,14 +27,13 @@ Map(
 
 The tricky part came next. I wanted to add a line to the map to display the workout route. This is how iOS's Fitness (formerly known as Activity) app displays routes:
 
-
 ![Map of Budapest from Apple's Fitness app displaying a workout route](/assets/post-images/fitness-app-route.jpeg){:class="post-image-small"}
 
 From what I understand, this isn't yet possible with SwiftUI's Map component. Maps can be annotated, but only in three ways:
 
-* [MapPin](https://developer.apple.com/documentation/mapkit/mappin)
-* [MapMarker](https://developer.apple.com/documentation/mapkit/mapmarker)
-* [MapAnnotation](https://developer.apple.com/documentation/mapkit/mapannotation)
+- [MapPin](https://developer.apple.com/documentation/mapkit/mappin)
+- [MapMarker](https://developer.apple.com/documentation/mapkit/mapmarker)
+- [MapAnnotation](https://developer.apple.com/documentation/mapkit/mapannotation)
 
 The only customisation supported by `MapPin` and `MapMarker` is the tint colour, but `MapAnnotation` is a generic view that can contain anything.
 
@@ -99,15 +98,15 @@ Next, I tested it by loading workouts while keeping different percentages of the
 
 ### 44 min bike ride, with ~2,600 GPS pings
 
-| GPS pings retained | Memory usage (MB)	| Map looks ok? |
-| - | - | - |
-| 0% | 110 | - |
-| 5% | 116 | Noticeable loss in detail when zooming |
-| 10%	| 128 |	Some loss in detail when zooming |
-| 20%	| 149 |	Yes |
-| 33%	| 186 |	Yes |
-| 50%	| 238 |	Yes |
-| 100% | 334 |	- |
+| GPS pings retained | Memory usage (MB) | Map looks ok?                          |
+| ------------------ | ----------------- | -------------------------------------- |
+| 0%                 | 110               | -                                      |
+| 5%                 | 116               | Noticeable loss in detail when zooming |
+| 10%                | 128               | Some loss in detail when zooming       |
+| 20%                | 149               | Yes                                    |
+| 33%                | 186               | Yes                                    |
+| 50%                | 238               | Yes                                    |
+| 100%               | 334               | -                                      |
 
 5% seemed like the sweet spot. I don't mind some loss of detail, because the route map annotations don't need to be perfect, they just need to show a reasonable enough amount of detail for people to see their route.
 
@@ -116,10 +115,10 @@ I also tested the memory usage for a longer workout, to see how much memory is c
 ### 4 hour bike ride, with ~14,200 GPS pings
 
 | GPS pings retained | Memory usage (MB) |
-| - | - |
-| 0% | 113 |
-| 5% | 170 |
-| 100% | 1380 |
+| ------------------ | ----------------- |
+| 0%                 | 113               |
+| 5%                 | 170               |
+| 100%               | 1380              |
 
 170MB felt reasonable for such a long bike ride. The UI loaded quickly and there was no noticeable slow down, so I decided to proceed with only keeping 5% of GPS pings. Here's how it looks for the workout from earlier:
 
@@ -129,7 +128,6 @@ Looking good! 😎 At higher zoom levels, there's definitely detail lost, but I 
 
 ![Map of Budapest with a route map of a workout overlaid at a high zoom level showing loss of detail](/assets/post-images/map-3.PNG){:class="post-image-small"}
 
-
 ## Next steps
 
-I'm tempted to make the algorithm a bit smarter. One thing I could do is adjust the percentage of GPS pings retained depending on the total. So, shorter workouts will have more detail than longer workouts. For now I've decided against this, because it feels like premature optimisation, plus I'm hopeful that SwiftUI's Map component will gain the ability to draw lines in the future, making my workaround obsolete. 
+I'm tempted to make the algorithm a bit smarter. One thing I could do is adjust the percentage of GPS pings retained depending on the total. So, shorter workouts will have more detail than longer workouts. For now I've decided against this, because it feels like premature optimisation, plus I'm hopeful that SwiftUI's Map component will gain the ability to draw lines in the future, making my workaround obsolete.

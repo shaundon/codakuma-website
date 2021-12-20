@@ -232,6 +232,10 @@ p {
   margin: 0 auto;
   max-width: 750px;
   width: 100%;
+
+  &--no-shadow {
+    box-shadow: none;
+  }
 }
 
 .post-image-small {
