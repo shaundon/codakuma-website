@@ -55,7 +55,7 @@ I'm fairly pleased with how much new stuff I added in 2021. There were also tonn
 
 Alongside this I also split Personal Best from [codakuma.com](/) and gave it its own website – [getpersonalbest.com](https://getpersonalbest.com), which launched in July. It's a simple, static website featuring dark mode support, a press kit and a support page.
 
-![Screenshot of getpersonalbest.com](/assets/post-images/getpersonalbest-screenshot.png){:class="post-image post-image--no-shadow"}
+![Screenshot of getpersonalbest.com](/assets/post-images/getpersonalbest-screenshot.png){:class="post-image-small post-image--no-shadow"}
 
 ## Marketing
 
@@ -73,14 +73,35 @@ As a result, in the second half of this year I really, really struggled to find 
 
 ## Scorecard
 
-Last year I listed four goals for 2021, and I achieved all of them this year.
+Last year I listed four goals for 2021, and I mostly achieved all of them!
 
-- Get featured in the App Store in at least one region (Featured in five regions ✅)
-- Get a review of Personal Best into a big tech blog (I got into iMore and Club MacStories weekly newsletter ✅)
-- Do more marketing (I definitely did do some more, although not as much as I could have ✅)
-- Be ready for iOS 15 on day one (Yup ✅)
+### Get featured in the App Store in at least one region
 
-I'm super happy that I was able to meet all of these. For 2022, I'm going to set some similar goals. It's tempting to set very ambitious goals, but in light of my struggling to balance my day job with Personal Best, I think it's best to be realistic.
+**Status:** Achieved ✅
+
+Over the Summer, Personal Best was featured in nine(!) regions for around a week. In the UK and Ireland, it was part of the App Store's 'New and Noteworthy' list, and in a group of mainland European countries it was included in 'Big Apps From Small Teams'.
+
+![Screenshot of Personal Best being featured](/assets/post-images/pb-featured-big-apps-from-small-teams.png){:class="post-image-small post-image--no-shadow"}
+
+### Get a review of Personal Best into a big tech blog
+
+**Status:** Achieved ✅
+
+Thanks to reaching out to some journalists and bloggers, I got into iMore and Club MacStories (see links above).
+
+### Do more marketing
+
+**Status:** Achieved, mostly ⚖️
+
+I definitely did a bit more of this than in 2020, but like many New Year's resolutions it skewed heavily towards the beginning of the year and then tailed off sharply.
+
+### Be ready for iOS 15 on day one
+
+**Status:** Achieved ✅
+
+There were no big-ticket features that made sense for Personal Best in iOS 15, so beyond a few small bug fixes, I didn't need to do anything here. On the one hand this was convenient as I started my new job in the Summer and was very busy, but on the other hand it means I missed the opportunity for some press coverage by launching a big new feature, like I had with widgets in iOS 14.
+
+For 2022, I'm going to set some similar goals. It's tempting to set very ambitious goals, but in light of my struggling to balance my day job with Personal Best, I think it's best to be realistic.
 
 ## 2022 goals
 
