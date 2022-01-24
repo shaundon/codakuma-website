@@ -6,6 +6,12 @@ description: "How to turn any SwiftUI view into a UIImage"
 tags: ios swiftui howto
 ---
 
+**Update:** I now have a much-better way to do this and this post should be considered deprecated. See [a better way to create images from SwiftUI views]({% link _posts/2022-01-24-swiftui-images-views-2.markdown %}) for the new-and-improved solution.
+
+---
+
+## Original post
+
 Recently while developing a workout sharing feature for my app [Personal Best](/personal-best), I needed to figure out how to turn a SwiftUI view into an image that people could share.
 
 I struggled with this for a while but in the end got it to work. In this article I'm going to talk about what I discovered about UIKit and SwiftUI, some unsuccessful attempts I tried, then finally what I did in the end to get it working correctly.
