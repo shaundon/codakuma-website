@@ -41,17 +41,17 @@ $border-radius: $spacing-sm;
 }
 
 html {
-  --accent-color: #0060a5;
-  --link-color: #163c60;
-  --background-color: linear-gradient(#57aed9, #eba8d2);
-  --text-color: #62243c;
+  --accent-color: #fc8c5e;
+  --link-color: #d54307;
+  --background-color: #fff;
+  --text-color: #6667AB;
   --table-border-color: #666;
   --logo-color: linear-gradient(45deg, #2e5e8b, #69273f);
   --button-background: linear-gradient(45deg, #35a7df 12%, #e15d63 100%);
 
   @media (prefers-color-scheme: dark) {
-    --accent-color: #0060a5;
-    --link-color: rgb(5, 177, 153);
+    --accent-color: #fc8c5e;
+    --link-color: #fc8c5e;
     --background-color: #000;
     --text-color: rgba(255, 255, 255, 0.75);
     --table-border-color: #666;
@@ -103,6 +103,7 @@ body {
 main {
   margin: 0 auto;
   max-width: 800px;
+  margin-bottom: $spacing-xl;
 }
 
 h1 {
@@ -117,7 +118,7 @@ h4,
 h5,
 h6 {
   display: flex;
-  margin-bottom: $spacing-base;
+  margin-bottom: $spacing-lg;
   margin-top: $spacing-xl;
 
   @media print {
@@ -143,12 +144,13 @@ li {
 }
 
 a {
+  box-sizing: border-box;
   color: var(--link-color);
-  text-decoration: underline;
+  text-decoration: none;
   transition: opacity 0.1s ease-in-out;
 
   &:hover {
-    opacity: 0.5;
+    text-decoration: underline;
   }
 
   @media print {
@@ -158,17 +160,36 @@ a {
 }
 
 header {
-  margin: $spacing-lg 0;
+  margin-top: -10px;
+  margin-bottom: $spacing-xl * 1.5;
   text-align: center;
 
+  @media screen and (min-width: 800px) {
+    margin-top: 10px;
+  }
+
   a {
-    font-size: 250%;
+    font-size: 400%;
     font-weight: bold;
     text-decoration: none;
-    background: var(--logo-color);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: var(--background-color);
+    transition: color 0.2s ease-in-out;
+    text-shadow: var(--text-color) 3px 3px 0px, 
+    var(--text-color) 0.5403022766113281px 0.8414709568023682px 0px, 
+    var(--text-color) -0.416146844625473px 0.9092974066734314px 0px, 
+    var(--text-color) -0.9899924993515015px 0.14112000167369843px 0px, 
+    var(--text-color) -0.6536436080932617px -0.756802499294281px 0px, 
+    var(--text-color) 0.28366219997406006px -0.9589242935180664px 0px, 
+    var(--text-color) 0.9601702690124512px -0.279415488243103px 0px;
+
+    @media screen and (min-width: 800px) {
+      font-size: 800%;
+    }
+
+    &:hover { 
+      color: var(--accent-color);
+      text-decoration: none;
+    }
   }
 }
 
@@ -181,21 +202,37 @@ p {
 }
 
 .apps {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: $spacing-base;
+
+  @media screen and (min-width: 600px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 .app {
   align-items: center;
+  border: 3px solid var(--text-color);
+  border-radius: 30px;
+  box-shadow: 0 4px var(--accent-color);
+  color: var(--text-color);
   display: inline-flex;
   flex-direction: row;
-  margin-bottom: $spacing-base;
-  margin-right: $spacing-lg;
+  padding: $spacing-base;
   text-decoration: none;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    background: var(--text-color);
+    color: var(--background-color);
+    text-decoration: none;
+    box-shadow: 0 8px var(--accent-color);
+  }
 
   .app-icon {
-    $size: 100px;
-    border-radius: 17.54%;
+    $size: 70px;
+    border-radius: 25%;
     height: $size;
     margin-right: $spacing-base;
     width: $size;
@@ -203,6 +240,7 @@ p {
 
   h3 {
     margin-top: 0;
+    margin-bottom: 5px;
   }
 }
 
