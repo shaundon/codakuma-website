@@ -41,10 +41,10 @@ $border-radius: $spacing-sm;
 }
 
 html {
-  --accent-color: #fc8c5e;
-  --link-color: #d54307;
+  --accent-color: darkorange; // #fc8c5e;
+  --link-color: orangered; // #d54307;
   --background-color: #fff;
-  --text-color: #6667AB;
+  --text-color: blue; // #6667AB;
   --table-border-color: #666;
   --logo-color: linear-gradient(45deg, #2e5e8b, #69273f);
   --button-background: linear-gradient(45deg, #35a7df 12%, #e15d63 100%);
@@ -163,9 +163,18 @@ header {
   margin-top: -10px;
   margin-bottom: $spacing-xl * 1.5;
   text-align: center;
+  transition: all 0.2s ease-in-out;
 
   @media screen and (min-width: 800px) {
     margin-top: 10px;
+  }
+
+  &:hover {
+    margin-top: 0;
+
+    @media screen and (min-width: 800px) {
+      margin-top: 30px;
+    }
   }
 
   a {
