@@ -7,6 +7,7 @@ $spacing-xs: $spacing-base / 4;
 $spacing-sm: $spacing-base / 2;
 $spacing-lg: $spacing-base * 2;
 $spacing-xl: $spacing-base * 3;
+$spacing-xxl: $spacing-base * 4;
 $border-radius: $spacing-sm;
 
 @mixin with-leading-icon($iconName) {
@@ -41,21 +42,19 @@ $border-radius: $spacing-sm;
 }
 
 html {
-  --accent-color: darkorange; // #fc8c5e;
-  --link-color: orangered; // #d54307;
-  --background-color: #fff;
-  --text-color: blue; // #6667AB;
+  --accent-color: #ff8d1e;
+  --link-color: #ff2069;
+  --background-color: #e8e1f8;
+  --text-color: dodgerblue;
   --table-border-color: #666;
-  --logo-color: linear-gradient(45deg, #2e5e8b, #69273f);
   --button-background: linear-gradient(45deg, #35a7df 12%, #e15d63 100%);
 
   @media (prefers-color-scheme: dark) {
-    --accent-color: #fc8c5e;
-    --link-color: #fc8c5e;
-    --background-color: #000;
-    --text-color: rgba(255, 255, 255, 0.75);
+    --accent-color: #ff8d1e;
+    --link-color: #ff8d1e;
+    --background-color: #170c31;
+    --text-color: #6cb5fd;
     --table-border-color: #666;
-    --logo-color: linear-gradient(45deg, #08c, #ec3030);
     --button-background: linear-gradient(45deg, #08c 12%, #ec3030 100%);
   }
 
@@ -108,9 +107,21 @@ main {
 
 h1 {
   display: flex;
-  margin-bottom: $spacing-base;
+  margin-bottom: $spacing-lg;
   margin-top: $spacing-base;
+  font-size: 40px;
 }
+
+h2 {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
 
 h2,
 h3,
@@ -119,7 +130,7 @@ h5,
 h6 {
   display: flex;
   margin-bottom: $spacing-lg;
-  margin-top: $spacing-xl;
+  margin-top: $spacing-xxl;
 
   @media print {
     margin-bottom: $spacing-sm;
@@ -141,6 +152,7 @@ ul.no-bullets {
 
 li {
   margin: $spacing-base;
+  line-height: 24px;
 }
 
 a {
@@ -160,21 +172,13 @@ a {
 }
 
 header {
-  margin-top: -10px;
+  margin-top: 20px;
   margin-bottom: $spacing-xl * 1.5;
   text-align: center;
   transition: all 0.2s ease-in-out;
 
   @media screen and (min-width: 800px) {
-    margin-top: 10px;
-  }
-
-  &:hover {
-    margin-top: 0;
-
-    @media screen and (min-width: 800px) {
-      margin-top: 30px;
-    }
+    margin-top: 30px;
   }
 
   a {
@@ -208,6 +212,7 @@ section {
 
 p {
   margin-bottom: $spacing-lg;
+  line-height: 24px;
 }
 
 .apps {
