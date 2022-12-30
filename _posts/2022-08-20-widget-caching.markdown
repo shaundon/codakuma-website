@@ -58,7 +58,5 @@ Thanks to this, Personal Best's widgets now fall back to older data if your phon
 
 WidgetKit is a very powerful framework with some unique constraints. It's worth the effort to adapt your mental model and your app's functionality to fit the WidgetKit way of doing things.
 
-These improvements to Personal Best's widgets will be included in the forthcoming iOS 16 release.
-
 [Download Personal Best on the App Store](https://getpersonalbest.com)
 
