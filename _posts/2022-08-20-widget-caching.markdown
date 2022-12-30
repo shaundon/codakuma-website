@@ -6,7 +6,7 @@ description: "Three improvements to make your widgets more reliable"
 tags: ios howto
 ---
 
-My workout tracking app [Personal Best](https://getpersonalbest.com) includes widgets for tracking your workouts from your home and lock screens using [WidgetKit](https://developer.apple.com/widgets/) (lock screen widgets coming with iOS 16).
+My workout tracking app [Personal Best](https://getpersonalbest.com) includes widgets for tracking your workouts from your home and lock screens using [WidgetKit](https://developer.apple.com/widgets/).
 
 ![Screenshot of Personal Best's widgets](/assets/post-images/pb-widgets.jpg){:class="post-image post-image--no-shadow"}
 
@@ -47,6 +47,8 @@ Personal Best's widgets rely on data from [HealthKit](https://developer.apple.co
 To get around this, I added a cache based on [this answer by pawello2222 on StackOverflow](https://stackoverflow.com/a/65764918/1011161). It's very simple. When the widget refreshes successfully, it stores the last timeline entry in an object. Next time the widget refreshes, if it fails due to HealthKit not being available, it will check the cache for a previous entry. If there is one, it gives WidgetKit a copy of the cached entry, with the date updated to reflect the current date and time.
 
 [Here's a gist on GitHub that demonstrates how it works](https://gist.github.com/shaundon/b4b823fbcac863d24c1ebe751cc97cfc).
+
+Note that the cache is shared between **all** your app's widgets. Therefore, your cache should take into account each widget's configuration and separate them accordingly. Without this, if somebody has multiple instances of your app's widget (e.g. _Last 7 days_ and _Last 30 days_), the cache can 'bleed' between the widgets and they'll end up showing incorrect data. The gist linked above takes this into account to avoid these issues.
 
 Thanks to this, Personal Best's widgets now fall back to older data if your phone is locked.
 
