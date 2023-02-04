@@ -370,6 +370,15 @@ code {
   font-size: 90%;
 }
 
+.newsletter-iframe {
+  max-height: 200px;
+}
+
+.divider {
+  border: 1px dashed var(--text-color);
+  margin: $spacing-lg 0;
+}
+
 .screen-reader-only {
   position: absolute;
   left: -5000px;
