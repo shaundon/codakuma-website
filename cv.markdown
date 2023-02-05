@@ -94,7 +94,7 @@ In 2022 I released [Taylor's Version](http://taylorsversion.app), a passion proj
 Read more about Personal Best's development: https://codakuma.com{% link _posts/2020-12-29-year-in-review.markdown %}
 </p>
 
-Alongside developing Personal Best, I also blog about app development at [codakuma.com](https://codakuma.com).
+Alongside developing my apps I also blog about app development at [codakuma.com](https://codakuma.com).
 
 ### 📈&nbsp;&nbsp;[Ensighten](https://www.ensighten.com)
 
