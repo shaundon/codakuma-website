@@ -148,4 +148,4 @@ Today we learned how to bridge `MKMapView` from UIKit to SwiftUI and add a polyl
 
  If you have any questions or comments, feel free to reach out via Twitter or email. Links to both are in the footer of this page.
 
-[View the code for this tutorial on GitHub](https://gist.github.com/shaundon/56c8a5801c5dc63c2e4a0af9b39c8f7b)
+[View the code for this tutorial on GitHub](https://gist.github.com/shaundon/00be84deb3450e31db90a31d5d5b7adc)
