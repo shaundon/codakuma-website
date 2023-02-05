@@ -16,29 +16,29 @@ description: "Shaun's C.V."
 
 ## About
 
-I'm an experienced front-end developer who's looking for new challenges after a four-year stint as an engineering manager. My time in engineering management has given me loads of experience with leading teams, having difficult conversations, and finding pragmatic solutions to tricky, ambiguous problems, and I'm excited to continue honing these skills.
-
-I advocate for simple solutions, biasing for action, and giving engineers the space to grow and become more autonomous.
+I'm an experienced front-end developer who's looking for new challenges after a four-year stint as an engineering manager. My time in engineering management has given me loads of experience with leading teams, having difficult conversations, and finding pragmatic solutions to tricky, ambiguous problems, and I'm excited to continue honing these skills. I advocate for simple solutions, biasing for action, and giving engineers the space to grow and become more autonomous.
 
 Outside of work I make [iOS apps](/), practising what I preach by shipping best-in-class, accessible products that delight users. My experience running my own business gives me valuable insights into business development, marketing, design, and customer support, experiences which make me more effective in my day job.
-
-I'm looking for partially-remote roles in London (1-2 days in the office) as either a front-end developer or iOS developer.
 
 ## Experience
 
 ### 🛩 &nbsp;[Duffel](https://duffel.com)
 
-<div class="cv-role">
-    Software Engineer
+<div class="flex-space-between">
+    <div>
+        <div class="cv-role">
+            Software Engineer
+        </div>
+        <div class="cv-previous-role">
+            Previously Engineering Manager (July 2021 – October 2022)
+        </div>
+    </div>
+    <div class="cv-date">
+        July 2021 – Present
+    </div>
 </div>
 
-<div class="cv-previous-role">
-    Previously Engineering Manager (July 2021 – October 2022)
-</div>
 
-<div class="cv-date">
-    July 2021 – Present
-</div>
 
 Initially I was the engineering manager for the UX Products team, building and maintaining all visual aspects of Duffel, like the [duffel.com](https://duffel.com) website, the [dashboard](https://app.duffel.com/join) for merchants, as well as a [component library](https://www.npmjs.com/package/@duffel/components) that allows merchants to build best-in-class experiences with minimal effort.
 
@@ -50,17 +50,20 @@ In October 2022 I decided to move out of management. Since then I've continued t
 
 ### ✈️ &nbsp;[Skyscanner](https://skyscanner.net)
 
-<div class="cv-role">
-    Engineering Manager
+<div class="flex-space-between">
+    <div>
+        <div class="cv-role">
+            Engineering Manager
+        </div>
+        <div class="cv-previous-role">
+            Previously Senior Software Engineer and Software Engineer 2
+        </div>
+    </div>
+    <div class="cv-date">
+        April 2017 – July 2021
+    </div>
 </div>
 
-<div class="cv-previous-role">
-    Previously Senior Software Engineer and Software Engineer 2
-</div>
-
-<div class="cv-date">
-    April 2017 – July 2021
-</div>
 
 Team lead for [Backpack](https://backpack.github.io), Skyscanner's design system. My time was roughly 50% hands-on coding and the other half on people management, planning OKRs and enabling the team.
 
@@ -98,24 +101,26 @@ Alongside developing my apps I also blog about app development at [codakuma.com]
 
 ### 📈&nbsp;&nbsp;[Ensighten](https://www.ensighten.com)
 
-<div class="cv-role">
-    Front-end Developer
-</div>
-
-<div class="cv-date">
-    August 2013 – March 2017
+<div class="flex-space-between">
+    <div class="cv-role">
+        Front-end Developer
+    </div>
+    <div class="cv-date">
+        August 2013 – March 2017
+    </div>
 </div>
 
 I worked on a range of projects across Ensighten’s product line. My most notable work was developing Ensighten’s design system, which honed their disparate, confusing UIs into a single coherent experience that felt like one family of products.
 
 ### 🖥️&nbsp;&nbsp;[ICUK](https://www.icuk.net)
 
-<div class="cv-role">
-    Software Engineer
-</div>
-
-<div class="cv-date">
-    July 2011 – August 2013
+<div class="flex-space-between">
+    <div class="cv-role">
+        Software Engineer
+    </div>
+    <div class="cv-date">
+        July 2011 – August 2013
+    </div>
 </div>
 
 This was my first job after university, where I was able to try my hand at many different technologies across ICUK’s entire stack, before deciding to specialise on front-end for my subsequent roles.
