@@ -16,25 +16,37 @@ description: "Shaun's C.V."
 
 ## About
 
-I'm a front-end developer turned engineering manager ready for new challenges. I advocate for simple, boring solutions that provide value to end users quickly and often, with best-in-class accessibility and usage of platform standards.
+I'm an experienced front-end developer who's looking for new challenges after a four-year stint as an engineering manager. My time in engineering management has given me loads of experience with leading teams, having difficult conversations, and finding pragmatic solutions to tricky, ambiguous problems, and I'm excited to continue honing these skills.
 
-I'm looking for partially-remote roles in London (~2 days in the office, the rest working from home) as either a front-end developer, engineering manager or SwiftUI developer.
+I advocate for simple solutions, biasing for action, and giving engineers the space to grow and become more autonomous.
+
+Outside of work I make [iOS apps](/), practising what I preach by shipping best-in-class, accessible products that delight users. My experience running my own business gives me valuable insights into business development, marketing, design, and customer support, experiences which make me more effective in my day job.
+
+I'm looking for partially-remote roles in London (1-2 days in the office) as either a front-end developer or iOS developer.
 
 ## Experience
 
 ### 🛩 &nbsp;[Duffel](https://duffel.com)
 
 <div class="cv-role">
-    Engineering Manager
+    Software Engineer
+</div>
+
+<div class="cv-previous-role">
+    Previously Engineering Manager (July 2021 – October 2022)
 </div>
 
 <div class="cv-date">
     July 2021 – Present
 </div>
 
-I'm the engineering manager for the UX Products team. We build and maintain most visual aspects of Duffel, like the [duffel.com](https://duffel.com) website, the [dashboard](https://app.duffel.com) for merchants, as well as a [component library](https://www.npmjs.com/package/@duffel/components) that allows merchants to build best-in-class experiences with minimal effort.
+Initially I was the engineering manager for the UX Products team, building and maintaining all visual aspects of Duffel, like the [duffel.com](https://duffel.com) website, the [dashboard](https://app.duffel.com/join) for merchants, as well as a [component library](https://www.npmjs.com/package/@duffel/components) that allows merchants to build best-in-class experiences with minimal effort.
 
-As part of the engineering leadership team I also drive lots of other initiatives, like our levelling framework and career progression. I'm also heavily involved in the recruitment process.
+Under my leadership the front-end team successfully doubled in size, delivering lots of new products and improvements to existing ones. I also identified several areas of growing technical debt and helped to instill a culture of constantly addressing and reducing it.
+
+As part of the engineering leadership team I also drove lots of other initiatives, like our levelling and career progression frameworks.
+
+In October 2022 I decided to move out of management. Since then I've continued to lead engineers in an informal capacity, and have led from the front by building [Duffel Links](https://duffel.com/links), a brand-new white label product, which was delivered in record time.
 
 ### ✈️ &nbsp;[Skyscanner](https://skyscanner.net)
 
@@ -74,6 +86,8 @@ In my spare time I'm a fan of running, cycling and swimming, which is why I buil
 It’s had over 20,000 downloads and holds a 4.8/5 rating on the App Store. It’s been featured by Apple on the App Store, as well as in [iMore](https://www.imore.com/fitness-companion-personal-best-now-lets-you-share-your-workouts-glorious-technicolor), [TechCrunch](https://techcrunch.com/2020/09/16/ios-14-widgets-you-can-try-today/) and [9to5Mac](https://9to5mac.com/2020/12/27/ios-14-widget-apps/), amongst other places.
 
 [Read more about Personal Best's development &raquo;]({% link _posts/2020-12-29-year-in-review.markdown %}){:class="screen-only"}
+
+In 2022 I released [Taylor's Version](http://taylorsversion.app), a passion project aimed at fans of Taylor Swift.
 
 
 <p class="print-only">
