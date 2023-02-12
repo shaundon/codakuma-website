@@ -38,8 +38,6 @@ Outside of work I make [iOS apps](/), practising what I preach by shipping best-
     </div>
 </div>
 
-
-
 Initially I was the engineering manager for the UX Products team, building and maintaining all visual aspects of Duffel, like the [duffel.com](https://duffel.com) website, the [dashboard](https://app.duffel.com/join) for merchants, as well as a [component library](https://www.npmjs.com/package/@duffel/components) that allows merchants to build best-in-class experiences with minimal effort.
 
 Under my leadership the front-end team successfully doubled in size, delivering lots of new products and improvements to existing ones. I also identified several areas of growing technical debt and helped to instill a culture of constantly addressing and reducing it.
@@ -65,14 +63,9 @@ In October 2022 I decided to move out of management. Since then I've continued t
 </div>
 
 
-Team lead for [Backpack](https://backpack.github.io), Skyscanner's design system. My time was roughly 50% hands-on coding and the other half on people management, planning OKRs and enabling the team.
+Team lead for [Backpack](https://backpack.github.io), Skyscanner's design system. My time was roughly 50% hands-on coding and the other half on people management and strategy.
 
-I was heavily involved in [Skyscanner's 2019 rebrand](https://koto.studio/project/skyscanner/), a challenging year-long project affecting dozens of teams across the company. [Read my post on Skyscanner's engineering blog for more details](https://medium.com/@SkyscannerEng/how-we-scaled-our-design-system-to-unleash-skyscanners-new-brand-845a1f501b0b){:class="screen-only"}.
-
-
-<p class="print-only">
-Read my post on Skyscanner's engineering blog for more: https://medium.com/@SkyscannerEng/how-we-scaled-our-design-system-to-unleash-skyscanners-new-brand-845a1f501b0b
-</p>
+I was heavily involved in [Skyscanner's 2019 rebrand](https://medium.com/@SkyscannerEng/how-we-scaled-our-design-system-to-unleash-skyscanners-new-brand-845a1f501b0b), a challenging year-long project affecting dozens of teams across the company. I also drove mobile support in the design system, quadrupling the number of platforms we supported while maintaining a lean, focused team.
 
 As a manager, I mentored many of my direct report's through Skyscanner's promotion process, even helping one of them grow from an intern into a senior engineer.
 
