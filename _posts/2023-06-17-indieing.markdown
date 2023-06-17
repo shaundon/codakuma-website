@@ -1,0 +1,29 @@
+---
+layout: page
+title: "Going full-time indie (for now)"
+permalink: /the-fear-is-real/
+description: "I'm going to work on my apps full time for a while"
+tags: ios
+---
+
+Since I graduated university in 2011 I've always had a full-time job, working at [a few](https://www.ensighten.com) [different](https://skyscanner.net) [companies](https://duffel.com), and the longest I've ever had between roles was a five week gap between ending one job and starting another in 2017. 
+
+In 2020 I launched [Personal Best](https://getpersonalbest.com), and I realised how much I enjoy making something for myself: being completely in charge of the roadmap, design, engineering, everything. At times it can be difficult, but it's also really rewarding. As Personal Best has grown I've dreamed of being able to work on it full time, but it just doesn't make enough money right now for me to be able to do that.
+
+Last summer I added a subscription option to Personal Best, and since then it's been growing really well. Here's a chart of active subscriptions from [RevenueCat](https://revenuecat.com).
+
+![Chart of active subscriptions for Personal Best, displaying modest growth](/assets/post-images/rc-active-subs.png){:class="post-image"}
+
+While the numbers are low in absolute terms, I think this is a promising indicator that Personal Best has the potential to take off and grow a lot more. The problem I've always had is finding the time to work on it in addition to having a full-time job.
+
+## Getting my wish
+
+In the last two weeks I've learned that my employer is making some cuts. They've offered voluntary redundancy as an option, so I've put myself forward to be laid off. While I'm slightly terrified at the prospect of being jobless, this feels like the perfect opportunity to invest some serious effort into growing Personal Best.
+
+I plan to work full time on it for the next few months. I have **so much** I want to work on, and I'm very excited to have the chance to do that. The redundancy package I'm getting is fairly modest, but [if I'm frugal](https://www.youtube.com/watch?v=fwdlCYVyWQY) I think I can stretch it out for a few months until I need to find a new full-time role.
+
+## Help wanted
+
+The part of indie life I'm worst at is marketing. I've pitched my apps to so many journalists and YouTubers but haven't got very far. It's something I need to improve, and a significant chunk of my time off will be dedicated to this.
+
+If you have an audience that'll appreciate best-in-class workout insights, consider sharing [Personal Best](https://getpersonalbest.com) with them. It's got a high App Store rating, thousands of active users, and supports the latest iOS features. Promo codes are available on request (drop me [an email](mailto:shaun@getpersonalbest.com), [tweet](https://twitter.com/shauneba) or [toot](https://mstdn.social/@shaundon)), and I'm available for interviews.
