@@ -16,11 +16,32 @@ description: "Shaun's C.V."
 
 ## About
 
-I'm an experienced front-end developer who's looking for new challenges after a four-year stint as an engineering manager. My time in engineering management has given me loads of experience with leading teams, having difficult conversations, and finding pragmatic solutions to tricky, ambiguous problems, and I'm excited to continue honing these skills. I advocate for simple solutions, biasing for action, and giving engineers the space to grow and become more autonomous.
+I'm an experienced front-end and iOS developer who's looking for new challenges after a four-year stint as an engineering manager. My time in engineering management has given me loads of experience with leading teams, having difficult conversations, and finding pragmatic solutions to tricky, ambiguous problems, and I'm excited to continue honing these skills. I advocate for simple solutions, biasing for action, and giving engineers the space to grow and become more autonomous.
 
 Outside of work I make [iOS apps](/), practising what I preach by shipping best-in-class, accessible products that delight users. My experience running my own business gives me valuable insights into business development, marketing, design, and customer support, experiences which make me more effective in my day job.
 
 ## Experience
+
+### 📱&nbsp;Indie iOS Developer
+
+<div class="cv-date">
+    April 2020 - Present
+</div>
+
+In my spare time I'm a fan of running, cycling and swimming, which is why I built [Personal Best](https://getpersonalbest.com), a workout tracking app for iPhone built with SwiftUI.
+
+It’s had over 50,000 downloads and holds a 4.8/5 rating on the App Store. It’s been featured by Apple on the App Store, as well as in [iMore](https://www.imore.com/fitness-companion-personal-best-now-lets-you-share-your-workouts-glorious-technicolor), [TechCrunch](https://techcrunch.com/2020/09/16/ios-14-widgets-you-can-try-today/) and [9to5Mac](https://9to5mac.com/2020/12/27/ios-14-widget-apps/), amongst other places.
+
+[Read more about Personal Best's development &raquo;]({% link _posts/2020-12-29-year-in-review.markdown %}){:class="screen-only"}
+
+In 2022 I released [Taylor's Version](http://taylorsversion.app), a passion project aimed at fans of Taylor Swift.
+
+
+<p class="print-only">
+Read more about Personal Best's development: https://codakuma.com{% link _posts/2020-12-29-year-in-review.markdown %}
+</p>
+
+Alongside developing my apps I also blog about app development at [codakuma.com](https://codakuma.com).
 
 ### 🛩 &nbsp;[Duffel](https://duffel.com)
 
@@ -34,7 +55,7 @@ Outside of work I make [iOS apps](/), practising what I preach by shipping best-
         </div>
     </div>
     <div class="cv-date">
-        July 2021 – Present
+        July 2021 – August 2023
     </div>
 </div>
 
@@ -44,7 +65,7 @@ Under my leadership the front-end team successfully doubled in size, delivering 
 
 As part of the engineering leadership team I also drove lots of other initiatives, like our levelling and career progression frameworks.
 
-In October 2022 I decided to move out of management. Since then I've continued to lead engineers in an informal capacity, and have led from the front by building [Duffel Links](https://duffel.com/links), a brand-new white label product, which was delivered in record time.
+In October 2022 I decided to move out of management, and switched to leading engineers in an informal capacity, leading from the front by building [Duffel Links](https://duffel.com/links), a brand-new white label product, which was delivered in record time.
 
 ### ✈️ &nbsp;[Skyscanner](https://skyscanner.net)
 
@@ -70,27 +91,6 @@ I was heavily involved in [Skyscanner's 2019 rebrand](https://medium.com/@Skysca
 As a manager, I mentored many of my direct report's through Skyscanner's promotion process, even helping one of them grow from an intern into a senior engineer.
 
 I drove several initiatives outside of my usual scope, like rewriting and maintaining Skyscanner's front-end recruitment test, simplifying the engineering promotion process, as well as championing and running most aspects of Skyscanner's [talent directory](https://www.linkedin.com/posts/skyscanner_skyscanner-talent-directory-activity-6698944542705496064-5gRn).
-
-### 📱&nbsp;Indie iOS Developer
-
-<div class="cv-date">
-    April 2020 - Present
-</div>
-
-In my spare time I'm a fan of running, cycling and swimming, which is why I built [Personal Best](https://getpersonalbest.com), a workout tracking app for iPhone built with SwiftUI.
-
-It’s had over 20,000 downloads and holds a 4.8/5 rating on the App Store. It’s been featured by Apple on the App Store, as well as in [iMore](https://www.imore.com/fitness-companion-personal-best-now-lets-you-share-your-workouts-glorious-technicolor), [TechCrunch](https://techcrunch.com/2020/09/16/ios-14-widgets-you-can-try-today/) and [9to5Mac](https://9to5mac.com/2020/12/27/ios-14-widget-apps/), amongst other places.
-
-[Read more about Personal Best's development &raquo;]({% link _posts/2020-12-29-year-in-review.markdown %}){:class="screen-only"}
-
-In 2022 I released [Taylor's Version](http://taylorsversion.app), a passion project aimed at fans of Taylor Swift.
-
-
-<p class="print-only">
-Read more about Personal Best's development: https://codakuma.com{% link _posts/2020-12-29-year-in-review.markdown %}
-</p>
-
-Alongside developing my apps I also blog about app development at [codakuma.com](https://codakuma.com).
 
 ### 📈&nbsp;&nbsp;[Ensighten](https://www.ensighten.com)
 
