@@ -52,9 +52,9 @@ struct MapView: UIViewRepresentable {
 }
 
 class Coordinator: NSObject, MKMapViewDelegate {
-  var parent: MapWithPolyline
+  var parent: MapView
 
-  init(_ parent: MapWithPolyline) {
+  init(_ parent: MapView) {
     self.parent = parent
   }
 }
