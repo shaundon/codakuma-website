@@ -20,6 +20,8 @@ I'm an experienced front-end and iOS developer who's looking for new challenges 
 
 Outside of work I make [iOS apps](/), practising what I preach by shipping best-in-class, accessible products that delight users. My experience running my own business gives me valuable insights into business development, marketing, design, and customer support, experiences which make me more effective in my day job.
 
+I'm skilled in UX, accessibility, people management, React, SwiftUI, HTML and CSS, TypeScript and JavaScript, and good engineering practices.
+
 ## Experience
 
 ### 📱&nbsp;Indie iOS Developer
@@ -30,7 +32,7 @@ Outside of work I make [iOS apps](/), practising what I preach by shipping best-
 
 In my spare time I'm a fan of running, cycling and swimming, which is why I built [Personal Best](https://getpersonalbest.com), a workout tracking app for iPhone built with SwiftUI.
 
-It’s had over 65,000 downloads and holds a 4.8/5 rating on the App Store. It’s been featured by Apple on the App Store, as well as in [iMore](https://www.imore.com/fitness-companion-personal-best-now-lets-you-share-your-workouts-glorious-technicolor), [TechCrunch](https://techcrunch.com/2020/09/16/ios-14-widgets-you-can-try-today/) and [9to5Mac](https://9to5mac.com/2020/12/27/ios-14-widget-apps/), amongst other places.
+It’s had over 80,000 downloads and holds a 4.8/5 rating on the App Store. It’s been featured by Apple on the App Store, as well as in [iMore](https://www.imore.com/fitness-companion-personal-best-now-lets-you-share-your-workouts-glorious-technicolor), [TechCrunch](https://techcrunch.com/2020/09/16/ios-14-widgets-you-can-try-today/) and [9to5Mac](https://9to5mac.com/2020/12/27/ios-14-widget-apps/), amongst other places.
 
 [Read more about Personal Best's development &raquo;]({% link _posts/2020-12-29-year-in-review.markdown %}){:class="screen-only"}
 
