@@ -12,7 +12,7 @@ Before I jump in, I appreciate that being able to take a few months off work to 
 
 ## The number of interviews is out of control
 
-Interviews are a good thing. They're a way for the company to find out if you're suitable for a role, and they're equally valuable for you to scope out the company and figure out if it's a good fit for you. However, I think that our industry has gone a bit too far and needs to pull back a little.
+Interviews are a good thing. They're a way for the company to find out if you're suitable for a role, and they're equally valuable for you to scope out the company and figure out if it's a good fit for you. However, I think that our industry has gone a bit too far with them and needs to pull back a little.
 
 It feels like in recent years the number of interviews companies insist on has slowly crept up, so now you're likely to have about five with a company before getting to offer stage. My record this time around for number of interviews with one company was nine. Sure, they weren't all explicitly labelled as interviews, many of them were 'chats' or 'catch ups', but I would argue that they're still a form of being interviewed.
 
