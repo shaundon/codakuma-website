@@ -138,7 +138,6 @@ h3 {
   }
 }
 
-
 h2,
 h3,
 h4,
@@ -203,19 +202,19 @@ header {
     text-decoration: none;
     color: var(--background-color);
     transition: color 0.2s ease-in-out;
-    text-shadow: var(--text-color) 3px 3px 0px, 
-    var(--text-color) 0.5403022766113281px 0.8414709568023682px 0px, 
-    var(--text-color) -0.416146844625473px 0.9092974066734314px 0px, 
-    var(--text-color) -0.9899924993515015px 0.14112000167369843px 0px, 
-    var(--text-color) -0.6536436080932617px -0.756802499294281px 0px, 
-    var(--text-color) 0.28366219997406006px -0.9589242935180664px 0px, 
-    var(--text-color) 0.9601702690124512px -0.279415488243103px 0px;
+    text-shadow: var(--text-color) 3px 3px 0px,
+      var(--text-color) 0.5403022766113281px 0.8414709568023682px 0px,
+      var(--text-color) -0.416146844625473px 0.9092974066734314px 0px,
+      var(--text-color) -0.9899924993515015px 0.14112000167369843px 0px,
+      var(--text-color) -0.6536436080932617px -0.756802499294281px 0px,
+      var(--text-color) 0.28366219997406006px -0.9589242935180664px 0px,
+      var(--text-color) 0.9601702690124512px -0.279415488243103px 0px;
 
     @media screen and (min-width: 800px) {
       font-size: 800%;
     }
 
-    &:hover { 
+    &:hover {
       color: var(--accent-color);
       text-decoration: none;
     }
@@ -370,6 +369,12 @@ table {
   margin: 10px auto;
   max-width: 750px;
   width: 100%;
+}
+
+blockquote {
+  border-left: 3px solid;
+  padding-left: $spacing-lg;
+  font-style: italic;
 }
 
 .flex-wrapper {
