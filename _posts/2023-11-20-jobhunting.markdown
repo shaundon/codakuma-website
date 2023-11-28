@@ -6,7 +6,7 @@ description: "My advice for candidates and employers"
 tags:
 ---
 
-Earlier this year I took voluntary reundancy at the startup I was working at. It felt like a great opportunity to spend the summer growing my workout insights app [Personal Best](https://apps.apple.com/gb/app/personal-best-workouts/id1510256676) (which has gone [really well](/hockeysticking/)), then find another role later in the year. I've recently accepted a new job, so based on my experiences here's my advice to candidates and employers.
+Earlier this year I took voluntary redundancy at the startup I was working at. It felt like a great opportunity to spend the summer growing my workout insights app [Personal Best](https://apps.apple.com/gb/app/personal-best-workouts/id1510256676) (which has gone [really well](/hockeysticking/)), then find another role later in the year. I've recently accepted a new job, so based on my experiences here's my advice to candidates and employers.
 
 Before I jump in, I appreciate that being able to take a few months off work to focus on a side project then leisurely find a new role is a very privileged position to be in. We shouldn't take this for granted in our profession.
 
