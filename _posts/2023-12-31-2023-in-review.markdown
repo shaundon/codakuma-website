@@ -1,0 +1,123 @@
+---
+layout: page
+title: "2023 in review"
+permalink: /2023-in-review/
+description: "How 2023 went (spoiler: well)"
+tags: ios
+---
+
+Since I became an indie developer in 2020 I've written an end of year review each year about how my apps performed. Here's 2023's edition.
+
+_If you'd like to catch up on previous years first, check out [2022]({% link _posts/2022-12-18-2022-in-review.markdown %}), [2021]({% link _posts/2021-12-19-2021-in-review.markdown %}), and [2020]({% link _posts/2020-12-29-year-in-review.markdown %})._
+
+## Overall
+
+At the end of 2022 I set myself three goals:
+
+### Double my recurring revenue
+
+**Status:** Achieved ✅
+
+I didn't just double my recurring revenue, I increased it **61x** 🤩. The two catalysts for this were having a career break (I took five months off from paid work to work on Personal Best full time), and getting featured on the App Store.
+
+Back in September [I wrote about this in more detail](/hockeysticking) and set myself a revised goal to hit $1,000 monthly recurring revenue (MRR) by the end of the year. As I write this I'm at $1,279 MRR, so I was able to achieve this goal too.
+
+### Add a particular new feature to Personal Best
+
+**Status:** Missed ❌
+
+Unfortunately I didn't achieve this, but it was a deliberate decision where I decided to focus on improving other parts of the app instead, and come back to this later.
+
+### Make a new app
+
+**Status:** Missed ❌
+
+I missed this one too. I got really close to having the new app – another type of health tracker – finished, but I decided to spend my time focusing more on growing Personal Best for a while instead. I intend to pick the app back up in the future and release it though, so watch this space.
+
+## Delivery
+
+### Personal Best
+
+I made full use of my time away from work this year, and shipped a bunch of new features in Personal Best:
+
+- **Sharing:** I completely rewrote the sharing screen to be easier to use and produce nicer images. It was really well received and has had great uptake from users.
+- **Apple Watch app:** I also rewrote the Apple Watch app from scratch to fit in with watchOS 10's new design language, alongside new features like a Smart Stack widget and complications.
+- **Workout screen:** The workout screen was redesigned to include nicer leaderboards, imagery, and facts about your workout.
+- **Workouts tab:** I changed the workouts tab to show daily, monthly and yearly summaries, plus photos and maps from your workouts featured front and centre.
+- **iPad support:** iPadOS 17 brought HealthKit to iPad, so I finally ticked the checkbox to make Personal Best available on iPad.
+- **New widgets:** I added a new widget that shows off workout imagery and maps, and updated the existing ones to support iOS 17's StandBy mode.
+- **Insights screen:** The insights screen – one of the oldest screens in the app – was rewritten from scratch to be faster, better looking, more intuitive, and include comparisons to previous periods.
+- **Year in review:** Like every other app in your life, Personal Best now has a 'Year in Review' screen so you can see nice graphics about how you did throughout the year, and share it to social media.
+
+![Some of Personal Best's new features](/assets/post-images/ios17.png){:class="post-image post-image--no-shadow"}
+
+### The Design Details newsletter
+
+In February I launched [a biweekly newsletter](https://niceux.design) to showcase nice design details I found out in the world. I published 19 issues and then decided to put it on hold, because frankly it took a lot of time to maintain and I only got 65 subscribers.
+
+### My first iOS conference
+
+In October I attended [SwiftLeeds](https://swiftleeds.co.uk), my first iOS conference. I learned so much and it was brilliant getting to meet other iOS developers.
+
+### First podcast appearance
+
+Jeroen invited me onto his [AppForce1 podcast](https://appforce1.net/podcast/shownotes/?episode=Shaun+Donnelly%2C+developer+turned+manager+turned+developer+with+Indie+apps+on+the+side.), which was a really fun experience. I'd love to appear on more podcasts in the future and meet more iOS developers.
+
+### The treble
+
+[Man City won the treble](https://www.mancity.com/news/mens/man-city-champions-league-winners-treble-premier-league-fa-cup-63822026), which wasn't technically a personal achievement but it felt really great. 🩵
+
+## Numbers
+
+### Downloads
+
+As you'd expect with the increase in revenue, Personal Best was downloaded much more in 2023 than in previous years. This year, Personal Best got **87,000** downloads, compared to around **2,000** last year (43x more).
+
+[Taylor's Version](https://taylorsversion.app), a utility app for swapping Taylor Swift songs in your Spotify playlists with the re-recorded versions, also got a bump this year, going from **2,500** downloads in 2022 to **13,000** in 2023.
+
+![Visualisation of download numbers](/assets/post-images/2023-downloads.png){:class="post-image post-image--no-shadow"}
+
+### Sales
+
+Taylor's Version has a one-time $3 in-app purchase to unlock some functionality. In 2022 this made **$173**. This year, it jumped to **$1,300**, a lovely increase year over year and strongly aided by _Speak Now_ and _1989_ re-recordings being released this year.
+
+Personal Best jumped from **$1,500** in 2022 to **$18,200** in 2023, which continues to blow my mind. The graph below really illustrates just how much things exploded this year.
+
+![Visualisation of sales](/assets/post-images/2023-sales.png){:class="post-image post-image--no-shadow"}
+
+### Users
+
+I use [TelemetryDeck](https://dashboard.telemetrydeck.com/registration/organization?referralCode=50QE8PTHDMB1JL8B) to get privacy-first analytics in my apps.
+
+As you'd expect from the downloads and sales, Personal Best's had a healthly increase in monthly active users, jumping from **2,000** in 2022 to **28,000** in 2023.
+
+_(I don't track active users for Taylor's Version as it's not the sort of app people come back to daily.)_
+
+![Visualisation of Personal Best's monthly active users](/assets/post-images/2023-active-users.png){:class="post-image post-image--no-shadow"}
+
+### What's next for 2024?
+
+I'm reluctant to set another revenue goal for Personal Best. Doubling my revenue from where it is now will be a huge ask, and it feels silly to set a low goal that I'll easily achieve, so I'm going to avoid a revenue-based goal entirely.
+
+In light of that, here's my goals for 2024.
+
+#### Ship two new apps
+
+I currently have two apps that are nearly ready to be released. One is another health tracker and the other is for tracking your salary. If they continue to just sit on my computer they can't be used by anyone, so I'm determined to get them out into the world so other people can benefit from them.
+
+#### Add goal tracking to Personal Best
+
+This has been on my to do list for years and I never get to it. I really need to do it eventually, and I'm hoping it'll be the start of morphing Personal Best into the full fitness tracker that I want it to become.
+
+#### Use an Apple Vision Pro
+
+I probably can't stretch to buying one, but I'm desperate to have a go with one and see what it's actually like!
+
+## One more thing
+
+I decided to commemorate the five months I spent working on my apps full time by getting my app icons permanently on my arm. If all goes well, they'll be joined by some more icons soon...
+
+![Photo of my app icons tattoos](/assets/post-images/ink.jpeg){:class="post-image post-image-small post-image--no-shadow"}
+
+- [Download Personal Best](https://getpersonalbest.com)
+- [Download Taylor's Version](https://taylorsversion.app)

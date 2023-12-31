@@ -2,7 +2,7 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
-$spacing-base: 15px;
+$spacing-base: 8px;
 $spacing-xs: $spacing-base / 4;
 $spacing-sm: $spacing-base / 2;
 $spacing-lg: $spacing-base * 2;
@@ -305,6 +305,10 @@ p {
   &__image {
     width: 150px;
   }
+}
+
+p:has(.post-image) {
+  text-align: center;
 }
 
 .post-image {

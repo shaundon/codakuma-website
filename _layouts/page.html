@@ -3,26 +3,20 @@ layout: default
 ---
 
 <article class="post">
+  <h1>{{ page.title }}</h1>
 
-    <h1>{{ page.title }}</h1>
+  <p>
+    <em>{{ page.date | date_to_string }}</em>
+  </p>
 
-    <p>
-      <em>{{ page.date | date_to_string }}</em>
-    </p>
+  <section>{{ content }}</section>
 
-  <section>
-    {{ content }}
-  </section>
+  <!-- <hr class="divider" /> -->
 
-  <hr class="divider" />
-
-  <section>
+  <!-- <section>
     <h2>The Design Details newsletter</h2>
     <p>Get my free newsletter that showcases thoughtful touches from the digital and physical worlds.
       Learn more at <a href="https://niceux.design" target="_blank">niceux.design</a>, or subscribe below.</p>
     {% include nice-ux-design-cta.html %}
-  </section>
-
+  </section> -->
 </article>
-
-
