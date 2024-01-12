@@ -1,0 +1,52 @@
+---
+layout: page
+title: "The third-party libraries I use in every project"
+permalink: /dependencies/
+description: "I avoid third-party code as much as possible, but I make an exception for these"
+tags: ios
+---
+
+In my day job I'm currently a front-end web developer working with JavaScript, React, Webpack, and so on.
+
+In this world it's normal to have lots of third-party dependencies. In many cases this makes sense. The default front-end environment is quite bare bones, so you'll need to add any frameworks and tooling you need. A typical front-end setup might use [React](https://react.dev/) as a UI framework, [TypeScript](https://www.typescriptlang.org/) for type safety, [Jest](https://jestjs.io/) for unit testing, [Storybook](https://storybook.js.org/) for a development environment, and various other libraries. Libraries like this tend to be split across multiple packages so that you only download the parts you need, so your project can quickly gain dozens or even hundreds of dependencies.
+
+The web development community moves quickly, with all of these packages getting frequent updates (often weekly). Staying up to date with the latest version of all your dependencies can a big (but necessary) time sink, and it's common for repositories to fall behind on these updates. This can cause security issues, as well as compatibility ones when libraries you're using become incompatible with each other.
+
+Another issue with this approach is that it becomes all too easy to add more dependencies that you might not really need. When you already have 80 dependencies, why not add a few more? This is so prevalent that it's even been parodied with the [is-thirteen package](https://github.com/jezen/is-thirteen), which you can install to check if a number is equal to thirteen.
+
+When I started making apps for iOS I resolved to only use third-party dependencies that I really need, and keep it as close to zero as possible. iOS comes with a lot of tooling already, so a lot of the things I'd need in the JavaScript world can be avoided. If I'm putting my name on something I want to know what every line of code does and not have any 'mystery meat' packages where I don't know what they're doing behind the scenes. I may have overcorrected and been **too** militant on not adding dependencies, but I feel I'm at a comfortable place with my dependencies right now.
+
+These are the ones I include in my iOS apps, and why.
+
+## TelemetryDeck
+
+- Website: [telemetrydeck.com](https://dashboard.telemetrydeck.com/registration/organization?referralCode=50QE8PTHDMB1JL8B)
+- Repository: [github.com/TelemetryDeck/SwiftClient](https://github.com/TelemetryDeck/SwiftClient)
+
+I'm a huge fan of TelemetryDeck, a privacy-first tool for analysing user behaviour. The SDK is very lightweight and is pretty much just a wrapper around sending HTTP calls to TelemetryDeck's servers. It's a breath of fresh air compared to other solutions for analytics like Firebase which are enormous and could be doing all sorts of things in the background.
+
+## RevenueCat
+
+- Website: [revenuecat.com](https://www.revenuecat.com)
+- Repository: [github.com/RevenueCat/purchases-ios](https://github.com/RevenueCat/purchases-ios)
+
+I use RevenueCat to handle the in-app purchasing in my apps. I've toyed with using [StoreKit 2](https://developer.apple.com/storekit/) to handle subscriptions with Apple directly, but RevenueCat feels like it's worth the small cost. The SDK is lightweight, abstracts away lots of edge cases I'd otherwise need to worry about, and receives frequent updates. Plus, they sent me a t-shirt when I made my first purchase through them, which was nice.
+
+## WhatsNewKit
+
+- Repository: [github.com/SvenTiigi/WhatsNewKit](https://github.com/SvenTiigi/WhatsNewKit)
+
+You know those sheets that pop up in a lot of iOS apps when they've been updated, like _What's new in Photos_? WhatsNewKit is a library for displaying those. I use it in Personal Best to inform users what's been changed when they open the app after an update. Ordinarily this is something I'd build myself, but I really like how it abstracts away the logic for only showing the sheet to users who haven't dismissed it already.
+
+## Drops
+
+- Repository: [github.com/omaralbeik/Drops](https://github.com/omaralbeik/Drops)
+
+Drops is a library for displaying little status messages (something called toasts) to users when something happens in your app. In Personal Best, it's used to notify users when they get a new achievement. Initially I built this myself but I found it was a little unreliable – for example I couldn't get it to work correctly when a sheet was being displayed, because the sheet would be at a higher Z index than the notification. In the end, I switched over to Drops, and I've not had a single issue with it. I would like to see something like this become part of SwiftUI though to negate the need for such a library.
+
+## What else?
+
+Are there any other must-haves that you think every project should have? Let me know [on Mastodon](https://mstdn.social/@shaundon) or [email](mailto:shaun@codakuma.com).
+
+- [Download Personal Best](https://getpersonalbest.com)
+- [Download Taylor's Version](https://taylorsversion.app)
