@@ -10,17 +10,16 @@ description: "Shaun's C.V."
 <section class="cv-links">
   <a class="cv-button" href="mailto:shaun@codakuma.com">✉️&nbsp;shaun@codakuma.com</a>
   <a class="cv-button" href="https://codakuma.com">🌍&nbsp;codakuma.com</a>
-  <a class="cv-button screen-only" href="https://twitter.com/shauneba">🐦&nbsp;@shauneba</a>
-<a class="cv-button print-only" href="https://twitter.com/shauneba">🐦&nbsp;twitter.com/shauneba</a>
+  <a class="cv-button screen-only" href="https://mstdn.social/@shaundon">🐘&nbsp;@shaundon@mstdn.social</a>
 </section>
 
 ## About
 
-I'm an experienced front-end and iOS developer who's looking for new challenges after a four-year stint as an engineering manager. My time in engineering management has given me loads of experience with leading teams, having difficult conversations, and finding pragmatic solutions to tricky, ambiguous problems, and I'm excited to continue honing these skills. I advocate for simple solutions, biasing for action, and giving engineers the space to grow and become more autonomous.
+I'm an experienced front-end and iOS developer who's looking for new challenges after a four-year stint as an engineering manager. My time in management gave me loads of experience with leading teams, having difficult conversations, and finding pragmatic solutions to tricky, ambiguous problems, and I'm excited to continue honing these skills as an indivudual contributor.
 
-Outside of work I make [iOS apps](/), practising what I preach by shipping best-in-class, accessible products that delight users. My experience running my own business gives me valuable insights into business development, marketing, design, and customer support, experiences which make me more effective in my day job.
+Outside of work I make [iOS apps](/), practising what I preach with best-in-class, accessible products that delight users. It's helped me develop a range of additional skills that make me more effective in my day job, like marketing, design, customer support, and business development.
 
-I'm skilled in UX, accessibility, people management, React, SwiftUI, HTML and CSS, TypeScript and JavaScript, and good engineering practices.
+I'm comfortable weating many hats and contributing to the business wherever I can have a positive impact, no matter where that is in the stack. At your company I'll advocate for simple solutions, biasing for action, and empowering engineers to grow and become more autonomous.
 
 ## Experience
 
@@ -30,11 +29,9 @@ I'm skilled in UX, accessibility, people management, React, SwiftUI, HTML and CS
     April 2020 - Present
 </div>
 
-In my spare time I'm a fan of running, cycling and swimming, which is why I built [Personal Best](https://getpersonalbest.com), a workout tracking app for iPhone built with SwiftUI.
+In my spare time outside of work I'm an indie iOS developer. I've organically grown my workout tracking app [Personal Best](https://getpersonalbest.com) to 30,000 monthly active users and over 100,000 total downloads.
 
-It’s had over 100,000 downloads and holds a 4.8/5 rating on the App Store. It’s been featured by Apple on the App Store, as well as in [iMore](https://www.imore.com/fitness-companion-personal-best-now-lets-you-share-your-workouts-glorious-technicolor), [TechCrunch](https://techcrunch.com/2020/09/16/ios-14-widgets-you-can-try-today/) and [9to5Mac](https://9to5mac.com/2020/12/27/ios-14-widget-apps/), amongst other places.
-
-[Read more about Personal Best's development &raquo;]({% link _posts/2020-12-29-year-in-review.markdown %}){:class="screen-only"}
+It’s been featured by Apple on the App Store, as well as in [iMore](https://www.imore.com/fitness-companion-personal-best-now-lets-you-share-your-workouts-glorious-technicolor), [TechCrunch](https://techcrunch.com/2020/09/16/ios-14-widgets-you-can-try-today/) and [9to5Mac](https://9to5mac.com/2020/12/27/ios-14-widget-apps/), amongst other places.
 
 In 2022 I released [Taylor's Version](http://taylorsversion.app), a passion project aimed at fans of Taylor Swift.
 
@@ -43,6 +40,19 @@ Read more about Personal Best's development: https://codakuma.com{% link _posts/
 </p>
 
 Alongside developing my apps I also blog about app development at [codakuma.com](https://codakuma.com).
+
+### 💳 &nbsp;[NewDay](https://newday.co.uk)
+
+<div class="flex-space-between">
+    <div class="cv-role">
+        Lead Engineer
+    </div>
+    <div class="cv-date">
+        December 2023 – Present
+    </div>
+</div>
+
+I'm currently getting up to speed leading a small team who are building NewDay's loan offerings, a new product to be offered to existing customers.
 
 ### 🛩 &nbsp;[Duffel](https://duffel.com)
 
