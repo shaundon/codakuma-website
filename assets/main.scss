@@ -44,8 +44,8 @@ $border-radius: $spacing-sm;
 html {
   --accent-color: #ff8d1e;
   --link-color: #b9164c;
-  --background-color: #e8e1f8;
-  --text-color: rgb(27, 91, 156);
+  --background-color: #f5efe0;
+  --text-color: #121212;
   --table-border-color: #666;
   --button-background: linear-gradient(45deg, #35a7df 12%, #e15d63 100%);
 
@@ -252,13 +252,12 @@ p {
 
 .app {
   align-items: center;
-  border: 3px solid var(--text-color);
-  border-radius: 30px;
-  box-shadow: 0 4px var(--accent-color);
+  border: 2px solid var(--text-color);
+  border-radius: 16px;
   color: var(--text-color);
   display: inline-flex;
   flex-direction: row;
-  padding: $spacing-base;
+  padding: $spacing-lg;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
 
@@ -266,7 +265,6 @@ p {
     background: var(--text-color);
     color: var(--background-color);
     text-decoration: none;
-    box-shadow: 0 8px var(--accent-color);
   }
 
   .app-icon {
