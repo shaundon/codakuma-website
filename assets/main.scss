@@ -92,18 +92,14 @@ body {
     sans-serif;
 
   &.blank {
-    --background-color: #edfaf9;
-    --text-color: #222;
-    --link-color: #08c;
-
-    @media (prefers-color-scheme: dark) {
-      --background-color: #000;
-      --text-color: rgba(255, 255, 255, 0.75);
-      --link-color: #0ac;
-    }
+    padding: $spacing-lg;
 
     p {
       margin-bottom: $spacing-base;
+    }
+
+    a {
+      text-decoration: none;
     }
   }
 }
@@ -548,7 +544,7 @@ code {
 
 .cv {
   &-title {
-    @include text-gradient(#d925f1, rgb(47, 173, 247));
+    @include text-gradient(var(--link-color), var(--accent-color));
     display: block;
     height: $spacing-lg * 4;
     font-size: 250%;

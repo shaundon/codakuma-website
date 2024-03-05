@@ -17,7 +17,7 @@ description: "Shaun's C.V."
 
 I'm an experienced front-end and iOS developer who's looking for new challenges after a four-year stint as an engineering manager. My time in management gave me loads of experience with leading teams, having difficult conversations, and finding pragmatic solutions to tricky, ambiguous problems, and I'm excited to continue honing these skills as an indivudual contributor.
 
-Outside of work I make [iOS apps](/), practising what I preach with best-in-class, accessible products that delight users. It's helped me develop a range of additional skills that make me more effective in my day job, like marketing, design, customer support, and business development.
+Outside of work I make [iOS apps](/apps), practising what I preach with best-in-class, accessible products that delight users. It's helped me develop a range of additional skills that make me more effective in my day job, like marketing, design, customer support, and business development.
 
 I'm comfortable weating many hats and contributing to the business wherever I can have a positive impact, no matter where that is in the stack. At your company I'll advocate for simple solutions, biasing for action, and empowering engineers to grow and become more autonomous.
 
@@ -29,30 +29,17 @@ I'm comfortable weating many hats and contributing to the business wherever I ca
     April 2020 - Present
 </div>
 
-In my spare time outside of work I'm an indie iOS developer. I've organically grown my workout tracking app [Personal Best](https://getpersonalbest.com) to 30,000 monthly active users and over 100,000 total downloads.
+In my spare time outside of work I'm an indie iOS developer. I've organically grown my workout tracking app [Personal Best](https://getpersonalbest.com) to 34,000 monthly active users and over 150,000 total downloads.
 
-It’s been featured by Apple on the App Store, as well as in [iMore](https://www.imore.com/fitness-companion-personal-best-now-lets-you-share-your-workouts-glorious-technicolor), [TechCrunch](https://techcrunch.com/2020/09/16/ios-14-widgets-you-can-try-today/) and [9to5Mac](https://9to5mac.com/2020/12/27/ios-14-widget-apps/), amongst other places.
+It’s been featured by Apple on the App Store, as well as in various press outlets.
 
-In 2022 I released [Taylor's Version](http://taylorsversion.app), a passion project aimed at fans of Taylor Swift.
+In 2022 I released [Taylor's Version](http://taylorsversion.app), a passion project aimed at fans of Taylor Swift, and in 2024 I added [SalaryPig](https://apps.apple.com/us/app/salarypig/id6475237479), a salary tracker.
 
 <p class="print-only">
 Read more about Personal Best's development: https://codakuma.com{% link _posts/2020-12-29-year-in-review.markdown %}
 </p>
 
 Alongside developing my apps I also blog about app development at [codakuma.com](https://codakuma.com).
-
-### 💳 &nbsp;[NewDay](https://newday.co.uk)
-
-<div class="flex-space-between">
-    <div class="cv-role">
-        Lead Engineer
-    </div>
-    <div class="cv-date">
-        December 2023 – Present
-    </div>
-</div>
-
-I'm currently getting up to speed leading a small team who are building NewDay's loan offerings, a new product to be offered to existing customers.
 
 ### 🛩 &nbsp;[Duffel](https://duffel.com)
 
