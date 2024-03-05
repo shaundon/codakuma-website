@@ -1,12 +1,12 @@
 ---
-layout: page
+layout: blog
 title: "Going full-time indie (for now)"
 permalink: /the-fear-is-real/
 description: "I'm going to work on my apps full time for a while"
 tags: ios
 ---
 
-Since I graduated university in 2011 I've always had a full-time job, working at [a few](https://www.ensighten.com) [different](https://skyscanner.net) [companies](https://duffel.com), and the longest I've ever had between roles was a five week gap between ending one job and starting another in 2017. 
+Since I graduated university in 2011 I've always had a full-time job, working at [a few](https://www.ensighten.com) [different](https://skyscanner.net) [companies](https://duffel.com), and the longest I've ever had between roles was a five week gap between ending one job and starting another in 2017.
 
 In 2020 I launched [Personal Best](https://getpersonalbest.com), and I realised how much I enjoy making something for myself: being completely in charge of the roadmap, design, engineering, everything. At times it can be difficult, but it's also really rewarding. As Personal Best has grown I've dreamed of being able to work on it full time, but it just doesn't make enough money right now for me to be able to do that.
 

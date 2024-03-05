@@ -1,12 +1,12 @@
 ---
-layout: page
+layout: blog
 title: "Accessing the photo library in SwiftUI"
 permalink: /the-library-is-open/
 description: "How to access the photo library in SwiftUI using PHPicker"
 tags: ios swift howto
 ---
 
-SwiftUI doesn't yet have an easy way to access the camera or photo library. [hackingwithswift.com already has a great tutorial](https://www.hackingwithswift.com/example-code/uikit/how-to-take-a-photo-using-the-camera-and-uiimagepickercontroller) on how to access the camera from SwiftUI. 
+SwiftUI doesn't yet have an easy way to access the camera or photo library. [hackingwithswift.com already has a great tutorial](https://www.hackingwithswift.com/example-code/uikit/how-to-take-a-photo-using-the-camera-and-uiimagepickercontroller) on how to access the camera from SwiftUI.
 
 This article will cover how to access the user's photo library using [`PHPicker`](https://developer.apple.com/videos/play/wwdc2020/10652/), a new privacy-first API introduced in iOS 14 which may eventually replace `UIImagePickerController`. We'll build a simple SwiftUI app that accesses the user's photo library and displays the selected photo on screen.
 
@@ -155,7 +155,7 @@ static func convertToUIImageArray(fromResults results: [PHPickerResult], onCompl
         dispatchGroup.enter()
         let itemProvider = result.itemProvider
         if itemProvider.canLoadObject(ofClass: UIImage.self) {
-            itemProvider.loadObject(ofClass: UIImage.self) { (imageOrNil, errorOrNil) in 
+            itemProvider.loadObject(ofClass: UIImage.self) { (imageOrNil, errorOrNil) in
                 if let error = errorOrNil {
                     onComplete(nil, error)
                 }
@@ -178,7 +178,7 @@ Then in our SwiftUI view, add the `onComplete` handler to where we call `PhotoPi
 ...
 .fullScreenCover(isPresented: $showPhotoPicker) {
     PhotoPicker(filter: .images, limit: 1) { results in
-        PhotoPicker.convertToUIImageArray(fromResults: results) { imagesOrNil, errorOrNil in 
+        PhotoPicker.convertToUIImageArray(fromResults: results) { imagesOrNil, errorOrNil in
             if let error = errorOrNil {
                 print(error)
             }

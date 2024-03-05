@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "2022 in review"
 permalink: /im-feeling-22/
 description: "How 2022 went for my apps"
@@ -32,13 +32,13 @@ All of the above are listicles featuring apps that have Lock Screen widgets. I'd
 
 **Status:** In progress ⏳
 
-For most of 2022 I didn't make meaningful progress on this. My day job as an engineering manager at [a startup](https://duffel.com) had me feeling like I didn't have enough energy to work on my apps outside of work. 
+For most of 2022 I didn't make meaningful progress on this. My day job as an engineering manager at [a startup](https://duffel.com) had me feeling like I didn't have enough energy to work on my apps outside of work.
 
 However, recently I've made some changes to my work situation which are beginning to help.
 
 Firstly, I've transitioned out of management and I'm now back to being a software engineer. I realised that while there were a lot of aspects of management I really enjoyed – like helping to drive best practice and helping others to grow – I'm happier focusing on technical problems rather than people ones.
 
-Secondly, I've switched to working 'compressed hours', which means I still work 40 hours a week, but over four days instead of five. Instead of working eight hours each day, I now work ten hours. This means that on Tuesday to Friday I have long days, but it gives me a whole extra day off each week to run errands and work on my apps. It's only been two weeks but it's already made a huge improvement to my mental health and productivity. 
+Secondly, I've switched to working 'compressed hours', which means I still work 40 hours a week, but over four days instead of five. Instead of working eight hours each day, I now work ten hours. This means that on Tuesday to Friday I have long days, but it gives me a whole extra day off each week to run errands and work on my apps. It's only been two weeks but it's already made a huge improvement to my mental health and productivity.
 
 In both cases my employer was very understanding about my situation and needs and I'm really happy that we were able to find a solution that worked for us both.
 
@@ -53,7 +53,6 @@ There were a few places that Personal Best felt a bit janky, with some dropped f
 **Status:** Achieved ✅
 
 I'm very happy with the amount of things I shipped this year. I'll go into more detail about them below, but suffice to say I think I managed to deliver a lot of new things.
-
 
 ## Delivery
 
@@ -71,18 +70,18 @@ I made sure to include plenty of polish, so as well as replacing songs I added t
 
 I knew that this was quite a niche idea for an app so I wasn't expecting it to take the world by storm, but to be honest I had hoped it would garner some press coverage and maybe even a little virality. While it's niche, it felt perfectly placed for a few _"Look at this silly app somebody made"_ articles. I think this does tie in to me continuing to suck at marketing, which is something I still need to improve at. A lot. I emailed and tweeted a lot of journalists, posted it on various subreddits, sent it to Taylor Swift fan sites, but unfortunately it never went anywhere.
 
-Even with the app not doing that well, I don't regret the time I put into it. I'm proud of the level of polish I was able to achieve, and I gained experience with a few things I haven't yet done for Personal Best, like iPad support, working with external APIs, and sending remote push notifications using Firebase. 
+Even with the app not doing that well, I don't regret the time I put into it. I'm proud of the level of polish I was able to achieve, and I gained experience with a few things I haven't yet done for Personal Best, like iPad support, working with external APIs, and sending remote push notifications using Firebase.
 
 Having said that, as I have limited time I've decided not to add any new features to Taylor's Version, because realistically I know it's unlikely to get more downloads than it already has. I still 100% support it, but it's now in a state that I consider complete. I did want to add support for Apple Music, but limitations in Apple Music's API mean that third-party apps can't edit playlists, only make new ones. I could work around this, and I may revisit it in the future, but for now I've decided not to pursue it.
 
 ### New features for Personal Best
 
-* **Subscriptions:** Prior to this year, Personal Best had a single $5 in-app purchase to unlock extra features not available in the free version, named _Personal Best Pro_. I'm trying to grow my apps to provide a stable second income, and for that I need recurring revenue. So, over the summer I moved to a subscription model with monthly, annual, and lifetime options. All existing owners of Personal Best Pro were migrated to a lifetime subscription.
-* **Redesigned onboarding:** I redesigned the onboarding flow to look a lot nicer. Previously it was very basic and frankly it had a home-made look. Now it looks a lot more professional.
-* **Heart rate zones:** You can now see heart rate zones for your workout, with an interactive graph. I used iOS 16's [Swift Charts](https://developer.apple.com/documentation/charts) API for this, which made things really easy to build.
-* **Lock Screen widgets:** I was ready on day one of iOS 16's launch with a suite of Lock Screen widgets. This helped me get a lot of press coverage and downloads.
-* **Export workouts:** This isn't a feature I've advertised much publicly, but Personal Best now allows people to export their workouts in JSON format. I built this so that I can get workouts out of my phone and onto the iOS simulator, which makes testing much faster. It also means if anybody is having issues with a workout not looking how they expect, they can send it to me and I'll be able load it into a simulator and try to reproduce the bug.
-* **Other stuff:** I also shipped dozens of small improvements, like refreshed colours and icons, new workout types, a pure black toggle for widgets,new fonts when sharing workouts, and loads more
+- **Subscriptions:** Prior to this year, Personal Best had a single $5 in-app purchase to unlock extra features not available in the free version, named _Personal Best Pro_. I'm trying to grow my apps to provide a stable second income, and for that I need recurring revenue. So, over the summer I moved to a subscription model with monthly, annual, and lifetime options. All existing owners of Personal Best Pro were migrated to a lifetime subscription.
+- **Redesigned onboarding:** I redesigned the onboarding flow to look a lot nicer. Previously it was very basic and frankly it had a home-made look. Now it looks a lot more professional.
+- **Heart rate zones:** You can now see heart rate zones for your workout, with an interactive graph. I used iOS 16's [Swift Charts](https://developer.apple.com/documentation/charts) API for this, which made things really easy to build.
+- **Lock Screen widgets:** I was ready on day one of iOS 16's launch with a suite of Lock Screen widgets. This helped me get a lot of press coverage and downloads.
+- **Export workouts:** This isn't a feature I've advertised much publicly, but Personal Best now allows people to export their workouts in JSON format. I built this so that I can get workouts out of my phone and onto the iOS simulator, which makes testing much faster. It also means if anybody is having issues with a workout not looking how they expect, they can send it to me and I'll be able load it into a simulator and try to reproduce the bug.
+- **Other stuff:** I also shipped dozens of small improvements, like refreshed colours and icons, new workout types, a pure black toggle for widgets,new fonts when sharing workouts, and loads more
 
 ![Screenshots from Personal Best](/assets/post-images/2022-ir-pb-screenshots.jpg){:class="post-image"}
 
@@ -94,9 +93,9 @@ _TL;DR Downloads are down but sales are stable and active users are up._
 
 Personal Best's downloads decreased this year by quite a lot.
 
-In 2022 Personal Best was downloaded 2,160 times, compared to 14,200* in 2021 and 7,000 in 2020.
+In 2022 Personal Best was downloaded 2,160 times, compared to 14,200\* in 2021 and 7,000 in 2020.
 
-_*10,570 downloads came from listing my app in [Apps Gone Free](https://appadvice.com/apps-gone-free/2021-01-08), which gave me a lot of downloads but they didn't lead to any increase in users or sales. Excluding these gives me 3,630 downloads._
+_\*10,570 downloads came from listing my app in [Apps Gone Free](https://appadvice.com/apps-gone-free/2021-01-08), which gave me a lot of downloads but they didn't lead to any increase in users or sales. Excluding these gives me 3,630 downloads._
 
 Taylor's Version was downloaded 2,490 times in 2022. Even though Taylor's Version got more downloads than Personal Best, the sales tell a different story.
 
@@ -128,13 +127,13 @@ Taylor's Version isn't the sort of app people come back to day after day, it's m
 
 I have a few goals for 2023.
 
-* Double my recurring revenue
-* There's a big new feature I'd like to add to Personal Best which I think can transform it into the type of app people come back to daily. It'll take a long time to build, but I want to finally get around to it.
-* Make a new app (I have an idea for something which I've been meaning to build for ages. I'd like to at least get a first version of it out)
+- Double my recurring revenue
+- There's a big new feature I'd like to add to Personal Best which I think can transform it into the type of app people come back to daily. It'll take a long time to build, but I want to finally get around to it.
+- Make a new app (I have an idea for something which I've been meaning to build for ages. I'd like to at least get a first version of it out)
 
 I've deliberately taken on fewer goals than last year, because I want to focus primarily on increasing my revenue. At the end of the day, if I want to turn my apps into a sustainable income stream then the only thing that matters is revenue. Doubling it will take me to about $500 annually, which is still very modest, but would be a great amount of growth.
 
 Here's to 2023.
 
-* [Download Personal Best](https://getpersonalbest.com)
-* [Download Taylor's Version](https://taylorsversion.app)
+- [Download Personal Best](https://getpersonalbest.com)
+- [Download Taylor's Version](https://taylorsversion.app)

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "Optional view arguments in SwiftUI"
 permalink: /swiftui-optional-view-arguments/
 description: "How to make SwiftUI views with optional view arguments"
@@ -89,4 +89,3 @@ TestView("Title") // No compiler errors!
 ```
 
 It works! Figuring out this pattern really helped me to make much more powerful views that can be composed from other views.
-

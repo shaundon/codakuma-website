@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "Adventures in SwiftUI 2's MapKit support"
 permalink: /swiftui-mapkit-fun/
 description: "Finding and working around the limitations of MapKit in SwiftUI 2."

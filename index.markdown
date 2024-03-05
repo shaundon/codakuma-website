@@ -3,21 +3,27 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-title: ''
+title: ""
 ---
 
-## Latest blog posts
+<div class="home-posts">
+  <h2>Latest posts</h2>
 
-<ul class="no-bullets">
-  {% for post in site.posts limit:10 %}
-    <li>
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-      - <strong>{{ post.date | date_to_string }}</strong>
-      <p>{{ post.description }}</p>
-    </li>
-  {% endfor %}
-</ul>
+  <ul class="no-bullets">
+    {% for post in site.posts limit:5 %}
+      <li class="home-post">
+        <a href="{{ post.url }}">
+          {{ post.title }}
+        </a>
+        <p>{{ post.description }}</p>
+        <div class="home-post-date">
+          {{ post.date | date_to_string }}
+        </div>
+      </li>
+    {% endfor %}
 
-[All posts &raquo;]({% link posts.markdown %})
+  </ul>
+
+<a href="/blog">All posts &raquo;</a>
+
+</div>

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "Introducing Taylor's Version"
 permalink: /look-what-you-made-me-do/
 description: "I've made a new app to help you upgrade Taylor Swift songs in your playlists"
@@ -22,13 +22,13 @@ With a single-purpose app like this, it can be tempting to roll something out qu
 
 As well as the core functionality of scanning your Spotify playlists and helping you replace songs, I've added a few other cool features:
 
-* **Notifications** means that when re-recordings become available you can get a reminder to open the app and upgrade some more of your playlists.
-* **Sharing** means you can easily share stats of how many Taylor Swift songs you have on your playlists to social media.
-* A **Taylor Swift quiz** helps you pass the time while your data loads from Spotify. It's kind of addictive and the questions range in difficulty from super easy to fiendishly difficult.
-* Custom app icons, each one inspired by a different Taylor Swift album and painstakingly designed by somebody who has no idea how to do graphic design (me).
-* Buttons to **add a random Taylor Swift song to any playlist**.
+- **Notifications** means that when re-recordings become available you can get a reminder to open the app and upgrade some more of your playlists.
+- **Sharing** means you can easily share stats of how many Taylor Swift songs you have on your playlists to social media.
+- A **Taylor Swift quiz** helps you pass the time while your data loads from Spotify. It's kind of addictive and the questions range in difficulty from super easy to fiendishly difficult.
+- Custom app icons, each one inspired by a different Taylor Swift album and painstakingly designed by somebody who has no idea how to do graphic design (me).
+- Buttons to **add a random Taylor Swift song to any playlist**.
 
 I'm really happy with how _Taylor's Version_ has turned out. It's been a really fun project and I hope you find it useful. If you like it, please share it with your friends and consider leaving a review on the App Store.
 
-* [taylorsversion.app](https://taylorsversion.app)
-* [Taylor's Version on the App Store](https://apps.apple.com/app/taylors-version/id1605275753)
+- [taylorsversion.app](https://taylorsversion.app)
+- [Taylor's Version on the App Store](https://apps.apple.com/app/taylors-version/id1605275753)

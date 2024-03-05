@@ -1,10 +1,10 @@
 ---
-layout: page
+layout: blog
 title: "Personal Best 3"
 permalink: /personal-best-3/
 description: "What time is it? Time to check your workouts on your Apple Watch!"
 image: "/assets/post-images/personal-best-3-screenshots.png"
-tags: apps personal-best 
+tags: apps personal-best
 ---
 
 I know, I know. Two major version bumps in seven days. It wasn't intentional.
@@ -23,7 +23,7 @@ One nice thing about watchOS is that people don't expect sexy, custom UI element
 
 ## Localisation/Localization
 
-I'm extremely British. I like queuing, scones, and drinking tea that hasn't been thrown into a harbour. 
+I'm extremely British. I like queuing, scones, and drinking tea that hasn't been thrown into a harbour.
 
 As such, up to now Personal Best used the _English (UK)_ localisation. Personal Best 3 adds an _English (US)_ locale setting, which aggressively uses _z_ instead of _s_, and defaults to miles and yards for units. You don't need to do anything to select it, it'll just use iOS's locale setting. Look out for more localisations in future updates.
 

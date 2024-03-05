@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "Static maps in SwiftUI with MKMapSnapshotter"
 permalink: /swiftui-static-maps/
 description: "How to use MKMapSnapshotter in SwiftUI views to create static maps"
@@ -14,7 +14,7 @@ This article will show you how to create your own simple view for rendering `MKM
 
 ## Basic view
 
-To begin, let's just make a basic view. It'll take two parameters: `location` and `span`. `span` can have a default value that can be overridden if desired. It'll also have an optional state variable to represent the image that `MKMapSnapshotter` produces, and we'll eventually render. 
+To begin, let's just make a basic view. It'll take two parameters: `location` and `span`. `span` can have a default value that can be overridden if desired. It'll also have an optional state variable to represent the image that `MKMapSnapshotter` produces, and we'll eventually render.
 
 ```swift
 import SwiftUI
@@ -55,9 +55,9 @@ func generateSnapshot(width: CGFloat, height: CGFloat) {
 
   // The region the map should display.
   let region = MKCoordinateRegion(
-    center: self.location, 
+    center: self.location,
     span: MKCoordinateSpan(
-      latitudeDelta: self.span, 
+      latitudeDelta: self.span,
       longitudeDelta: self.span
     )
   )

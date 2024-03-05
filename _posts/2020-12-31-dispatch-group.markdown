@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "Using DispatchGroup in Swift for asynchronous loops"
 permalink: /dispatch-group/
 description: "How to wait for an asynchronous loop to complete before calling a completion handler"
@@ -9,7 +9,7 @@ tags: ios swift howto
 Occasionally in an iOS app you'll do something asynchronous, calling a completion handler when it's done, like this:
 
 ```swift
-itemProvider.loadObject(ofClass: UIImage.self) { image in 
+itemProvider.loadObject(ofClass: UIImage.self) { image in
   onComplete(image)
 }
 ```
@@ -19,7 +19,7 @@ This works great, but what if we have an array we need to loop through, performi
 ```swift
 var images = [UIImage]()
 for itemProvider in itemProviders {
-  itemProvider.loadObject(ofClass: UIImage.self) { image in 
+  itemProvider.loadObject(ofClass: UIImage.self) { image in
     images.append(image)
   }
 }
@@ -37,7 +37,7 @@ let dispatchGroup = DispatchGroup()
 var images = [UIImage]()
 for itemProvider in itemProviders {
   dispatchGroup.enter()
-  itemProvider.loadObject(ofClass: UIImage.self) { image in 
+  itemProvider.loadObject(ofClass: UIImage.self) { image in
     images.append(image)
     dispatchGroup.leave()
   }
@@ -49,4 +49,3 @@ dispatchGroup.notify(queue: .main) {
 ```
 
 Now, everything works as it should and the completion handler isn't executed until after the loop has finished iterating.
-

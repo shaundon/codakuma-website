@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "The third-party libraries I use in every project"
 permalink: /dependencies/
 description: "I avoid third-party code as much as possible, but I make an exception for these"

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "Building a more generic page control in SwiftUI"
 permalink: /swiftui-page-control/
 description: "How to make a page control component in SwiftUI that works with any view"
@@ -101,7 +101,7 @@ Sadly this doesn't work. I don't know if there's a way around this, but if there
 I worked around this by constraining the API. Instead of taking an array, it takes multiple named views. The downside of this approach is that the component can now only accept as many views as you put in the API. Here's an example of it allowing exactly two views:
 
 ```swift
-// Note 'PageOne' and 'PageTwo'. This is needed to allow different 
+// Note 'PageOne' and 'PageTwo'. This is needed to allow different
 // types of view to be passed in for each page.
 struct PageView<PageOne: View, PageTwo: View>: View {
   var viewControllers: [UIViewController]

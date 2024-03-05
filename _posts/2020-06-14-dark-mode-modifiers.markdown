@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "SwiftUI view modifers and dark mode"
 permalink: /view-modifiers-dark-mode/
 description: "How to adapt your SwiftUI view modifiers to behave differently if dark mode is enabled."
@@ -36,4 +36,3 @@ struct FontModifier: ViewModifier {
 ```
 
 Just to reiterate the point: in most cases, you should use semantic colours and images to adapt your interfact for dark mode. This is how to do it manually for situations where that isn't possible.
-

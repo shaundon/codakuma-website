@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "Keeping a widget up to date efficiently on iOS"
 permalink: /widgetkit-improvements/
 description: "Three improvements to make your widgets more reliable"
@@ -59,4 +59,3 @@ Thanks to this, Personal Best's widgets now fall back to older data if your phon
 WidgetKit is a very powerful framework with some unique constraints. It's worth the effort to adapt your mental model and your app's functionality to fit the WidgetKit way of doing things.
 
 [Download Personal Best on the App Store](https://getpersonalbest.com)
-

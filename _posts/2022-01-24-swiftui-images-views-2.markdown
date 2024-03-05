@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "A better way to create images from SwiftUI views"
 permalink: /swiftui-view-to-image-2/
 description: "A much easier way to turn SwiftUI views into images"

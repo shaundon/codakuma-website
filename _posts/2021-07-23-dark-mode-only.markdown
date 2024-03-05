@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "Selectively show and hide parts of your webpage based on dark mode"
 permalink: /dark-mode-web/
 description: "How to have parts of your webpage display or hide based on dark mode"
@@ -14,14 +14,14 @@ To do this, I created a couple of utility classes in my CSS:
 
 ```css
 @media (prefers-color-scheme: dark) {
-    .light-mode-only {
-        display: none;
-    }
+  .light-mode-only {
+    display: none;
+  }
 }
 @media (prefers-color-scheme: light) {
-    .dark-mode-only {
-        display: none;
-    }
+  .dark-mode-only {
+    display: none;
+  }
 }
 ```
 
@@ -32,7 +32,7 @@ Using them in your HTML is straightforward:
 <img class="dark-mode-only" src="dark-mode-screenshots.png" />
 ```
 
-And that's it! Now I can easily hide and show parts of my website based on the user's dark mode setting. 
+And that's it! Now I can easily hide and show parts of my website based on the user's dark mode setting.
 
 It works on this website too – the paragraph below will change based on your device setting. Try turning dark mode on and off and you'll see the text change automatically.
 

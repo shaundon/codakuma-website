@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "Multiline text in SwiftUI"
 permalink: /swiftui-multiline-text/
 description: "When SwiftUI text truncates when you don't want it to"

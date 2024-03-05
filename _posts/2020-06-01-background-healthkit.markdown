@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "Running HealthKit queries in the background"
 permalink: /healthkit-in-the-background/
 description: "TL;DR Turn on background app refresh"

@@ -1,21 +1,25 @@
 ---
 layout: page
-title: 'Posts'
+title: "All posts"
 permalink: /blog/
 description: "Codakuma Blog."
 ---
 
-{% for post in site.posts %}
-  <div class="post">
-    <a href="{{ post.url }}" class="post__title">
-      {{ post.title }}
-    </a>
-    <div class="post__date">
-      {{ post.date | date_to_string }}
-    </div>
-    <p>{{ post.excerpt }}</p>
-    <a href="{{ post.url }}">
-      Read more &raquo;
-    </a>
-  </div>
-{% endfor %}
+<div class="home-posts">
+
+  <ul class="no-bullets">
+    {% for post in site.posts %}
+      <li class="home-post">
+        <a href="{{ post.url }}">
+          {{ post.title }}
+        </a>
+        <p>{{ post.description }}</p>
+        <div class="home-post-date">
+          {{ post.date | date_to_string }}
+        </div>
+      </li>
+    {% endfor %}
+
+  </ul>
+
+</div>

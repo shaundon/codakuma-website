@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "iOS 14's bizarre text casing behaviour in List headings"
 permalink: /swiftui-ios14-list-heading-case/
 description: "iOS 14 changes your section titles to uppercase, which...yeah?"

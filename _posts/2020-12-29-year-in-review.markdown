@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "Going indie: 2020 in review"
 permalink: /2020-in-review/
 description: "Facts and figures from my foray into independent app development"
@@ -36,7 +36,7 @@ After [WWDC](https://developer.apple.com/wwdc20/), I got to work building new fe
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Personal Best&#39;s big iOS 14 update is rolling out now! <br><br>🏅Track your latest workouts with a widget<br>🏅Explore your routes with workout maps<br>🏅Find important stats faster with an all-new redesign<br><br>Download for free at <a href="https://t.co/W3QUvACJlJ">https://t.co/W3QUvACJlJ</a> <a href="https://t.co/X1h7JpJrtW">pic.twitter.com/X1h7JpJrtW</a></p>&mdash; Shaun (@shauneba) <a href="https://twitter.com/shauneba/status/1306337774056996864?ref_src=twsrc%5Etfw">September 16, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-I was very lucky to see tweets from 9to5Mac's [Chance Miller](https://twitter.com/ChanceHMiller) and TechCrunch's [Sarah Perez](https://twitter.com/sarahintampa) asking people to share their 
+I was very lucky to see tweets from 9to5Mac's [Chance Miller](https://twitter.com/ChanceHMiller) and TechCrunch's [Sarah Perez](https://twitter.com/sarahintampa) asking people to share their
 app updates that included iOS 14 features like widgets or App Clips. Because of this, Personal Best made it into articles from both [9to5Mac](https://9to5mac.com/2020/12/27/ios-14-widget-apps/) and [TechCrunch](https://techcrunch.com/2020/09/16/ios-14-widgets-you-can-try-today/).
 
 This had an enormous impact on my downloads. On September 17th I got 951 downloads in a single day, and I continued to get hundreds per day for a good few weeks.
@@ -79,10 +79,10 @@ A year ago I couldn't have imagined that I'd have an app with over 7,000 downloa
 
 My dream wishlist for Personal Best in 2021:
 
-* Get featured in the App Store in at least one region.
-* Get a review of Personal Best into a big tech blog, like [this review of Aviary from 9to5Mac](https://9to5mac.com/2020/10/12/aviary-is-a-new-twitter-client-designed-for-ios-14-with-unique-features/) or [this review of Fitness Totals from MacStories](https://www.macstories.net/reviews/.fitness-totals-review-effortlessly-surface-fitness-data-and-track-your-progress/).
-* Do some real marketing (like reaching out to fitness bloggers).
-* Be ready for iOS 15 on day one.
+- Get featured in the App Store in at least one region.
+- Get a review of Personal Best into a big tech blog, like [this review of Aviary from 9to5Mac](https://9to5mac.com/2020/10/12/aviary-is-a-new-twitter-client-designed-for-ios-14-with-unique-features/) or [this review of Fitness Totals from MacStories](https://www.macstories.net/reviews/.fitness-totals-review-effortlessly-surface-fitness-data-and-track-your-progress/).
+- Do some real marketing (like reaching out to fitness bloggers).
+- Be ready for iOS 15 on day one.
 
 If I can achieve half of the things on that list I'll be very happy.
 

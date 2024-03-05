@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "2023 in review"
 permalink: /2023-in-review/
 description: "How 2023 went (spoiler: well)"

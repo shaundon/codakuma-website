@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "Earliest sample dates in HealthKit"
 permalink: /healthkit-earliest-sample-dates/
 description: "On watchOS, you can only access seven days of HealthKit data"

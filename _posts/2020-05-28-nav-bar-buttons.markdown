@@ -1,12 +1,12 @@
 ---
-layout: page
+layout: blog
 title: "Making SwiftUI navigation bar buttons bigger"
 permalink: /swiftui-navigation-bar-button-size/
 description: "SwiftUI navigation bar buttons are too small. Here's a workaround."
 tags: ios swiftui howto
 ---
 
-Apple's human interface guidelines [specify that tap targets should be at least 44x44pt](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout/) to ensure they're easily tappable. 
+Apple's human interface guidelines [specify that tap targets should be at least 44x44pt](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/adaptivity-and-layout/) to ensure they're easily tappable.
 
 In UIKit, buttons in navigation bars automatically get this. You can test this easily on any iOS device. Open the Settings app, press an option, and then try to hit the back button slightly off the text. You'll notice that the button still works even though you're not pressing directly on the text. This is thanks to UIKit automatically ensuring that buttons inside navigation bars have a pressable area of at least 44x44pt.
 
@@ -55,5 +55,3 @@ Button(action: { print("Codakuma") }) {
 ```
 
 Again, hopefully SwiftUI will do this automatically in future.
-
-

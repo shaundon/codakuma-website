@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "SwiftUI sheets and environment objects"
 permalink: /swiftui-sheet-environment-objects/
 description: "Sheets in SwiftUI don't have access to @EnvironmentObject without a workaround."
@@ -24,8 +24,8 @@ struct MyView: View {
   @State private var sheetIsPresented = false
 
   var body: some View {
-    Button("Open sheet") { 
-      self.sheetIsPresented = true 
+    Button("Open sheet") {
+      self.sheetIsPresented = true
     }.sheet(isPresented: $sheetIsPresented) {
       AnotherView().environmentObject(self.someObject)
     }
@@ -34,4 +34,3 @@ struct MyView: View {
 ```
 
 Views inside your sheet will inherit the environment object fine, it's just sheets that won't. Think of sheets as parallel to your main scene with an entirely new view hierarchy.
-

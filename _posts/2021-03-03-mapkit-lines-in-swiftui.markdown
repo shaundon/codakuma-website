@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "Adding polylines to maps in SwiftUI"
 permalink: /the-line-is-a-dot-to-you/
 description: "Using UIKit to display lines on maps in SwiftUI"
@@ -8,11 +8,11 @@ tags: ios swift howto
 
 As of March 2021, SwiftUI has a built-in map view but it's quite simple, only supporting basic annotations.
 
-Recently [I wrote about making use of this map view]({% link _posts/2020-08-22-adventures-in-swiftui-maps.markdown %}) for my app [Personal Best]({% link personal-best.markdown %}), where I settled on using dots to represent GPS pings as polylines weren't available. 
+Recently [I wrote about making use of this map view]({% link _posts/2020-08-22-adventures-in-swiftui-maps.markdown %}) for my app [Personal Best]({% link personal-best.markdown %}), where I settled on using dots to represent GPS pings as polylines weren't available.
 
 At the time this felt like a reasonable compromise, but since then I've gotten a lot better at SwiftUI and interfacing with UIKit in particular, so I've been exploring how to bridge a map view featuring a polyline to SwiftUI.
 
-This simple tutorial will teach you how to make a map view component in SwiftUI that includes a polyline. 
+This simple tutorial will teach you how to make a map view component in SwiftUI that includes a polyline.
 
 It's based on [hackingswithswift.com's 'Advanced MKMapView with SwiftUI' tutorial](https://www.hackingwithswift.com/books/ios-swiftui/advanced-mkmapview-with-swiftui), which I combined with [a StackOverflow answer from Daniel E. Salinas](https://stackoverflow.com/a/63744127/1011161).
 
@@ -91,7 +91,7 @@ Add a new `lineCoordinates` property to `MapView`. It'll accept an array of loca
 let lineCoordinates: [CLLocationCoordinate2D]
 ```
 
-Now add some code to `makeUIView` to  draw the polyline based on the coordinates:
+Now add some code to `makeUIView` to draw the polyline based on the coordinates:
 
 ```swift
 let polyline = MKPolyline(coordinates: lineCoordinates, count: lineCoordinates.count)
@@ -146,6 +146,6 @@ Run the code and now the line is visible.
 
 Today we learned how to bridge `MKMapView` from UIKit to SwiftUI and add a polyline to it. This is the most basic implementation possible, but there are lots of ways this could be improved, for example adding customisation of the polyline, making it optional, adding the ability to add other types of annotation, and so on.
 
- If you have any questions or comments, feel free to reach out via Twitter or email. Links to both are in the footer of this page.
+If you have any questions or comments, feel free to reach out via Twitter or email. Links to both are in the footer of this page.
 
 [View the code for this tutorial on GitHub](https://gist.github.com/shaundon/00be84deb3450e31db90a31d5d5b7adc)

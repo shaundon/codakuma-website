@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "Resources for indie iOS developers"
 permalink: /indie-ios-resources/
 description: "Some resources I've found helpful on my indie iOS developer journey"
@@ -54,7 +54,7 @@ Becky is the creator of several apps, most prominently [YarnBuddy](https://apps.
 
 AppForce1 is a podcast from [Jeroen Leenarts](https://appforce1.net), sharing news and tools relevant for iOS developers, as well as the occasional interview. I like how it covers a broad range of topics, and each episode is very conversational and easy to digest.
 
-If you enjoy the podcast, Jeroen also has [a blog](https://appforce1.net/blog/) which is similarly filled with great content. I like that is 
+If you enjoy the podcast, Jeroen also has [a blog](https://appforce1.net/blog/) which is similarly filled with great content. I like that is
 
 ## Indie Dev Monday
 

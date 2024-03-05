@@ -1,21 +1,12 @@
 ---
-layout: default
+layout: page
+title: "Apps for iOS"
+permalink: /apps/
+description: "Codakuma – iOS apps."
 ---
 
-<div class="home">
-  <div class="home-intro">
-    <p><strong>Hi. I'm Shaun,</strong> an indie iOS developer in London, UK.</p>
-    <p>I make apps for iOS and blog about indie life here.</p>
-    <div class="home-intro-links">
-      <a rel="me" href="https://mstdn.social/@shaundon" target="_blank"
-        >Mastodon</a
-      >
-      <a href="https://twitter.com/shauneba" target="_blank">Twitter</a>
-    </div>
-  </div>
-
   <div class="home-apps">
-    <h2>Apps for iOS</h2>
+    <p>I make critically-acclaimed apps that users love, with tens of thousands of active users.</p>
     <section class="apps">
       <a href="https://getpersonalbest.com" class="app app--personal-best">
         <div class="app-inner">
@@ -26,7 +17,6 @@ layout: default
           </div>
         </div>
       </a>
-
       <a href="https://taylorsversion.app" class="app app--taylors-version">
         <div class="app-inner">
           <img src="/assets/taylors-version-icon.png" class="app-icon" />
@@ -36,7 +26,6 @@ layout: default
           </div>
         </div>
       </a>
-
       <a
         href="https://apps.apple.com/us/app/salarypig/id6475237479"
         class="app app--salarypig"
@@ -50,14 +39,5 @@ layout: default
         </div>
       </a>
     </section>
+
   </div>
-
-  <!-- <section>
-    <h2>The Design Details newsletter</h2>
-    <p>Get my free newsletter that showcases thoughtful touches from the digital and physical worlds.
-      Learn more at <a href="https://niceux.design" target="_blank">niceux.design</a>, or subscribe below.</p>
-    {% include nice-ux-design-cta.html %}
-  </section> -->
-
-  {{ content }}
-</div>

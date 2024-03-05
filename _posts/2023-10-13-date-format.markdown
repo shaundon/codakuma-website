@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "Building a custom date formatter for Swift"
 permalink: /swift-custom-date-format/
 description: "How to make your own date formatter using Swift's Formatter API"
@@ -41,7 +41,6 @@ let formattedNewStyle = now.formatted(.dateTime.month(.wide).year(.twoDigits))
 
 As you can see, new format makes for much more readable code, whereas the old format needs you to remember (or use [a cheat sheet to get](https://www.advancedswift.com/date-formatter-cheatsheet-formulas-swift/)) the specific string you need to get the format you want. If you make a typo, you'll get an empty string back with no hint about what you did wrong.
 
-
 ## Extending it
 
 For simpler uses the built-in formatter works great. However in Personal Best I like to display dates in a more customised way, like so:
@@ -70,7 +69,7 @@ struct RelativeDateStyle: FormatStyle {
     let formatter = Self.customFormatStyle(for: value)
     return formatter.format(value)
   }
-  
+
   // Return an instance of Date.FormatStyle that's different depending
   // on the date passed in.
   private static func customFormatStyle(for date: Date) -> Date.FormatStyle {
@@ -98,7 +97,7 @@ extension Date {
   func isSameDateAs(date dateToCompareTo: Date) -> Bool {
     return isSameAs(date: dateToCompareTo, componentsToCompare: [.day, .month, .year])
   }
-  
+
   func isSameYearAs(date dateToCompareTo: Date) -> Bool {
     return isSameAs(date: dateToCompareTo, componentsToCompare: [.year])
   }

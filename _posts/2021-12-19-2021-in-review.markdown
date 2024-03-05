@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "2021 in review"
 permalink: /2021-in-review/
 description: "How 2021 went for Personal Best, and me too I guess"

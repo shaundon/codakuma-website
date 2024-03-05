@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "Sharing to Instagram Stories in SwiftUI"
 permalink: /instagram-stories-sharing-swiftui/
 description: "How to share images directly to Instagram Stories in SwiftUI"
@@ -104,8 +104,8 @@ struct InstagramShareView: View {
       imageToShare
 
       if InstagramSharingUtils.canOpenInstagramStories {
-        Button(action: { 
-          InstagramSharingUtils.shareToInstagramStories(imageToShare.uiImage) 
+        Button(action: {
+          InstagramSharingUtils.shareToInstagramStories(imageToShare.uiImage)
         }) {
           Text("Share to Instagram Stories")
         }

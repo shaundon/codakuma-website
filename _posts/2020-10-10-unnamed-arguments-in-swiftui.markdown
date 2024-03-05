@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "Declaring unnamed arguments in SwiftUI"
 permalink: /swiftui-unnamed-arguments/
 description: "How to make SwiftUI views with unnamed arguments"
@@ -65,4 +65,3 @@ Heading("Section Heading")
 ```
 
 In hindsight this seems really obvious, but I couldn't figure it out for ages!
-

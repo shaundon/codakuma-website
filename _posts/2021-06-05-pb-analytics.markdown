@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "Adding privacy-first analytics to Personal Best"
 permalink: /anna-lytical/
 description: "How I added analytics to Personal Best while preserving privacy."
@@ -16,14 +16,14 @@ However, as the app has grown and matured I found myself wanting to know more ab
 
 There are many third-party SDKs that can add analytics to iOS apps, like [Google Analytics](https://developers.google.com/analytics/devguides/collection/ios/v3) and [Mixpanel](https://mixpanel.com). The problem with these, for me, was that they're at best massive dependencies I'd need to integrate into my app (which prior to now contained no third-party dependencies), and at worst creepy closed-source SDKs doing who-knows-what behind the scenes.
 
-It's worth noting that iOS itself includes basic analytics, but it really is basic. You can't currently (early June 2021) use it to log arbitrary events, just overall usage. It's also far from real time. 
+It's worth noting that iOS itself includes basic analytics, but it really is basic. You can't currently (early June 2021) use it to log arbitrary events, just overall usage. It's also far from real time.
 
 Eventually I learned about [AppTelemetry](https://apptelemetry.io) from an issue of [iOS Dev Weekly](https://iosdevweekly.com/issues/506). Their tagline – _"Lightweight Analytics That's Not Evil"_ – sounded exactly like what I was looking for. I checked it out and it had everything going for it:
 
-* From [an indie developer](https://twitter.com/breakthesystem) who believed in privacy
-* Built-in anonymisation of users
-* Open source, so I could see exactly how it worked
-* A really lightweight codebase, [just one class](https://github.com/AppTelemetry/SwiftClient/blob/main/Sources/TelemetryClient/TelemetryClient.swift) of about 300 lines of code, so it wouldn't add much overhead to my build times
+- From [an indie developer](https://twitter.com/breakthesystem) who believed in privacy
+- Built-in anonymisation of users
+- Open source, so I could see exactly how it worked
+- A really lightweight codebase, [just one class](https://github.com/AppTelemetry/SwiftClient/blob/main/Sources/TelemetryClient/TelemetryClient.swift) of about 300 lines of code, so it wouldn't add much overhead to my build times
 
 With all that, I decided to give AppTelemetry a go and signed up for the beta.
 
@@ -99,7 +99,7 @@ There's not much else to it, really. As it's such a simple library this is all t
 
 ## Preserving privacy
 
-One thing to be aware of is that even though you're using a privacy-first analytics library you still need discipline to ensure you preserve privacy. There's nothing stopping you from logging personally-identifiable information to AppTelemetry except your own judgement. 
+One thing to be aware of is that even though you're using a privacy-first analytics library you still need discipline to ensure you preserve privacy. There's nothing stopping you from logging personally-identifiable information to AppTelemetry except your own judgement.
 
 To prevent this, always collect the bare minimum of data that you need. For example, in the above code sample for logging a `WorkoutShared` event, I deliberately don't collect any information about the workout. Even though the workout doesn't contain any personally-identifiable information, there's just no need for me to know the details of it, so I don't include it.
 

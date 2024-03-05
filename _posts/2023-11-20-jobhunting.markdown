@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "Finding a new job as a software engineer in 2023"
 permalink: /jobhunting/
 description: "My advice for candidates and employers"

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blog
 title: "Introducing SalaryPig"
 permalink: /introducing-salarypig/
 description: "I've made an app for tracking your salary"
