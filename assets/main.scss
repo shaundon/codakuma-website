@@ -705,6 +705,10 @@ code {
 
 // Syntax highlighting
 
+div.highlight {
+  margin-bottom: $spacing-xl;
+}
+
 .highlight .hll {
   background-color: #49483e;
 }
@@ -712,7 +716,6 @@ code {
   background: #272822;
   border-radius: 10px;
   color: #f8f8f2;
-  margin-bottom: $spacing-base;
   overflow-x: auto;
   padding: $spacing-sm;
 }
