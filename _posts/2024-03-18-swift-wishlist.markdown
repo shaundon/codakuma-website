@@ -2,7 +2,7 @@
 layout: blog
 title: "My wishlist for Apple's developer tools"
 permalink: /swiftui-wishlist-2024/
-description: "TODO"
+description: "Some quality-of-life improvements that I'd love"
 tags: ios
 ---
 
