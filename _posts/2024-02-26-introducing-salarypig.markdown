@@ -3,7 +3,7 @@ layout: blog
 title: "Introducing SalaryPig"
 permalink: /introducing-salarypig/
 description: "I've made an app for tracking your salary"
-tags: ios
+tags: ios salarypig
 ---
 
 In my [2023 in review]({% link _posts/2023-12-31-2023-in-review.markdown %}) I set myself a goal to release two new apps this year. Here's the first one.
