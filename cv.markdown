@@ -17,9 +17,9 @@ description: "Shaun's C.V."
 
 I'm an experienced front-end and iOS developer who's looking for new challenges after a four-year stint as an engineering manager. My time in management gave me loads of experience with leading teams, having difficult conversations, and finding pragmatic solutions to tricky, ambiguous problems, and I'm excited to continue honing these skills as an indivudual contributor.
 
-Outside of work I make [iOS apps](/apps), practising what I preach with best-in-class, accessible products that delight users. It's helped me develop a range of additional skills that make me more effective in my day job, like marketing, design, customer support, and business development.
+Outside of work I make [iOS apps](/apps), practising what I preach with best-in-class, accessible products that delight thousands of users every day. It's helped me develop a range of additional skills that make me more effective in my day job, like marketing, design, customer support, and business development.
 
-I'm comfortable weating many hats and contributing to the business wherever I can have a positive impact, no matter where that is in the stack. At your company I'll advocate for simple solutions, biasing for action, and empowering engineers to grow and become more autonomous.
+I'm comfortable wearing many hats and contributing to the business wherever I can have a positive impact, no matter where that is in the stack. At your company I'll advocate for simple solutions, biasing for action, and empowering engineers to grow and become more autonomous.
 
 ## Experience
 
@@ -29,15 +29,11 @@ I'm comfortable weating many hats and contributing to the business wherever I ca
     April 2020 - Present
 </div>
 
-In my spare time outside of work I'm an indie iOS developer. I've organically grown my workout tracking app [Personal Best](https://getpersonalbest.com) to 34,000 monthly active users and over 150,000 total downloads.
+I build and maintain a series of iOS apps, which have had over 175,000 total downloads from across the world.
 
-It’s been featured by Apple on the App Store, as well as in various press outlets.
+My fitness app [Personal Best](https://getpersonalbest.com) maintains over 35,000 monthly active users and has been featured repeatedly by Apple on the App Store, as well as in various press outlets.
 
 In 2022 I released [Taylor's Version](http://taylorsversion.app), a passion project aimed at fans of Taylor Swift, and in 2024 I added [SalaryPig](https://apps.apple.com/us/app/salarypig/id6475237479), a salary tracker.
-
-<p class="print-only">
-Read more about Personal Best's development: https://codakuma.com{% link _posts/2020-12-29-year-in-review.markdown %}
-</p>
 
 Alongside developing my apps I also blog about app development at [codakuma.com](https://codakuma.com).
 

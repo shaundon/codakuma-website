@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blank-with-header
 title: "Privacy Policy"
 permalink: /salarypig-privacy-policy
 description: "SalaryPig's privacy policy"

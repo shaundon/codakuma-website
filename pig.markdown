@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: blank-with-header
 title: "SalaryPig for iPhone and iPad"
 permalink: /pig
 description: "SalaryPog"

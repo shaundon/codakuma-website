@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blank-with-header
 title: "Privacy Policy"
 permalink: /tsq-privacy-policy
 description: "Taylor Swift Quiz's privacy policy"

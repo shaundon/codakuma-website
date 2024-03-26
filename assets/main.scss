@@ -90,17 +90,20 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen", "Ubuntu",
     "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Arial",
     sans-serif;
+}
 
-  &.blank {
-    padding: $spacing-lg;
+.blank {
+  margin: 0 auto;
+  max-width: var(--max-width);
+  padding: $spacing-lg;
 
-    p {
-      margin-bottom: $spacing-base;
-    }
+  p {
+    line-height: 26px;
+    margin-bottom: $spacing-xl;
+  }
 
-    a {
-      text-decoration: none;
-    }
+  a {
+    text-decoration: none;
   }
 }
 
