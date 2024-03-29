@@ -40,6 +40,8 @@ It could fail gracefully too. Just like when you try to use an SF Symbol that do
 
 Apple's already done the hard work of localising all these strings in iOS itself, so this would 'just' be a matter of exposing them to developers with a new API.
 
+SwiftUI actually already a precedent for doing something like this. The [EditButton](https://developer.apple.com/documentation/swiftui/editbutton) component adds a localised edit button to a list view.
+
 ## An iCloud-backed UserDefaults
 
 `UserDefaults` is a great way to store simple data for your app, like user preferences. However, the data is only stored locally and doesn't sync across devices.
