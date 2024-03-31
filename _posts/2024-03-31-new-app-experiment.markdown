@@ -10,7 +10,7 @@ In my quest for more revenue from my app business, I've made a new app: a [Taylo
 
 ## Why
 
-My app [Taylor's Version](https://taylorsversion.app) already features a small quiz that appears while it makes a slow API request to an external API. Recently after talking to a friend I had the idea to split this into its own app.
+My app [Taylor's Version](https://taylorsversion.app) already features a small quiz that appears while it makes a slow request to an external API. Recently after talking to a friend I had the idea to split this into its own app.
 
 There are a few apps like this already, but they often have really poor UX, huge download sizes, and just generally don't come across great. I saw this as an opportunity for me to build a compelling experience, as well as a way for me to continue developing my design skills by tackling a type of app I haven't really done before.
 
@@ -24,7 +24,7 @@ I would spend exactly one weekend on the app, so that I didn't end up sinking we
 
 ### No scope creep
 
-I'm terrible for increasing the scope of my apps. My "it'll just take a weekend" projects often grow into month-long sagas. For this, I defined the scope ahead of time and didn't allow it to budge. The app needed to:
+I'm terrible for increasing the scope of my apps. My "it'll just take a weekend" projects often grow into month-long sagas. To help me keep things lean, I defined the scope ahead of time and didn't allow it to budge. The app needed to:
 
 - Offer a range of quizzes for people to complete. Some of them would be free, with others unlockable via in-app purchase.
 - Have a nice UX that would make it stand out amongst other apps. I wanted each quiz to have its own colour scheme so they'd feel distinct from each other, and I wanted to have slick animations and haptics throughout. If Apple themselves made a trivia app, it might look something like this.
@@ -62,6 +62,10 @@ I've never included ads in an app, but if this does sufficiently good numbers it
 ### Stats and achievements
 
 It'd be fairly simple to add things like this too, and I could even add support for Game Centre while I'm at it.
+
+### More purchase options
+
+Right now, each premium quiz costs 49p. I could offer more diverse pricing, like a bundle where you get 5 quizzes of your choice for a discount, or a 'mega' purchase to unlock everything.
 
 ## Finally
 
