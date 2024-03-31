@@ -38,6 +38,18 @@ description: "Codakuma – iOS apps."
           </div>
         </div>
       </a>
+      <a
+        href="https://apps.apple.com/app/id6479753779"
+        class="app app--ts-quiz"
+      >
+        <div class="app-inner">
+          <img src="/assets/tsquiz-icon.png" class="app-icon" />
+          <div>
+            <h3>Taylor Swift Quiz</h3>
+            <span>How well do you know Taylor Swift?</span>
+          </div>
+        </div>
+      </a>
     </section>
 
   </div>

@@ -156,6 +156,7 @@ h2 {
 h3 {
   font-size: 24px;
   line-height: 30px;
+  margin-bottom: $spacing-lg;
 
   @media print {
     font-size: 16px;
@@ -275,6 +276,40 @@ p {
   @media screen and (min-width: 600px) {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  &--compact {
+    margin-bottom: 0;
+    margin-top: $spacing-xl;
+
+    .app {
+      .app-inner {
+        align-items: center;
+        display: flex;
+        padding: $spacing-lg;
+
+        .app-icon {
+          $size: 40px;
+          height: $size;
+          width: $size;
+          margin-bottom: 0;
+        }
+
+        h3 {
+          font-size: 110%;
+          font-weight: 500;
+          margin-bottom: 0;
+        }
+
+        div {
+          display: inline-block;
+          margin-left: $spacing-lg;
+        }
+      }
+      span {
+        display: none;
+      }
+    }
+  }
 }
 
 .app {
@@ -327,6 +362,10 @@ p {
 
   &--salarypig {
     background: url("/assets/salarypig-icon.png");
+  }
+
+  &--ts-quiz {
+    background: url("/assets/tsquiz-icon.png");
   }
 }
 
