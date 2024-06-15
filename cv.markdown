@@ -15,7 +15,7 @@ description: "Shaun's C.V."
 
 ## About
 
-I'm an experienced front-end and iOS developer who's looking for new challenges after a four-year stint as an engineering manager. My time in management gave me loads of experience with leading teams, having difficult conversations, and finding pragmatic solutions to tricky, ambiguous problems, and I'm excited to continue honing these skills as an indivudual contributor.
+I'm an experienced front-end and iOS developer who's looking for new challenges after a four-year stint as an engineering manager. My time in management gave me loads of experience with leading teams, having difficult conversations, and finding pragmatic solutions to tricky, ambiguous problems, and I'm excited to continue honing these skills as an individual contributor.
 
 Outside of work I make [iOS apps](/apps), practising what I preach with best-in-class, accessible products that delight thousands of users every day. It's helped me develop a range of additional skills that make me more effective in my day job, like marketing, design, customer support, and business development.
 
@@ -55,7 +55,7 @@ Alongside developing my apps I also blog about app development at [codakuma.com]
 
 Initially I was the engineering manager for the UX Products team, building and maintaining all visual aspects of Duffel, like the [duffel.com](https://duffel.com) website, the [dashboard](https://app.duffel.com/join) for merchants, as well as a [component library](https://www.npmjs.com/package/@duffel/components) that allows merchants to build best-in-class experiences with minimal effort.
 
-Under my leadership the front-end team successfully doubled in size, delivering lots of new products and improvements to existing ones. I also identified several areas of growing technical debt and helped to instill a culture of constantly addressing and reducing it.
+Under my leadership the front-end team successfully doubled in size, delivering lots of new products and improvements to existing ones. I also identified several areas of growing technical debt and helped to instil a culture of constantly addressing and reducing it.
 
 As part of the engineering leadership team I also drove lots of other initiatives, like our levelling and career progression frameworks.
 
@@ -81,7 +81,7 @@ Team lead for [Backpack](https://backpack.github.io), Skyscanner's design system
 
 I was heavily involved in [Skyscanner's 2019 rebrand](https://medium.com/@SkyscannerEng/how-we-scaled-our-design-system-to-unleash-skyscanners-new-brand-845a1f501b0b), a challenging year-long project affecting dozens of teams across the company. I also drove mobile support in the design system, quadrupling the number of platforms we supported while maintaining a lean, focused team.
 
-As a manager, I mentored many of my direct report's through Skyscanner's promotion process, even helping one of them grow from an intern into a senior engineer.
+As a manager, I mentored many of my direct reports through Skyscanner's promotion process, even helping one of them grow from an intern into a senior engineer.
 
 I drove several initiatives outside of my usual scope, like rewriting and maintaining Skyscanner's front-end recruitment test, simplifying the engineering promotion process, as well as championing and running most aspects of Skyscanner's [talent directory](https://www.linkedin.com/posts/skyscanner_skyscanner-talent-directory-activity-6698944542705496064-5gRn).
 
