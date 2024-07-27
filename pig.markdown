@@ -2,7 +2,7 @@
 layout: blank-with-header
 title: "SalaryPig for iPhone and iPad"
 permalink: /pig
-description: "SalaryPog"
+description: "SalaryPig"
 ---
 
 Redirecting you to SalaryPig on the [App Store &raquo;](https://apps.apple.com/us/app/salarypig/id6475237479).
