@@ -1,0 +1,144 @@
+---
+layout: blog
+title: "2024 in review"
+permalink: /2024-in-review/
+description: "How 2024 went for me and my apps"
+tags: ios year-in-review
+---
+
+In what's now become a yearly tradition, here's my end of year review for 2024. I'll talk about how my apps performed, what I learned, and what I'm looking forward to in 2025.
+
+If you'd like to catch up on previous years first, check out [2023]({% link _posts/2023-12-31-2023-in-review.markdown %}), [2022]({% link _posts/2022-12-18-2022-in-review.markdown %}), [2021]({% link _posts/2021-12-19-2021-in-review.markdown %}), and [2020]({% link _posts/2020-12-29-year-in-review.markdown %}).
+
+## Overall
+
+I set myself three goals for 2024:
+
+### Ship two new apps
+
+**Status:** Achieved ✅
+
+I actually ended up shipping **three** new apps this year.
+
+In February I released [SalaryPig](https://apps.apple.com/app/salarypig/id6475237479), an app for tracking your salary. It's pretty niche, but in December I started a new job and absolutely hated it from day one. I made SalaryPig as a way to console myself with the money that was coming in.
+
+- [Read SalaryPig's introduction post]({% link _posts/2024-02-26-introducing-salarypig.markdown %})
+- [Get SalaryPig on the App Store](https://apps.apple.com/us/app/salarypig/id6475237479)
+
+Later in the year I followed this up with two new apps, both simple quiz apps. My app [Taylor's Version](https://taylorsversion.app) already contained a quiz, and my friend [Rauno](https://oval.fi/) suggested I split it into a separate app. A few months after that I made a second quiz app, this time about football.
+
+To make it easier to make more quiz apps, I created a private framework named QuizKit. The idea was that QuizKit would handle 95% of the logic, so all I'd need to do is customise the questions and some theming for each app, allowing me to quickly make lots of apps like this. If each made a small amount of revenue, they could add up to make a good income.
+
+Unfortunately, with both quiz apps I had a lot of issues getting them through Apple's App Review team. It was enough of a hassle to put me off from making any more, so I decided to leave it at just these two quizzes for now.
+
+- [Read Taylor Swift Quiz's introduction post]({% link _posts/2024-03-31-new-app-experiment.markdown %})
+- [Get Taylor Swift Quiz on the App Store](https://apps.apple.com/app/id6563151175)
+
+- [Read Football Quiz's introduction post]({% link _posts/2024-07-28-football-quiz.markdown %})
+- [Get Football Quizzes on the App Store](https://apps.apple.com/app/id6563151175)
+
+### Add goal tracking to Personal Best
+
+**Status:** Missed 😭
+
+Not much to say here, I just didn't have time, and prioritised some other things instead. I'm hoping to get to it in 2025...
+
+### Use an Apple Vision Pro
+
+**Status:** Achieved ✅
+
+A bit of a frivolous goal, but I was fortunate to attend one of Apple's Vision Pro developer workshops this year. It was great to get some hands on time with the headset, and I was able to ship a VisionOS version of SalaryPig as a result.
+
+## Getting featured
+
+This year something amazing happened – Personal Best was featured as App of the Day on the App Store in over 150 regions! It was incredible to be recognised and I still can't actually believe it happened! As always, I'm grateful to the App Store editorial team for promoting my work ❤️
+
+![App of the Day screenshots](/assets/post-images/2024-aotd.png){:class="post-image post-image--no-shadow"}
+
+## Delivery
+
+Outside of the other apps I mentioned above, I shipped a lot of improvements to Personal Best, my workout app which I consider to be my 'main' app. The improvements were more _transitional_ than feature based, with a lot of behind-the-scenes work focused on improving the app's foundations for the future.
+
+### Pace customisation
+
+Up to now, pace was always expressed in terms of seconds per mile or kilometre, based on your distance setting. This makes sense for most workouts, but not for things like swimming where you'd typically measure pace in other ways, like _seconds per 100m_ or _seconds per 25yds_. To fix this, I made how you view pace completely customisable for each type of workout.
+
+The default options are sensible so most users won't need to change them, but for those who want more customisation there's now full flexibility to see pace however makes the most sense to you.
+
+![Pace customisation](/assets/post-images/2024-pace.png){:class="post-image post-image-small post-image--no-shadow"}
+
+### All-new leaderboards
+
+Leaderboards are one of the most-loved features in Personal Best, but they were also one of the oldest parts of the codebase, from back in May 2020. I'd often get requests for improvements, but due to some poor decisions I made with the Core Data schema back then, I wasn't able to easily deliver them.
+
+So, I completely rewrote leaderboards from scratch using Swift Data, with a much more flexible schema to allow for more customisation. I was pretty nervous about shipping this, in case the migration script didn't work, but after many, many hours of thorough testing, I released it in November and there have been zero issues so far.
+
+![All-new leaderboards](/assets/post-images/2024-leaderboards.png){:class="post-image post-image-small post-image--no-shadow"}
+
+### Improved help
+
+I added a new **Help and FAQs** section to the app, with answers to common queries. I've maintained an FAQs page on Personal Best's website for a few years, but I noticed that I was receiving a lot of emails from people asking things that were already covered in the FAQs. To improve this, I built the FAQs into the app directly to make it easier for people to find answers.
+
+![Help](/assets/post-images/2024-help.png){:class="post-image post-image-small post-image--no-shadow"}
+
+### Price experiments
+
+I changed some of the plumbing inside Personal Best to allow me to make use of [RevenueCat's Experiments feature](https://www.revenuecat.com/docs/tools/experiments-v1/experiments-overview-v1), to experiment with pricing and paywall variations.
+
+### Hiding facts
+
+I added the ability to hide calorie-based facts from your workout stats, for people who don't want to see them for whatever reason.
+
+![Facts](/assets/post-images/2024-facts.png){:class="post-image post-image-small post-image--no-shadow"}
+
+## Numbers
+
+So, how did I do for revenue this year? Last year saw [an enormous increase]({% link _posts/2023-12-31-2023-in-review.markdown %}) in downloads and revenue, and going into this year I was a mixture of excited about growing it further, and nervous about maintaining it.
+
+### Downloads
+
+Personal Best's growth continued this year, which is amazing to see. It went from **87,000** downloads in 2023 to **180,000** this year, which is just over double.
+
+Taylor's Version's downloads dropped from **13,000** in 2023 to **5,500** in 2024. This makes sense, as this app is only used for replacing Taylor Swift songs in your playlists, and no new _Taylor's Version_ albums came out this year.
+
+SalaryPig did ok in its debut year, with just over **1,000** downloads. I'd have loved to see more, but given how niche it is, it's understandable.
+
+My Taylor Swift quiz got just under **3,000** downloads, which feels pretty good for an app I built in a weekend and did no marketing for.
+
+Finally, my poor, unloved Football Quiz app had just **169** downloads this year.
+
+![Visualisation of download numbers](/assets/post-images/2024-downloads.png){:class="post-image post-image--no-shadow"}
+
+### Sales
+
+Sales were great this year, once again driven by Personal Best. It accounted for **$35,000** of revenue, roughly a 2x increase on 2023.
+
+My other apps had very minimal sales: Taylor Swift Quiz made **$330**, SalaryPig **$200**, Taylor's Version **$179**, and in last place Football Quiz made just **$4**.
+
+![Visualisation of sales](/assets/post-images/2024-sales.png){:class="post-image post-image--no-shadow"}
+
+### Users
+
+I use [TelemetryDeck](https://dashboard.telemetrydeck.com/registration/organization?referralCode=50QE8PTHDMB1JL8B) to get privacy-first analytics in my apps.
+
+I only track Personal Best's active users as it's the app I'm mostly focused on growing, and it had a healthy increase this year, with **43,000** monthly active users, up from **28,000** in 2023.
+
+![Visualisation of Personal Best's monthly active users](/assets/post-images/2024-active-users.png){:class="post-image post-image--no-shadow"}
+
+## Goals for 2025
+
+So what's next? I'm setting myself some loose goals for the coming year. As with last year I'm not setting any revenue-based goals.
+
+### Focus on Personal Best
+
+If the graphs above show one thing, it's that Personal Best deserves to be my main focus. I think it has huge growth potential to become even bigger if I put more focus into making it a best-in-class iOS app. I'm terrible for getting distracted and building other apps, but this year I intend to focus **only** on improving Personal Best.
+
+I have a day job that I love, but it does mean that I'm often not able to spend as much time on my apps as I want. Next year I'm going to try and block out specific evenings in my calendar to work on Personal Best, to see if that will help me balance my time better.
+
+### Build goal tracking
+
+I'm carrying over this goal from last year into 2025, as I really need to get to it eventually, and I think it has the potential to be a game-changing feature.
+
+### Continue refactoring
+
+I've been improving a lot of Personal Best's codebase behind the scenes, like switching from callback-based APIs to async/await ones, and I want to do that along with keep working on improving performance.
