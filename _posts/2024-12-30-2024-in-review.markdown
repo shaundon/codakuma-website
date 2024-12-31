@@ -20,7 +20,7 @@ I set myself three goals for 2024:
 
 I actually ended up shipping **three** new apps this year.
 
-In February I released [SalaryPig](https://apps.apple.com/app/salarypig/id6475237479), an app for tracking your salary. It's pretty niche, but in December I started a new job and absolutely hated it from day one. I made SalaryPig as a way to console myself with the money that was coming in.
+In February I released [SalaryPig](https://apps.apple.com/app/salarypig/id6475237479), an app for tracking your salary. It's pretty niche, but in December 2023 I started a new job and absolutely hated it from day one. I made SalaryPig as a way to distract myself from it. You'll be pleased to read that I've since left that job and I now work somewhere I'm much happier at.
 
 - [Read SalaryPig's introduction post]({% link _posts/2024-02-26-introducing-salarypig.markdown %})
 - [Get SalaryPig on the App Store](https://apps.apple.com/us/app/salarypig/id6475237479)
@@ -87,7 +87,7 @@ I changed some of the plumbing inside Personal Best to allow me to make use of [
 
 ### Hiding facts
 
-I added the ability to hide calorie-based facts from your workout stats, for people who don't want to see them for whatever reason.
+I added the ability to hide facts from your workout stats, for people who don't want to see them for whatever reason. This was driven by a request from somebody who didn't want to see food-based facts, but I extended it to work on all categories.
 
 ![Facts](/assets/post-images/2024-facts.png){:class="post-image post-image-small post-image--no-shadow"}
 
