@@ -29,9 +29,9 @@ I'm comfortable wearing many hats and contributing to the business wherever I ca
     April 2020 - Present
 </div>
 
-I build and maintain a series of iOS apps, which have had over 200,000 total downloads from across the world.
+I build and maintain a series of iOS apps, which have had over 330,000 total downloads from across the world.
 
-My fitness app [Personal Best](https://getpersonalbest.com) maintains over 38,000 monthly active users and has been featured repeatedly by Apple on the App Store, as well as in various press outlets.
+My fitness app [Personal Best](https://getpersonalbest.com) maintains over 48,000 monthly active users and has been featured repeatedly by Apple on the App Store, as well as in various press outlets.
 
 In 2022 I released [Taylor's Version](http://taylorsversion.app), a passion project aimed at fans of Taylor Swift, and in 2024 I added [SalaryPig](https://apps.apple.com/us/app/salarypig/id6475237479), a salary tracker.
 
