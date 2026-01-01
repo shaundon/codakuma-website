@@ -1,0 +1,163 @@
+---
+layout: blog
+title: "2025 in review"
+permalink: /2025-in-review/
+description: "How 2025 went"
+tags: ios year-in-review
+---
+
+Here's my annual write up of how indie developer life went in the past year.
+
+_If you'd like to catch up on previous years first, check out [2024]({% link _posts/2024-12-30-2024-in-review.markdown %}), [2023]({% link _posts/2023-12-31-2023-in-review.markdown %}), [2022]({% link _posts/2022-12-18-2022-in-review.markdown %}), [2021]({% link _posts/2021-12-19-2021-in-review.markdown %}), and [2020]({% link _posts/2020-12-29-year-in-review.markdown %})._
+
+## Overall
+
+It's been a good, albeit unexpected year. When the year started I was working full time and spending evenings and weekends on [Personal Best](https://apps.apple.com/gb/app/personal-best-workouts/id1510256676) (PB). Unfortunately in March the startup I was working at closed down unexpectedly. So, I decided to take some time to focus on PB exclusively, working on it full time for around six months.
+
+In September I started contracting part time, so I now contract three days a week and spend the rest of my time focusing on PB. I've been wanting to get into contracting for some time and I'm really happy that I now have the opportunity to do so.
+
+## My goals
+
+In [2024]({% link _posts/2024-12-30-2024-in-review.markdown %}) I set myself three loose goals for 2025:
+
+### Focus on Personal Best
+
+**Status:** Achieved ✅
+
+I wanted to make PB my main focus this year and I pretty much succeeded. I was tempted to build some other apps – I have a few ideas knocking about in my head – but I managed to resist the urge to build them.
+
+### Continue refactoring
+
+**Status:** Achieved ✅
+
+I addressed a bunch of tech debt in PB (more on that later). I was really glad to have finally spent some time improving PB's foundations.
+
+### Build goal tracking
+
+**Status:** In progress ⏳
+
+I'm about 75% of the way through building this, but it isn't quite ready yet. I plan to release it in early 2026.
+
+## What I shipped
+
+I did a **lot** of work on PB this year and shipped a bunch of stuff, some user facing, others behind the scenes.
+
+### Pricing and paywall tweaks
+
+I shipped a new paywall and ran several experiments to tweak it further, testing things like layout, trial length, pricing, and button text. I used [RevenueCat](https://www.revenuecat.com/) and [TelemetryDeck](https://telemetrydeck.com/) to run my experiments and I'm a very happy customer of both. I'm pretty much now always running an experiment of some kind on the paywall.
+
+I also switched to [region-specific pricing](https://www.solvimon.com/glossary/region-based-pricing) for Personal Best Pro. I used the excellent [Pricetag](https://macpricetag.com/) app to do this with the [Apple Music Index](https://subscriptionland.com/services/apple_music/individual/USD) as the basis for my pricing. In practice this means that PB's subscription price now reflects relative purchasing power in different regions – for example in India the price dropped by 90%. As a result my revenue in India in 2025 was **128% higher** than in 2024. This means that the price cut is easily offset by how many more people purchased the app with a more accessible price.
+
+Another pricing tweak I made was adding discounts. If new users don't choose to start a trial during onboarding, they'll be offered a year at 50% off at a later date. Similarly, users who **had** a subscription but then churned will be offered 50% off another year.
+
+### Revamped notifications
+
+PB has had post-workout notifications for a while, but they were behind the paywall. I decided to make them available to all users – not just subscribers – so that they could act as a growth driver. I also integrated them into onboarding with an ['a-ha moment'](https://www.appcues.com/blog/aha-moment-guide) to demonstrate their value to users as early as possible.
+
+<video class="post-image post-image-small" autoplay loop>
+  <source src="/assets/post-images/2025/12/onboarding.mp4">
+</video>
+<p class="caption">Users see an example notification during onboarding to give them an idea of what they'll get</p>
+
+Post-workout notifications got a lot richer in 2025 too. I learned about a little-used API on iOS – [Notification Content App Extensions](https://developer.apple.com/documentation/UserNotificationsUI/customizing-the-appearance-of-notifications), which allows apps to display any UI when a notification is expanded. You've probably seen this before in the Messages app which opens a small version of the conversation when expanded. Thanks to this, post-workout notifications now display a rich view of your workout when expanded.
+
+<video class="post-image post-image-small" autoplay loop>
+  <source src="/assets/post-images/2025/12/rich-notifications.mp4">
+</video>
+<p class="caption">An expanded notification displaying rich content</p>
+
+I also added server-driven notifications powered by [OneSignal](https://onesignal.com), so I can notify users about things like when their _Year in Review_ is available. I plan to use this sparingly – nobody likes an app that spams you with annoying notifications.
+
+### Workout planning
+
+My vision for PB is for it to eventually do everything you need to work out at your best. To take another step towards that I added workout planning.
+
+Users can plan a workout and PB will make suggestions based on their recent history. Once they've saved the plan it'll be pinned to their app (and the new _Today_ widget) for the rest of the day, and PB will motivate them to complete it, including sending notifications when it's close to the end of the day (think _Duolingo_).
+
+Once they've completed their workout, PB's post-workout notifications and the app shows them how they did compared to what they planned. If they don't complete their workout they can roll it over to the next day and try again.
+
+<video class="post-image post-image-small" autoplay loop>
+  <source src="/assets/post-images/2025/12/plan.mp4">
+</video>
+<p class="caption">The workout planning flow</p>
+
+### New design and iOS 26 support
+
+I've started to slowly evolve PB to be more 'branded' and look less like the Settings app. I'm still a long way from where I want it to be (it's a slow evolution), but I took the first steps this year with some new gradients I'm using in parts of the app.
+
+![Example of the new gradients](/assets/post-images/2025/12/gradient-example.png){:class="post-image post-image-small post-image--no-shadow"}
+_Example of the new gradients. It uses a mesh gradient combined with a noise effect._
+
+I also made sure that PB was ready for iOS 26 on day one. I was very fortunate to get to work with Apple over the summer on adapting PB to the new design and to use the [Foundation Models](https://developer.apple.com/documentation/FoundationModels) framework, which was a great experience.
+
+Thanks to this I was lucky to be featured by the App Store editors for the iOS 26 launch, and PB was also included in some of Apple's internal slides shown to developer workshops as an example of best practice.
+
+![Being featured by Apple](/assets/post-images/2025/12/it-me.png){:class="post-image post-image-small post-image--no-shadow"}
+_Being shown by Apple as an example to other developers 🤯_
+
+### Other things I shipped
+
+_Things that don't merit their own section_
+
+- Users can now find their past workouts with powerful filters on the _Workouts_ tab.
+- The _Dashboard_ tab became the _Today_ tab, and users can now customise it by choosing which sections appear.
+- PB now works great at all dynamic type sizes. See [my previous post](/dynamic-type) for more on this.
+- I updated PB's _Year In Review_ feature (think _Spotify Wrapped_ but for workouts) for 2025.
+- The _Dashboard_ tab now displays a rotating list of facts about your latest workouts.
+- The leaderboards widget gained support for custom leaderboards.
+- I spent some time improving PB's [ASO](https://appradar.com/academy/what-is-app-store-optimization-aso) by experimenting with different keywords and screenshots on the App Store.
+- Users can now manually add (and delete) workouts.
+- I completed the database migration started in 2024. PB now uses Swift Data for everything; Core Data is no more.
+- PB now identifies and ignores duplicate workouts. Previously PB would show all workouts, so when a misbehaving app added multiple entries (e.g. Strava) to HealthKit users would see multiple of the same workout. This no longer happens.
+- I made a bunch of new app icons featuring photos from around the world that I took during workouts.
+- I replaced the old contact form which opened the user's mail app with a slicker one which sends me feedback directly. I also added a [Home Screen Quick Action](https://developer.apple.com/design/human-interface-guidelines/home-screen-quick-actions) to open the feedback form when users are thinking of deleting the app.
+- I posted a lot more on PB's [Instagram](https://www.instagram.com/getpersonalbest) and [TikTok](https://www.tiktok.com/@personalbestapp) accounts.
+- The iPad version of PB gained support for keyboard shortcuts.
+
+## Metrics
+
+_TL;DR: Downloads have decreased, revenue is up, users are stable._
+
+### Downloads
+
+PB's downloads in 2025 were down compared to 2024. It went from **180,000** downloads in 2024 to **137,000** in 2025.
+
+While this is slightly disappointing, I'm not overly concerned as revenue has increased year on year (see next section).
+
+My other four apps are pretty much a rounding error compared to PB at this point. I'm fine with this, as I've put zero work into them this year and they're quite niche.
+
+![Chart of downloads from 2020 to 2025](/assets/post-images/2025/12/2025-downloads.png){:class="post-image post-image--no-shadow"}
+_Downloads from 2020-2025_
+
+### Revenue
+
+Sales are up in 2025, from **$35,000** in 2024 to **$45,000** in 2025, an increase of 29%. I'm particularly happy about this, particularly when factoring in the lower downloads in 2025, as it indicates that my efforts to drive revenue are working.
+
+![Chart of sales from 2020 to 2025](/assets/post-images/2025/12/2025-sales.png){:class="post-image post-image--no-shadow"}
+_Sales from 2020-2025_
+
+RevenueCat breaks my income into monthly recurring revenue (MRR). On December 31st 2025 my MRR was **$3,630**, a 31% increase over the **$2,769** I had on the same date in 2024.
+
+![Chart of MRR from 2022 to 2025](/assets/post-images/2025/12/2025-mrr.png){:class="post-image post-image--no-shadow"}
+_MRR from 2022-2025. It starts in 2022 because PB didn't have a subscription until then._
+
+### Users
+
+My monthly active users for 2025 were pretty much identical to 2024; around **42,000**.
+
+![Chart of monthly active users from 2021 to 2025](/assets/post-images/2025/12/2025-maus.png){:class="post-image post-image--no-shadow"}
+_Monthly active users from 2021-2025_
+
+## Goals for 2026
+
+I'm setting some loose goals for the year ahead.
+
+### 'Finish' PB
+
+PB will never be fully finished, but I want to get to the stage where it's a cohesive, well-made app that offers a clear value proposition. If you work out, then PB should have an obvious benefit for you.
+
+I realise this is quite a subjective goal, but I think there's value in setting it so I can make sure it's something I keep in mind and build towards in 2026.
+
+### Reach $5K MRR
+
+This is a tough goal – I'd need to increase MRR by 38% this year to meet it – but it would be an amazing milestone to hit.

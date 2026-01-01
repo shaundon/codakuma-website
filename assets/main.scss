@@ -59,7 +59,7 @@ html {
     --complementary-color: #262626;
     --complementary-color-tint: #363636;
     --background-color: #121212;
-    --text-color: #999;
+    --text-color: #bbb;
     --table-border-color: #666;
     --button-background: linear-gradient(45deg, #08c 12%, #ec3030 100%);
     --heading-color: #ccc;
@@ -154,9 +154,9 @@ h2 {
 }
 
 h3 {
-  font-size: 24px;
-  line-height: 30px;
-  margin-bottom: $spacing-lg;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: $spacing-base;
 
   @media print {
     font-size: 16px;
@@ -436,9 +436,28 @@ p:has(.post-image) {
   margin-top: $spacing-xxl;
 }
 
+video {
+  margin-bottom: $spacing-xl !important;
+
+  &:has(+ .caption) {
+    margin-bottom: 0 !important;
+  }
+}
+
+.caption {
+  display: block;
+  margin-top: $spacing-sm;
+  margin-bottom: $spacing-xl;
+  font-size: 90%;
+  font-style: italic;
+  color: var(--text-secondary-color);
+  text-align: center;
+}
+
 .post-image {
   border-radius: $border-radius;
   box-shadow: 0 0 15px rgba(#000, 0.05);
+  display: flex;
   margin: 0 auto;
   max-width: 750px;
   width: 100%;
@@ -453,6 +472,13 @@ p:has(.post-image) {
 
   &--no-shadow {
     box-shadow: none;
+  }
+
+  + em {
+    display: block;
+    margin-top: $spacing-sm;
+    font-size: 90%;
+    color: var(--text-secondary-color);
   }
 }
 
