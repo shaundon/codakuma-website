@@ -1,0 +1,43 @@
+---
+layout: blog
+title: "Introducing Tally"
+permalink: /meet-tally/
+description: "My new invoicing app"
+tags: ios
+---
+
+Now that I'm doing contract and freelance work I have to make invoices a lot. This takes me a couple of minutes using a Pages template, but the invoices it makes aren't very nice looking (to my eyes, at least).
+
+![Sample invoice made using Pages](/assets/post-images/2026/02/pages-invoice.png){:class="post-image post-image-small"}
+_An example invoice made with Pages_
+
+I could have just spent ten minutes making a nicer Pages template, but like all good programmers I decided to instead invest a significant amount of time into building a bespoke solution.
+
+So – meet [Tally](https://apps.apple.com/app/tally-pdf-invoice-creator/id6758414743) – a simple invoicing app.
+
+![Screenshots of Tally](/assets/post-images/2026/02/meet-tally.png){:class="post-image post-image"}
+
+I didn't want to distract myself from focusing on [Personal Best](https://getpersonalbest.com) too much, so v1 of Tally has a modest feature set:
+
+* Save your business and payment details
+* Add your customers
+* Make 'one off' and 'day rate' invoices
+* Export invoices as PDFs
+
+Everything automatically syncs over iCloud, and it supports iOS, iPadOS, macOS, and visionOS.
+
+## What's next
+
+I'm going to leave Tally alone now for a few months while I focus on Personal Best, but when I come back to it I'll start evolving it into a fully-fledged billing platform for freelancers. It's easy to imagine places this could go, like:
+
+* Other types of invoice, like hourly rates
+* Purchases orders, quote, and credit notes
+* Marking invoices as paid, late, etc
+* Emailing out invoices automatically, including reminders and late notifications based on your payment terms
+* Static links for invoices, so you can send a link to your client for them to pay online
+* Web and Android support
+* Monetisation – v1 of Tally is free, but if I pursue this properly I'll gate some features behind a paywall
+
+## Download Tally
+
+[Get Tally on the App Store](https://apps.apple.com/app/tally-pdf-invoice-creator/id6758414743)

@@ -316,6 +316,7 @@ p {
 .app {
   background: var(--complementary-color);
   background-size: cover;
+  background-position: center;
   border-radius: 24px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
   color: white;
@@ -324,8 +325,12 @@ p {
 
   &:hover {
     color: white;
-    opacity: 0.75;
     text-decoration: none;
+
+    .app-inner {
+      -webkit-backdrop-filter: blur(80px) brightness(75%);
+      backdrop-filter: blur(80px) brightness(75%);
+    }
   }
 
   .app-icon {
@@ -345,6 +350,7 @@ p {
   }
 
   &-inner {
+    transition: backdrop-filter 0.2s ease-in-out;
     -webkit-backdrop-filter: blur(40px) brightness(70%);
     backdrop-filter: blur(40px) brightness(70%);
     border-radius: 24px;
@@ -371,6 +377,10 @@ p {
 
   &--fb-quiz {
     background: url("/assets/fbq-icon.png");
+  }
+
+  &--tally {
+    background: url("/assets/tally-icon.png");
   }
 }
 

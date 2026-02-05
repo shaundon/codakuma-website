@@ -17,12 +17,15 @@ description: "Codakuma – iOS apps."
           </div>
         </div>
       </a>
-      <a href="https://taylorsversion.app" class="app app--taylors-version">
+      <a
+        href="https://apps.apple.com/app/tally-pdf-invoice-creator/id6758414743"
+        class="app app--tally"
+      >
         <div class="app-inner">
-          <img src="/assets/taylors-version-icon.png" class="app-icon" />
+          <img src="/assets/tally-icon.png" class="app-icon" />
           <div>
-            <h3>Taylor's Version</h3>
-            <span>Upgrade Taylor Swift songs in your playlists</span>
+            <h3>Tally</h3>
+            <span>Invoicing made simple</span>
           </div>
         </div>
       </a>
@@ -35,6 +38,15 @@ description: "Codakuma – iOS apps."
           <div>
             <h3>SalaryPig</h3>
             <span>Meet Trevor, the salary-tracking pig</span>
+          </div>
+        </div>
+      </a>
+      <a href="https://taylorsversion.app" class="app app--taylors-version">
+        <div class="app-inner">
+          <img src="/assets/taylors-version-icon.png" class="app-icon" />
+          <div>
+            <h3>Taylor's Version</h3>
+            <span>Upgrade Taylor Swift songs in your playlists</span>
           </div>
         </div>
       </a>
