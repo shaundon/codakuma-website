@@ -36,7 +36,7 @@ tags: tag1 tag2 tag3
 ---
 ```
 
-- Cross-link posts with Liquid: `{% link _posts/YYYY-MM-DD-slug.markdown %}`
+- Cross-link posts with Liquid: `{% raw %}{% link _posts/YYYY-MM-DD-slug.markdown %}{% endraw %}`
 - Images use classes: `{:class="post-image"}` or `{:class="post-image post-image-small"}`
 - Figure captions use `.caption` class
 
@@ -78,4 +78,4 @@ When writing or editing blog posts, match these conventions:
 - Measured self-assessment: "I'm fairly pleased with..." rather than hype.
 - British English spelling (e.g. "colour", "recognised", "monetisation").
 - Minimal emoji usage — occasionally in captions or playful asides, never heavily.
-- Links are contextual and purposeful, not scattered. Cross-links to other posts when relevant using `{% link %}` syntax.
+- Links are contextual and purposeful, not scattered. Cross-links to other posts when relevant using `{% raw %}{% link %}{% endraw %}` syntax.

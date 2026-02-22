@@ -16,7 +16,7 @@ Apple's [OSLog system](https://developer.apple.com/documentation/os/logging) is 
 
 It has lots of benefits like automatic log rotation so logs never grow too large, and it doesn't persist debug and info logs by default, so you can log liberally during development without worrying about bloat in production. It also supports categorising your logs, which makes filtering through hundreds of entries much easier.
 
-I built a lightweight wrapper over it called `LogManager`
+I built a lightweight wrapper over it called `LogManager`.
 
 ## LogManager
 
@@ -91,7 +91,7 @@ do {
 }
 ```
 
-And because we're using a thing wrapper around `OSLog`, if I ever want to integrate with a third-party service in future, it'll require very minimal code changes:
+And because we're using a thin wrapper around `OSLog`, if I ever want to integrate with a third-party service in future, it'll require very minimal code changes:
 
 ```swift
 static func error(_ message: String, in category: LogCategory) {
