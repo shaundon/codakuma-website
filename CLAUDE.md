@@ -9,7 +9,7 @@ bundle install              # Install dependencies
 bundle exec jekyll serve    # Start dev server (localhost:4000)
 ```
 
-Ruby 3.1.2 (see `.ruby-version`). Gems install to `vendor/bundle/`. Changes to `_config.yml` require a server restart.
+Ruby 3.3.6 (see `.ruby-version`). Gems install to `vendor/bundle/`. Changes to `_config.yml` require a server restart.
 
 ## Architecture
 
