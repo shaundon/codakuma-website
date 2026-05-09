@@ -695,6 +695,29 @@ code {
   }
 }
 
+.hire {
+  &-tagline {
+    @include text-gradient(var(--link-color), var(--accent-color));
+    font-size: 150%;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-top: -$spacing-lg;
+    margin-bottom: $spacing-xxl;
+
+    @media screen and (max-width: 600px) {
+      font-size: 120%;
+    }
+  }
+
+  &-footer {
+    color: var(--text-secondary-color);
+    font-size: 85%;
+    margin-top: $spacing-xxl * 2;
+    text-align: center;
+  }
+}
+
 .material-icons {
   font-family: "Material Icons";
   font-weight: normal;
